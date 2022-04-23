@@ -1,0 +1,2316 @@
+season_episode,season,episode,episode_type,contestant_id,contestant,outcome
+S1E 6,1,6,Ball,2,BeBe Zahara Benet,WIN
+S1E 6,1,6,Ball,4,Nina Flowers,HIGH
+S1E 6,1,6,Ball,6,Rebecca Glasscock,BTM
+S1E 6,1,6,Ball,7,Shannel,ELIM
+S1E 6,1,6,Ball,5,Ongina,
+S1E 6,1,6,Ball,3,Jade,
+S1E 6,1,6,Ball,1,Akashia,
+S1E 6,1,6,Ball,8,Tammie Brown,
+S1E 6,1,6,Ball,9,"Victoria ""Porkchop"" Parker",
+S2E 9,2,9,Ball,21,Tyra Sanchez,WIN
+S2E 9,2,9,Ball,16,Raven,HIGH
+S2E 9,2,9,Ball,11,Jujubee,BTM
+S2E 9,2,9,Ball,20,Tatianna,ELIM
+S2E 9,2,9,Ball,15,Pandora Boxx,
+S2E 9,2,9,Ball,10,Jessica Wild,
+S2E 9,2,9,Ball,17,Sahara Davenport ,
+S2E 9,2,9,Ball,12,Morgan McMichaels,
+S2E 9,2,9,Ball,19,Sonique,
+S2E 9,2,9,Ball,13,Mystique Summers Madison,
+S2E 9,2,9,Ball,14,Nicole Paige Brooks,
+S2E 9,2,9,Ball,18,Shangela,
+S3E11,3,11,Ball,30,Raja,HIGH
+S3E13,3,13,Ball,30,Raja,HIGH
+S3E11,3,11,Ball,26,Manila Luzon,HIGH
+S3E13,3,13,Ball,26,Manila Luzon,WIN
+S3E11,3,11,Ball,22,Alexis Mateo,BTM
+S3E13,3,13,Ball,22,Alexis Mateo,BTM
+S3E11,3,11,Ball,33,Yara Sofia,WIN
+S3E13,3,13,Ball,33,Yara Sofia,ELIM
+S3E11,3,11,Ball,23,Carmen Carrera,
+S3E13,3,13,Ball,23,Carmen Carrera,
+S3E11,3,11,Ball,18,Shangela,ELIM
+S3E13,3,13,Ball,18,Shangela,
+S3E11,3,11,Ball,24,Delta Work,
+S3E13,3,13,Ball,24,Delta Work,
+S3E11,3,11,Ball,31,Stacy Layne Matthews,
+S3E13,3,13,Ball,31,Stacy Layne Matthews,
+S3E11,3,11,Ball,27,Mariah,
+S3E13,3,13,Ball,27,Mariah,
+S3E11,3,11,Ball,25,India Ferrah,
+S3E13,3,13,Ball,25,India Ferrah,
+S3E11,3,11,Ball,28,Mimi Imfurst,
+S3E13,3,13,Ball,28,Mimi Imfurst,
+S3E11,3,11,Ball,29,Phoenix,
+S3E13,3,13,Ball,29,Phoenix,
+S3E11,3,11,Ball,32,Venus D-Lite,
+S3E13,3,13,Ball,32,Venus D-Lite,
+S4E 11,4,11,Ball,44,Sharon Needles,WIN
+S4E 11,4,11,Ball,35,Chad Michaels,BTM
+S4E 11,4,11,Ball,43,Phi Phi O'Hara,HIGH
+S4E 11,4,11,Ball,40,Latrice Royale,ELIM
+S4E 11,4,11,Ball,38,Kenya Michaels,
+S4E 11,4,11,Ball,36,DiDa Ritz,
+S4E 11,4,11,Ball,46,Willam,
+S4E 11,4,11,Ball,37,Jiggly Caliente,
+S4E 11,4,11,Ball,42,Milan,
+S4E 11,4,11,Ball,41,Madame LaQueer,
+S4E 11,4,11,Ball,45,The Princess,
+S4E 11,4,11,Ball,39,Lashauwn Beyond,
+S4E 11,4,11,Ball,34,Alisa Summers,
+S5E11,5,11,Ball,54,Jinkx Monsoon,BTM
+S5E11,5,11,Ball,47,Alaska,WIN
+S5E11,5,11,Ball,58,Roxxxy Andrews,HIGH
+S5E11,5,11,Ball,50,Detox,ELIM
+S5E11,5,11,Ball,49,Coco Montrese,
+S5E11,5,11,Ball,48,Alyssa Edwards,
+S5E11,5,11,Ball,52,Ivy Winters,
+S5E11,5,11,Ball,53,Jade Jolie,
+S5E11,5,11,Ball,55,Lineysha Sparx,
+S5E11,5,11,Ball,51,Honey Mahogany,
+S5E11,5,11,Ball,60,Vivienne Pinay,
+S5E11,5,11,Ball,56,Monica Beverly Hillz,
+S5E11,5,11,Ball,59,Serena ChaCha,
+S5E11,5,11,Ball,57,Penny Tration,
+S6E11,6,11,Ball,64,Bianca Del Rio,HIGH
+S6E11,6,11,Ball,61,Adore Delano,WIN
+S6E11,6,11,Ball,65,Courtney Act,LOW
+S6E11,6,11,Ball,66,Darienne Lake,BTM
+S6E11,6,11,Ball,63,BenDeLaCreme,ELIM
+S6E11,6,11,Ball,68,Joslyn Fox,
+S6E11,6,11,Ball,73,Trinity K. Bonet,
+S6E11,6,11,Ball,70,Laganja Estranja,
+S6E11,6,11,Ball,72,Milk,
+S6E11,6,11,Ball,67,Gia Gunn,
+S6E11,6,11,Ball,62,April Carrión,
+S6E11,6,11,Ball,74,Vivacious,
+S6E11,6,11,Ball,71,Magnolia Crawford,
+S6E11,6,11,Ball,69,Kelly Mantle,
+S7E 11,7,11,Ball,88,Violet Chachki,WIN
+S7E 11,7,11,Ball,75,Ginger Minj,HIGH
+S7E 11,7,11,Ball,84,Pearl,HIGH
+S7E 11,7,11,Ball,80,Kennedy Davenport,BTM
+S7E 11,7,11,Ball,79,Katya,ELIM
+S7E 11,7,11,Ball,87,Trixie Mattel,
+S7E 11,7,11,Ball,82,Miss Fame,
+S7E 11,7,11,Ball,76,Jaidynn Diore Fierce,
+S7E 11,7,11,Ball,81,Max,
+S7E 11,7,11,Ball,78,Kandy Ho,
+S7E 11,7,11,Ball,83,Mrs. Kasha Davis,
+S7E 11,7,11,Ball,77,Jasmine Masters,
+S7E 11,7,11,Ball,85,Sasha Belle,
+S7E 11,7,11,Ball,86,Tempest DuJour,
+S8E 8,8,8,Ball,90,Bob the Drag Queen,BTM
+S8E 8,8,8,Ball,95,Kim Chi,WIN
+S8E 8,8,8,Ball,97,Naomi Smalls,HIGH
+S8E 8,8,8,Ball,91,Chi Chi DeVayne ,HIGH
+S8E 8,8,8,Ball,94,Derrick Barry,ELIM
+S8E 8,8,8,Ball,100,Thorgy Thor,
+S8E 8,8,8,Ball,99,Robbie Turner,
+S8E 8,8,8,Ball,89,Acid Betty,
+S8E 8,8,8,Ball,98,Naysha Lopez,
+S8E 8,8,8,Ball,92,Cynthia Lee Fontaine,
+S8E 8,8,8,Ball,93,Dax ExclamationPoint,
+S8E 8,8,8,Ball,96,Laila McQueen,
+S9E11,9,11,Ball,110,Sasha Velour,HIGH
+S9E11,9,11,Ball,109,Peppermint,BTM
+S9E11,9,11,Ball,111,Shea Couleé,WIN
+S9E11,9,11,Ball,112,Trinity Taylor,LOW
+S9E11,9,11,Ball,102,Alexis Michelle,ELIM
+S9E11,9,11,Ball,108,Nina Bo'nina Brown,
+S9E11,9,11,Ball,113,Valentina,
+S9E11,9,11,Ball,105,Farrah Moan,
+S9E11,9,11,Ball,101,Aja,
+S9E11,9,11,Ball,92,Cynthia Lee Fontaine,
+S9E11,9,11,Ball,104,Eureka,
+S9E11,9,11,Ball,103,Charlie Hides,
+S9E11,9,11,Ball,107,Kimora Blac,
+S9E11,9,11,Ball,106,Jaymes Mansfield,
+S10E 4,10,4,Ball,114,Aquaria,WIN
+S10E 4,10,4,Ball,104,Eureka,SAFE
+S10E 4,10,4,Ball,119,Kameron Michaels,HIGH
+S10E 4,10,4,Ball,115,Asia O'Hara,LOW
+S10E 4,10,4,Ball,121,Miz Cracker,HIGH
+S10E 4,10,4,Ball,123,Monét X Change,BTM
+S10E 4,10,4,Ball,124,The Vixen,SAFE
+S10E 4,10,4,Ball,122,Monique Heart,SAFE
+S10E 4,10,4,Ball,116,Blair St. Clair,SAFE
+S10E 4,10,4,Ball,120,Mayhem Miller,SAFE
+S10E 4,10,4,Ball,117,Dusty Ray Bottoms,ELIM
+S10E 4,10,4,Ball,126,Yuhua Hamasaki,
+S10E 4,10,4,Ball,118,Kalorie Karbdashian Williams,
+S10E 4,10,4,Ball,125,Vanessa Vanjie Mateo,
+S11E 5,11,5,Ball,140,Yvie Oddly,HIGH
+S11E 5,11,5,Ball,129,Brooke Lynn Hytes,WIN
+S11E 5,11,5,Ball,127,A'keria C. Davenport,SAFE
+S11E 5,11,5,Ball,138,Silky Nutmeg Ganache,LOW
+S11E 5,11,5,Ball,125,Vanessa Vanjie Mateo,SAFE
+S11E 5,11,5,Ball,133,Nina West,SAFE
+S11E 5,11,5,Ball,137,Shuga Cain,BTM
+S11E 5,11,5,Ball,134,Plastique Tiara,HIGH
+S11E 5,11,5,Ball,135,Ra'Jah O'Hara,SAFE
+S11E 5,11,5,Ball,136,Scarlet Envy,SAFE
+S11E 5,11,5,Ball,128,Ariel Versace,ELIM
+S11E 5,11,5,Ball,132,Mercedes Iman Diamond,
+S11E 5,11,5,Ball,130,Honey Davenport,
+S11E 5,11,5,Ball,131,Kahanna Montrese,
+S11E 5,11,5,Ball,139,Soju,
+S12E 4,12,4,Ball,148,Jaida Essence Hall,HIGH
+S12E 4,12,4,Ball,143,Crystal Methyd,SAFE
+S12E 4,12,4,Ball,145,Gigi Goode,WIN
+S12E 4,12,4,Ball,152,Sherry Pie,SAFE
+S12E 4,12,4,Ball,147,Jackie Cox,SAFE
+S12E 4,12,4,Ball,146,Heidi N Closet,SAFE
+S12E 4,12,4,Ball,153,Widow Von'Du,SAFE
+S12E 4,12,4,Ball,149,Jan,SAFE
+S12E 4,12,4,Ball,142,Brita,BTM
+S12E 4,12,4,Ball,141,Aiden Zhane,LOW
+S12E 4,12,4,Ball,150,Nicky Doll,HIGH
+S12E 4,12,4,Ball,151,Rock M. Sakura,ELIM
+S12E 4,12,4,Ball,144,Dahlia Sin,
+S13E 5,13,5,Ball,163,Symone,SAFE
+S13E 5,13,5,Ball,159,Kandy Muse,SAFE
+S13E 5,13,5,Ball,156,Gottmik,WIN
+S13E 5,13,5,Ball,162,Rosé,HIGH
+S13E 5,13,5,Ball,161,Olivia Lux,SAFE
+S13E 5,13,5,Ball,166,Utica Queen,HIGH
+S13E 5,13,5,Ball,165,Tina Burner,SAFE
+S13E 5,13,5,Ball,154,Denali,SAFE
+S13E 5,13,5,Ball,155,Elliott with 2 Ts,SAFE
+S13E 5,13,5,Ball,160,LaLa Ri,BTM
+S13E 5,13,5,Ball,164,Tamisha Iman,LOW
+S13E 5,13,5,Ball,157,Joey Jay,ELIM
+S13E 5,13,5,Ball,158,Kahmora Hall,
+S3E 1,3,1,Casting Special,30,Raja,IN
+S3E 1,3,1,Casting Special,26,Manila Luzon,IN
+S3E 1,3,1,Casting Special,22,Alexis Mateo,IN
+S3E 1,3,1,Casting Special,33,Yara Sofia,IN
+S3E 1,3,1,Casting Special,23,Carmen Carrera,IN
+S3E 1,3,1,Casting Special,18,Shangela,
+S3E 1,3,1,Casting Special,24,Delta Work,OPEN CALL
+S3E 1,3,1,Casting Special,31,Stacy Layne Matthews,IN
+S3E 1,3,1,Casting Special,27,Mariah,IN
+S3E 1,3,1,Casting Special,25,India Ferrah,IN
+S3E 1,3,1,Casting Special,28,Mimi Imfurst,IN
+S3E 1,3,1,Casting Special,29,Phoenix,IN
+S3E 1,3,1,Casting Special,32,Venus D-Lite,OPEN CALL
+S1E 1,1,1,Ep. 1,2,BeBe Zahara Benet,SAFE
+S1E 1,1,1,Ep. 1,4,Nina Flowers,WIN
+S1E 1,1,1,Ep. 1,6,Rebecca Glasscock,LOW
+S1E 1,1,1,Ep. 1,7,Shannel,SAFE
+S1E 1,1,1,Ep. 1,5,Ongina,HIGH
+S1E 1,1,1,Ep. 1,3,Jade,SAFE
+S1E 1,1,1,Ep. 1,1,Akashia,BTM
+S1E 1,1,1,Ep. 1,8,Tammie Brown,SAFE
+S1E 1,1,1,Ep. 1,9,"Victoria ""Porkchop"" Parker",ELIM
+S2E 1,2,1,Ep. 1,21,Tyra Sanchez,HIGH
+S2E 1,2,1,Ep. 1,16,Raven,SAFE
+S2E 1,2,1,Ep. 1,11,Jujubee,SAFE
+S2E 1,2,1,Ep. 1,20,Tatianna,SAFE
+S2E 1,2,1,Ep. 1,15,Pandora Boxx,HIGH
+S2E 1,2,1,Ep. 1,10,Jessica Wild,SAFE
+S2E 1,2,1,Ep. 1,17,Sahara Davenport ,BTM
+S2E 1,2,1,Ep. 1,12,Morgan McMichaels,WIN
+S2E 1,2,1,Ep. 1,19,Sonique,SAFE
+S2E 1,2,1,Ep. 1,13,Mystique Summers Madison,LOW
+S2E 1,2,1,Ep. 1,14,Nicole Paige Brooks,SAFE
+S2E 1,2,1,Ep. 1,18,Shangela,ELIM
+S4E 1,4,1,Ep. 1,44,Sharon Needles,WIN
+S4E 1,4,1,Ep. 1,35,Chad Michaels,SAFE
+S4E 1,4,1,Ep. 1,43,Phi Phi O'Hara,SAFE
+S4E 1,4,1,Ep. 1,40,Latrice Royale,SAFE
+S4E 1,4,1,Ep. 1,38,Kenya Michaels,LOW
+S4E 1,4,1,Ep. 1,36,DiDa Ritz,SAFE
+S4E 1,4,1,Ep. 1,46,Willam,SAFE
+S4E 1,4,1,Ep. 1,37,Jiggly Caliente,BTM
+S4E 1,4,1,Ep. 1,42,Milan,SAFE
+S4E 1,4,1,Ep. 1,41,Madame LaQueer,SAFE
+S4E 1,4,1,Ep. 1,45,The Princess,HIGH
+S4E 1,4,1,Ep. 1,39,Lashauwn Beyond,HIGH
+S4E 1,4,1,Ep. 1,34,Alisa Summers,ELIM
+S5E 1,5,1,Ep. 1,54,Jinkx Monsoon,SAFE
+S5E 1,5,1,Ep. 1,47,Alaska,HIGH
+S5E 1,5,1,Ep. 1,58,Roxxxy Andrews,WIN
+S5E 1,5,1,Ep. 1,50,Detox,SAFE
+S5E 1,5,1,Ep. 1,49,Coco Montrese,SAFE
+S5E 1,5,1,Ep. 1,48,Alyssa Edwards,SAFE
+S5E 1,5,1,Ep. 1,52,Ivy Winters,HIGH
+S5E 1,5,1,Ep. 1,53,Jade Jolie,LOW
+S5E 1,5,1,Ep. 1,55,Lineysha Sparx,HIGH
+S5E 1,5,1,Ep. 1,51,Honey Mahogany,SAFE
+S5E 1,5,1,Ep. 1,60,Vivienne Pinay,SAFE
+S5E 1,5,1,Ep. 1,56,Monica Beverly Hillz,SAFE
+S5E 1,5,1,Ep. 1,59,Serena ChaCha,BTM
+S5E 1,5,1,Ep. 1,57,Penny Tration,ELIM
+S7E 1,7,1,Ep. 1,88,Violet Chachki,WIN
+S7E 1,7,1,Ep. 1,75,Ginger Minj,SAFE
+S7E 1,7,1,Ep. 1,84,Pearl,SAFE
+S7E 1,7,1,Ep. 1,80,Kennedy Davenport,HIGH
+S7E 1,7,1,Ep. 1,79,Katya,SAFE
+S7E 1,7,1,Ep. 1,87,Trixie Mattel,SAFE
+S7E 1,7,1,Ep. 1,82,Miss Fame,HIGH
+S7E 1,7,1,Ep. 1,76,Jaidynn Diore Fierce,SAFE
+S7E 1,7,1,Ep. 1,81,Max,SAFE
+S7E 1,7,1,Ep. 1,78,Kandy Ho,BTM
+S7E 1,7,1,Ep. 1,83,Mrs. Kasha Davis,SAFE
+S7E 1,7,1,Ep. 1,77,Jasmine Masters,LOW
+S7E 1,7,1,Ep. 1,85,Sasha Belle,LOW
+S7E 1,7,1,Ep. 1,86,Tempest DuJour,ELIM
+S8E 1,8,1,Ep. 1,90,Bob the Drag Queen,SAFE
+S8E 1,8,1,Ep. 1,95,Kim Chi,WIN
+S8E 1,8,1,Ep. 1,97,Naomi Smalls,LOW
+S8E 1,8,1,Ep. 1,91,Chi Chi DeVayne ,SAFE
+S8E 1,8,1,Ep. 1,94,Derrick Barry,HIGH
+S8E 1,8,1,Ep. 1,100,Thorgy Thor,SAFE
+S8E 1,8,1,Ep. 1,99,Robbie Turner,LOW
+S8E 1,8,1,Ep. 1,89,Acid Betty,HIGH
+S8E 1,8,1,Ep. 1,98,Naysha Lopez,ELIM
+S8E 1,8,1,Ep. 1,92,Cynthia Lee Fontaine,SAFE
+S8E 1,8,1,Ep. 1,93,Dax ExclamationPoint,SAFE
+S8E 1,8,1,Ep. 1,96,Laila McQueen,BTM
+S9E 1,9,1,Ep. 1,110,Sasha Velour,HIGH
+S9E 1,9,1,Ep. 1,109,Peppermint,SAFE
+S9E 1,9,1,Ep. 1,111,Shea Couleé,SAFE
+S9E 1,9,1,Ep. 1,112,Trinity Taylor,SAFE
+S9E 1,9,1,Ep. 1,102,Alexis Michelle,SAFE
+S9E 1,9,1,Ep. 1,108,Nina Bo'nina Brown,WIN
+S9E 1,9,1,Ep. 1,113,Valentina,SAFE
+S9E 1,9,1,Ep. 1,105,Farrah Moan,SAFE
+S9E 1,9,1,Ep. 1,101,Aja,SAFE
+S9E 1,9,1,Ep. 1,92,Cynthia Lee Fontaine,
+S9E 1,9,1,Ep. 1,104,Eureka,HIGH
+S9E 1,9,1,Ep. 1,103,Charlie Hides,SAFE
+S9E 1,9,1,Ep. 1,107,Kimora Blac,SAFE
+S9E 1,9,1,Ep. 1,106,Jaymes Mansfield,SAFE
+S10E 1,10,1,Ep. 1,114,Aquaria,SAFE
+S10E 1,10,1,Ep. 1,104,Eureka,SAFE
+S10E 1,10,1,Ep. 1,119,Kameron Michaels,SAFE
+S10E 1,10,1,Ep. 1,115,Asia O'Hara,SAFE
+S10E 1,10,1,Ep. 1,121,Miz Cracker,HIGH
+S10E 1,10,1,Ep. 1,123,Monét X Change,SAFE
+S10E 1,10,1,Ep. 1,124,The Vixen,SAFE
+S10E 1,10,1,Ep. 1,122,Monique Heart,SAFE
+S10E 1,10,1,Ep. 1,116,Blair St. Clair,HIGH
+S10E 1,10,1,Ep. 1,120,Mayhem Miller,WIN
+S10E 1,10,1,Ep. 1,117,Dusty Ray Bottoms,LOW
+S10E 1,10,1,Ep. 1,126,Yuhua Hamasaki,HIGH
+S10E 1,10,1,Ep. 1,118,Kalorie Karbdashian Williams,BTM
+S10E 1,10,1,Ep. 1,125,Vanessa Vanjie Mateo,ELIM
+S11E 1,11,1,Ep. 1,140,Yvie Oddly,SAFE
+S11E 1,11,1,Ep. 1,129,Brooke Lynn Hytes,WIN
+S11E 1,11,1,Ep. 1,127,A'keria C. Davenport,HIGH
+S11E 1,11,1,Ep. 1,138,Silky Nutmeg Ganache,SAFE
+S11E 1,11,1,Ep. 1,125,Vanessa Vanjie Mateo,HIGH
+S11E 1,11,1,Ep. 1,133,Nina West,LOW
+S11E 1,11,1,Ep. 1,137,Shuga Cain,SAFE
+S11E 1,11,1,Ep. 1,134,Plastique Tiara,HIGH
+S11E 1,11,1,Ep. 1,135,Ra'Jah O'Hara,SAFE
+S11E 1,11,1,Ep. 1,136,Scarlet Envy,SAFE
+S11E 1,11,1,Ep. 1,128,Ariel Versace,SAFE
+S11E 1,11,1,Ep. 1,132,Mercedes Iman Diamond,LOW
+S11E 1,11,1,Ep. 1,130,Honey Davenport,SAFE
+S11E 1,11,1,Ep. 1,131,Kahanna Montrese,BTM
+S11E 1,11,1,Ep. 1,139,Soju,ELIM
+S13E 1,13,1,Ep. 1,163,Symone,WIN
+S13E 1,13,1,Ep. 1,159,Kandy Muse,WIN
+S13E 1,13,1,Ep. 1,156,Gottmik,WIN
+S13E 1,13,1,Ep. 1,162,Rosé,LOSS
+S13E 1,13,1,Ep. 1,161,Olivia Lux,WIN
+S13E 1,13,1,Ep. 1,166,Utica Queen,LOSS
+S13E 1,13,1,Ep. 1,165,Tina Burner,WIN
+S13E 1,13,1,Ep. 1,154,Denali,LOSS
+S13E 1,13,1,Ep. 1,155,Elliott with 2 Ts,LOSS
+S13E 1,13,1,Ep. 1,160,LaLa Ri,WIN
+S13E 1,13,1,Ep. 1,164,Tamisha Iman,LOSS
+S13E 1,13,1,Ep. 1,157,Joey Jay,LOSS
+S13E 1,13,1,Ep. 1,158,Kahmora Hall,LOSS
+S7E 10,7,10,Ep. 10,88,Violet Chachki,WIN
+S7E 10,7,10,Ep. 10,75,Ginger Minj,BTM
+S7E 10,7,10,Ep. 10,84,Pearl,SAFE
+S7E 10,7,10,Ep. 10,80,Kennedy Davenport,SAFE
+S7E 10,7,10,Ep. 10,79,Katya,WIN
+S7E 10,7,10,Ep. 10,87,Trixie Mattel,ELIM
+S7E 10,7,10,Ep. 10,82,Miss Fame,
+S7E 10,7,10,Ep. 10,76,Jaidynn Diore Fierce,
+S7E 10,7,10,Ep. 10,81,Max,
+S7E 10,7,10,Ep. 10,78,Kandy Ho,
+S7E 10,7,10,Ep. 10,83,Mrs. Kasha Davis,
+S7E 10,7,10,Ep. 10,77,Jasmine Masters,
+S7E 10,7,10,Ep. 10,85,Sasha Belle,
+S7E 10,7,10,Ep. 10,86,Tempest DuJour,
+S11E 10,11,10,Ep. 10,140,Yvie Oddly,SAFE
+S11E 10,11,10,Ep. 10,129,Brooke Lynn Hytes,HIGH
+S11E 10,11,10,Ep. 10,127,A'keria C. Davenport,SAFE
+S11E 10,11,10,Ep. 10,138,Silky Nutmeg Ganache,LOW
+S11E 10,11,10,Ep. 10,125,Vanessa Vanjie Mateo,BTM
+S11E 10,11,10,Ep. 10,133,Nina West,WIN
+S11E 10,11,10,Ep. 10,137,Shuga Cain,ELIM
+S11E 10,11,10,Ep. 10,134,Plastique Tiara,
+S11E 10,11,10,Ep. 10,135,Ra'Jah O'Hara,
+S11E 10,11,10,Ep. 10,136,Scarlet Envy,
+S11E 10,11,10,Ep. 10,128,Ariel Versace,
+S11E 10,11,10,Ep. 10,132,Mercedes Iman Diamond,
+S11E 10,11,10,Ep. 10,130,Honey Davenport,
+S11E 10,11,10,Ep. 10,131,Kahanna Montrese,
+S11E 10,11,10,Ep. 10,139,Soju,
+S12E 11,12,11,Ep. 11,148,Jaida Essence Hall,BTM
+S12E 11,12,11,Ep. 11,143,Crystal Methyd,WIN
+S12E 11,12,11,Ep. 11,145,Gigi Goode,SAFE
+S12E 11,12,11,Ep. 11,152,Sherry Pie,LOW
+S12E 11,12,11,Ep. 11,147,Jackie Cox,HIGH
+S12E 11,12,11,Ep. 11,146,Heidi N Closet,ELIM
+S12E 11,12,11,Ep. 11,153,Widow Von'Du,
+S12E 11,12,11,Ep. 11,149,Jan,
+S12E 11,12,11,Ep. 11,142,Brita,
+S12E 11,12,11,Ep. 11,141,Aiden Zhane,
+S12E 11,12,11,Ep. 11,150,Nicky Doll,
+S12E 11,12,11,Ep. 11,151,Rock M. Sakura,
+S12E 11,12,11,Ep. 11,144,Dahlia Sin,
+S13E 11,13,11,Ep. 11,163,Symone,WIN
+S13E 11,13,11,Ep. 11,159,Kandy Muse,HIGH
+S13E 11,13,11,Ep. 11,156,Gottmik,LOW
+S13E 11,13,11,Ep. 11,162,Rosé,WIN
+S13E 11,13,11,Ep. 11,161,Olivia Lux,LOW
+S13E 11,13,11,Ep. 11,166,Utica Queen,BTM
+S13E 11,13,11,Ep. 11,165,Tina Burner,ELIM
+S13E 11,13,11,Ep. 11,154,Denali,
+S13E 11,13,11,Ep. 11,155,Elliott with 2 Ts,
+S13E 11,13,11,Ep. 11,160,LaLa Ri,
+S13E 11,13,11,Ep. 11,164,Tamisha Iman,
+S13E 11,13,11,Ep. 11,157,Joey Jay,
+S13E 11,13,11,Ep. 11,158,Kahmora Hall,
+S5E 12,5,12,Ep. 12,54,Jinkx Monsoon,TOP
+S5E 12,5,12,Ep. 12,47,Alaska,TOP
+S5E 12,5,12,Ep. 12,58,Roxxxy Andrews,TOP
+S5E 12,5,12,Ep. 12,50,Detox,
+S5E 12,5,12,Ep. 12,49,Coco Montrese,
+S5E 12,5,12,Ep. 12,48,Alyssa Edwards,
+S5E 12,5,12,Ep. 12,52,Ivy Winters,
+S5E 12,5,12,Ep. 12,53,Jade Jolie,
+S5E 12,5,12,Ep. 12,55,Lineysha Sparx,
+S5E 12,5,12,Ep. 12,51,Honey Mahogany,
+S5E 12,5,12,Ep. 12,60,Vivienne Pinay,
+S5E 12,5,12,Ep. 12,56,Monica Beverly Hillz,
+S5E 12,5,12,Ep. 12,59,Serena ChaCha,
+S5E 12,5,12,Ep. 12,57,Penny Tration,
+S6E 12,6,12,Ep. 12,64,Bianca Del Rio,TOP
+S6E 12,6,12,Ep. 12,61,Adore Delano,TOP
+S6E 12,6,12,Ep. 12,65,Courtney Act,TOP
+S6E 12,6,12,Ep. 12,66,Darienne Lake,ELIM
+S6E 12,6,12,Ep. 12,63,BenDeLaCreme,
+S6E 12,6,12,Ep. 12,68,Joslyn Fox,
+S6E 12,6,12,Ep. 12,73,Trinity K. Bonet,
+S6E 12,6,12,Ep. 12,70,Laganja Estranja,
+S6E 12,6,12,Ep. 12,72,Milk,
+S6E 12,6,12,Ep. 12,67,Gia Gunn,
+S6E 12,6,12,Ep. 12,62,April Carrión,
+S6E 12,6,12,Ep. 12,74,Vivacious,
+S6E 12,6,12,Ep. 12,71,Magnolia Crawford,
+S6E 12,6,12,Ep. 12,69,Kelly Mantle,
+S7E 12,7,12,Ep. 12,88,Violet Chachki,TOP
+S7E 12,7,12,Ep. 12,75,Ginger Minj,TOP
+S7E 12,7,12,Ep. 12,84,Pearl,TOP
+S7E 12,7,12,Ep. 12,80,Kennedy Davenport,ELIM
+S7E 12,7,12,Ep. 12,79,Katya,
+S7E 12,7,12,Ep. 12,87,Trixie Mattel,
+S7E 12,7,12,Ep. 12,82,Miss Fame,
+S7E 12,7,12,Ep. 12,76,Jaidynn Diore Fierce,
+S7E 12,7,12,Ep. 12,81,Max,
+S7E 12,7,12,Ep. 12,78,Kandy Ho,
+S7E 12,7,12,Ep. 12,83,Mrs. Kasha Davis,
+S7E 12,7,12,Ep. 12,77,Jasmine Masters,
+S7E 12,7,12,Ep. 12,85,Sasha Belle,
+S7E 12,7,12,Ep. 12,86,Tempest DuJour,
+S9E 12,9,12,Ep. 12,110,Sasha Velour,TOP
+S9E 12,9,12,Ep. 12,109,Peppermint,TOP
+S9E 12,9,12,Ep. 12,111,Shea Couleé,TOP
+S9E 12,9,12,Ep. 12,112,Trinity Taylor,TOP
+S9E 12,9,12,Ep. 12,102,Alexis Michelle,
+S9E 12,9,12,Ep. 12,108,Nina Bo'nina Brown,
+S9E 12,9,12,Ep. 12,113,Valentina,
+S9E 12,9,12,Ep. 12,105,Farrah Moan,
+S9E 12,9,12,Ep. 12,101,Aja,
+S9E 12,9,12,Ep. 12,92,Cynthia Lee Fontaine,
+S9E 12,9,12,Ep. 12,104,Eureka,
+S9E 12,9,12,Ep. 12,103,Charlie Hides,
+S9E 12,9,12,Ep. 12,107,Kimora Blac,
+S9E 12,9,12,Ep. 12,106,Jaymes Mansfield,
+S10E 12,10,12,Ep. 12,114,Aquaria,TOP
+S10E 12,10,12,Ep. 12,104,Eureka,TOP
+S10E 12,10,12,Ep. 12,119,Kameron Michaels,TOP
+S10E 12,10,12,Ep. 12,115,Asia O'Hara,TOP
+S10E 12,10,12,Ep. 12,121,Miz Cracker,
+S10E 12,10,12,Ep. 12,123,Monét X Change,
+S10E 12,10,12,Ep. 12,124,The Vixen,
+S10E 12,10,12,Ep. 12,122,Monique Heart,
+S10E 12,10,12,Ep. 12,116,Blair St. Clair,
+S10E 12,10,12,Ep. 12,120,Mayhem Miller,
+S10E 12,10,12,Ep. 12,117,Dusty Ray Bottoms,
+S10E 12,10,12,Ep. 12,126,Yuhua Hamasaki,
+S10E 12,10,12,Ep. 12,118,Kalorie Karbdashian Williams,
+S10E 12,10,12,Ep. 12,125,Vanessa Vanjie Mateo,
+S11E 12,11,12,Ep. 12,140,Yvie Oddly,HIGH
+S11E 12,11,12,Ep. 12,129,Brooke Lynn Hytes,BTM
+S11E 12,11,12,Ep. 12,127,A'keria C. Davenport,HIGH
+S11E 12,11,12,Ep. 12,138,Silky Nutmeg Ganache,LOW
+S11E 12,11,12,Ep. 12,125,Vanessa Vanjie Mateo,ELIM
+S11E 12,11,12,Ep. 12,133,Nina West,
+S11E 12,11,12,Ep. 12,137,Shuga Cain,
+S11E 12,11,12,Ep. 12,134,Plastique Tiara,
+S11E 12,11,12,Ep. 12,135,Ra'Jah O'Hara,
+S11E 12,11,12,Ep. 12,136,Scarlet Envy,
+S11E 12,11,12,Ep. 12,128,Ariel Versace,
+S11E 12,11,12,Ep. 12,132,Mercedes Iman Diamond,
+S11E 12,11,12,Ep. 12,130,Honey Davenport,
+S11E 12,11,12,Ep. 12,131,Kahanna Montrese,
+S11E 12,11,12,Ep. 12,139,Soju,
+S4E 13,4,13,Ep. 13,44,Sharon Needles,TOP
+S4E 13,4,13,Ep. 13,35,Chad Michaels,TOP
+S4E 13,4,13,Ep. 13,43,Phi Phi O'Hara,TOP
+S4E 13,4,13,Ep. 13,40,Latrice Royale,
+S4E 13,4,13,Ep. 13,38,Kenya Michaels,
+S4E 13,4,13,Ep. 13,36,DiDa Ritz,
+S4E 13,4,13,Ep. 13,46,Willam,
+S4E 13,4,13,Ep. 13,37,Jiggly Caliente,
+S4E 13,4,13,Ep. 13,42,Milan,
+S4E 13,4,13,Ep. 13,41,Madame LaQueer,
+S4E 13,4,13,Ep. 13,45,The Princess,
+S4E 13,4,13,Ep. 13,39,Lashauwn Beyond,
+S4E 13,4,13,Ep. 13,34,Alisa Summers,
+S13E 13,13,13,Ep. 13,163,Symone,HIGH
+S13E 13,13,13,Ep. 13,159,Kandy Muse,BTM
+S13E 13,13,13,Ep. 13,156,Gottmik,HIGH
+S13E 13,13,13,Ep. 13,162,Rosé,WIN
+S13E 13,13,13,Ep. 13,161,Olivia Lux,ELIM
+S13E 13,13,13,Ep. 13,166,Utica Queen,
+S13E 13,13,13,Ep. 13,165,Tina Burner,
+S13E 13,13,13,Ep. 13,154,Denali,
+S13E 13,13,13,Ep. 13,155,Elliott with 2 Ts,
+S13E 13,13,13,Ep. 13,160,LaLa Ri,
+S13E 13,13,13,Ep. 13,164,Tamisha Iman,
+S13E 13,13,13,Ep. 13,157,Joey Jay,
+S13E 13,13,13,Ep. 13,158,Kahmora Hall,
+S13E 14,13,14,Ep. 14,163,Symone,TOP
+S13E 14,13,14,Ep. 14,159,Kandy Muse,TOP
+S13E 14,13,14,Ep. 14,156,Gottmik,TOP
+S13E 14,13,14,Ep. 14,162,Rosé,TOP
+S13E 14,13,14,Ep. 14,161,Olivia Lux,
+S13E 14,13,14,Ep. 14,166,Utica Queen,
+S13E 14,13,14,Ep. 14,165,Tina Burner,
+S13E 14,13,14,Ep. 14,154,Denali,
+S13E 14,13,14,Ep. 14,155,Elliott with 2 Ts,
+S13E 14,13,14,Ep. 14,160,LaLa Ri,
+S13E 14,13,14,Ep. 14,164,Tamisha Iman,
+S13E 14,13,14,Ep. 14,157,Joey Jay,
+S13E 14,13,14,Ep. 14,158,Kahmora Hall,
+S1E 2,1,2,Ep. 2,2,BeBe Zahara Benet,SAFE
+S1E 2,1,2,Ep. 2,4,Nina Flowers,HIGH
+S1E 2,1,2,Ep. 2,6,Rebecca Glasscock,HIGH
+S1E 2,1,2,Ep. 2,7,Shannel,HIGH
+S1E 2,1,2,Ep. 2,5,Ongina,WIN
+S1E 2,1,2,Ep. 2,3,Jade,SAFE
+S1E 2,1,2,Ep. 2,1,Akashia,BTM
+S1E 2,1,2,Ep. 2,8,Tammie Brown,ELIM
+S1E 2,1,2,Ep. 2,9,"Victoria ""Porkchop"" Parker",
+S2E 2,2,2,Ep. 2,21,Tyra Sanchez,HIGH
+S2E 2,2,2,Ep. 2,16,Raven,BTM
+S2E 2,2,2,Ep. 2,11,Jujubee,HIGH
+S2E 2,2,2,Ep. 2,20,Tatianna,SAFE
+S2E 2,2,2,Ep. 2,15,Pandora Boxx,SAFE
+S2E 2,2,2,Ep. 2,10,Jessica Wild,HIGH
+S2E 2,2,2,Ep. 2,17,Sahara Davenport ,WIN
+S2E 2,2,2,Ep. 2,12,Morgan McMichaels,SAFE
+S2E 2,2,2,Ep. 2,19,Sonique,LOW
+S2E 2,2,2,Ep. 2,13,Mystique Summers Madison,HIGH
+S2E 2,2,2,Ep. 2,14,Nicole Paige Brooks,ELIM
+S2E 2,2,2,Ep. 2,18,Shangela,
+S3E 2,3,2,Ep. 2,30,Raja,WIN
+S3E 2,3,2,Ep. 2,26,Manila Luzon,HIGH
+S3E 2,3,2,Ep. 2,22,Alexis Mateo,SAFE
+S3E 2,3,2,Ep. 2,33,Yara Sofia,SAFE
+S3E 2,3,2,Ep. 2,23,Carmen Carrera,LOW
+S3E 2,3,2,Ep. 2,18,Shangela,BTM
+S3E 2,3,2,Ep. 2,24,Delta Work,SAFE
+S3E 2,3,2,Ep. 2,31,Stacy Layne Matthews,SAFE
+S3E 2,3,2,Ep. 2,27,Mariah,SAFE
+S3E 2,3,2,Ep. 2,25,India Ferrah,SAFE
+S3E 2,3,2,Ep. 2,28,Mimi Imfurst,HIGH
+S3E 2,3,2,Ep. 2,29,Phoenix,SAFE
+S3E 2,3,2,Ep. 2,32,Venus D-Lite,ELIM
+S4E 2,4,2,Ep. 2,44,Sharon Needles,HIGH
+S4E 2,4,2,Ep. 2,35,Chad Michaels,WIN
+S4E 2,4,2,Ep. 2,43,Phi Phi O'Hara,HIGH
+S4E 2,4,2,Ep. 2,40,Latrice Royale,HIGH
+S4E 2,4,2,Ep. 2,38,Kenya Michaels,HIGH
+S4E 2,4,2,Ep. 2,36,DiDa Ritz,LOW
+S4E 2,4,2,Ep. 2,46,Willam,SAFE
+S4E 2,4,2,Ep. 2,37,Jiggly Caliente,SAFE
+S4E 2,4,2,Ep. 2,42,Milan,HIGH
+S4E 2,4,2,Ep. 2,41,Madame LaQueer,WIN
+S4E 2,4,2,Ep. 2,45,The Princess,BTM
+S4E 2,4,2,Ep. 2,39,Lashauwn Beyond,ELIM
+S4E 2,4,2,Ep. 2,34,Alisa Summers,
+S5E 2,5,2,Ep. 2,54,Jinkx Monsoon,SAFE
+S5E 2,5,2,Ep. 2,47,Alaska,SAFE
+S5E 2,5,2,Ep. 2,58,Roxxxy Andrews,SAFE
+S5E 2,5,2,Ep. 2,50,Detox,SAFE
+S5E 2,5,2,Ep. 2,49,Coco Montrese,SAFE
+S5E 2,5,2,Ep. 2,48,Alyssa Edwards,SAFE
+S5E 2,5,2,Ep. 2,52,Ivy Winters,HIGH
+S5E 2,5,2,Ep. 2,53,Jade Jolie,SAFE
+S5E 2,5,2,Ep. 2,55,Lineysha Sparx,WIN
+S5E 2,5,2,Ep. 2,51,Honey Mahogany,HIGH
+S5E 2,5,2,Ep. 2,60,Vivienne Pinay,HIGH
+S5E 2,5,2,Ep. 2,56,Monica Beverly Hillz,BTM
+S5E 2,5,2,Ep. 2,59,Serena ChaCha,ELIM
+S5E 2,5,2,Ep. 2,57,Penny Tration,
+S9E 2,9,2,Ep. 2,110,Sasha Velour,SAFE
+S9E 2,9,2,Ep. 2,109,Peppermint,SAFE
+S9E 2,9,2,Ep. 2,111,Shea Couleé,HIGH
+S9E 2,9,2,Ep. 2,112,Trinity Taylor,HIGH
+S9E 2,9,2,Ep. 2,102,Alexis Michelle,SAFE
+S9E 2,9,2,Ep. 2,108,Nina Bo'nina Brown,SAFE
+S9E 2,9,2,Ep. 2,113,Valentina,WIN
+S9E 2,9,2,Ep. 2,105,Farrah Moan,SAFE
+S9E 2,9,2,Ep. 2,101,Aja,SAFE
+S9E 2,9,2,Ep. 2,92,Cynthia Lee Fontaine,SAFE
+S9E 2,9,2,Ep. 2,104,Eureka,SAFE
+S9E 2,9,2,Ep. 2,103,Charlie Hides,LOW
+S9E 2,9,2,Ep. 2,107,Kimora Blac,BTM
+S9E 2,9,2,Ep. 2,106,Jaymes Mansfield,ELIM
+S11E 2,11,2,Ep. 2,140,Yvie Oddly,WIN
+S11E 2,11,2,Ep. 2,129,Brooke Lynn Hytes,LOW
+S11E 2,11,2,Ep. 2,127,A'keria C. Davenport,SAFE
+S11E 2,11,2,Ep. 2,138,Silky Nutmeg Ganache,SAFE
+S11E 2,11,2,Ep. 2,125,Vanessa Vanjie Mateo,SAFE
+S11E 2,11,2,Ep. 2,133,Nina West,SAFE
+S11E 2,11,2,Ep. 2,137,Shuga Cain,HIGH
+S11E 2,11,2,Ep. 2,134,Plastique Tiara,HIGH
+S11E 2,11,2,Ep. 2,135,Ra'Jah O'Hara,SAFE
+S11E 2,11,2,Ep. 2,136,Scarlet Envy,WIN
+S11E 2,11,2,Ep. 2,128,Ariel Versace,LOW
+S11E 2,11,2,Ep. 2,132,Mercedes Iman Diamond,BTM
+S11E 2,11,2,Ep. 2,130,Honey Davenport,SAFE
+S11E 2,11,2,Ep. 2,131,Kahanna Montrese,ELIM
+S11E 2,11,2,Ep. 2,139,Soju,
+S1E 3,1,3,Ep. 3,2,BeBe Zahara Benet,WIN
+S1E 3,1,3,Ep. 3,4,Nina Flowers,HIGH
+S1E 3,1,3,Ep. 3,6,Rebecca Glasscock,HIGH
+S1E 3,1,3,Ep. 3,7,Shannel,BTM
+S1E 3,1,3,Ep. 3,5,Ongina,HIGH
+S1E 3,1,3,Ep. 3,3,Jade,LOW
+S1E 3,1,3,Ep. 3,1,Akashia,ELIM
+S1E 3,1,3,Ep. 3,8,Tammie Brown,
+S1E 3,1,3,Ep. 3,9,"Victoria ""Porkchop"" Parker",
+S2E 3,2,3,Ep. 3,21,Tyra Sanchez,WIN
+S2E 3,2,3,Ep. 3,16,Raven,BTM
+S2E 3,2,3,Ep. 3,11,Jujubee,SAFE
+S2E 3,2,3,Ep. 3,20,Tatianna,SAFE
+S2E 3,2,3,Ep. 3,15,Pandora Boxx,HIGH
+S2E 3,2,3,Ep. 3,10,Jessica Wild,HIGH
+S2E 3,2,3,Ep. 3,17,Sahara Davenport ,SAFE
+S2E 3,2,3,Ep. 3,12,Morgan McMichaels,SAFE
+S2E 3,2,3,Ep. 3,19,Sonique,SAFE
+S2E 3,2,3,Ep. 3,13,Mystique Summers Madison,ELIM
+S2E 3,2,3,Ep. 3,14,Nicole Paige Brooks,
+S2E 3,2,3,Ep. 3,18,Shangela,
+S3E 3,3,3,Ep. 3,30,Raja,SAFE
+S3E 3,3,3,Ep. 3,26,Manila Luzon,SAFE
+S3E 3,3,3,Ep. 3,22,Alexis Mateo,WIN
+S3E 3,3,3,Ep. 3,33,Yara Sofia,HIGH
+S3E 3,3,3,Ep. 3,23,Carmen Carrera,LOW
+S3E 3,3,3,Ep. 3,18,Shangela,WIN
+S3E 3,3,3,Ep. 3,24,Delta Work,BTM
+S3E 3,3,3,Ep. 3,31,Stacy Layne Matthews,HIGH
+S3E 3,3,3,Ep. 3,27,Mariah,HIGH
+S3E 3,3,3,Ep. 3,25,India Ferrah,SAFE
+S3E 3,3,3,Ep. 3,28,Mimi Imfurst,HIGH
+S3E 3,3,3,Ep. 3,29,Phoenix,ELIM
+S3E 3,3,3,Ep. 3,32,Venus D-Lite,
+S4E 3,4,3,Ep. 3,44,Sharon Needles,WIN
+S4E 3,4,3,Ep. 3,35,Chad Michaels,HIGH
+S4E 3,4,3,Ep. 3,43,Phi Phi O'Hara,SAFE
+S4E 3,4,3,Ep. 3,40,Latrice Royale,SAFE
+S4E 3,4,3,Ep. 3,38,Kenya Michaels,HIGH
+S4E 3,4,3,Ep. 3,36,DiDa Ritz,BTM
+S4E 3,4,3,Ep. 3,46,Willam,SAFE
+S4E 3,4,3,Ep. 3,37,Jiggly Caliente,SAFE
+S4E 3,4,3,Ep. 3,42,Milan,SAFE
+S4E 3,4,3,Ep. 3,41,Madame LaQueer,LOW
+S4E 3,4,3,Ep. 3,45,The Princess,ELIM
+S4E 3,4,3,Ep. 3,39,Lashauwn Beyond,
+S4E 3,4,3,Ep. 3,34,Alisa Summers,
+S5E 3,5,3,Ep. 3,54,Jinkx Monsoon,HIGH
+S5E 3,5,3,Ep. 3,47,Alaska,LOW
+S5E 3,5,3,Ep. 3,58,Roxxxy Andrews,HIGH
+S5E 3,5,3,Ep. 3,50,Detox,WIN
+S5E 3,5,3,Ep. 3,49,Coco Montrese,BTM
+S5E 3,5,3,Ep. 3,48,Alyssa Edwards,SAFE
+S5E 3,5,3,Ep. 3,52,Ivy Winters,SAFE
+S5E 3,5,3,Ep. 3,53,Jade Jolie,SAFE
+S5E 3,5,3,Ep. 3,55,Lineysha Sparx,LOW
+S5E 3,5,3,Ep. 3,51,Honey Mahogany,SAFE
+S5E 3,5,3,Ep. 3,60,Vivienne Pinay,LOW
+S5E 3,5,3,Ep. 3,56,Monica Beverly Hillz,ELIM
+S5E 3,5,3,Ep. 3,59,Serena ChaCha,
+S5E 3,5,3,Ep. 3,57,Penny Tration,
+S6E 3,6,3,Ep. 3,64,Bianca Del Rio,HIGH
+S6E 3,6,3,Ep. 3,61,Adore Delano,LOW
+S6E 3,6,3,Ep. 3,65,Courtney Act,HIGH
+S6E 3,6,3,Ep. 3,66,Darienne Lake,WIN
+S6E 3,6,3,Ep. 3,63,BenDeLaCreme,SAFE
+S6E 3,6,3,Ep. 3,68,Joslyn Fox,HIGH
+S6E 3,6,3,Ep. 3,73,Trinity K. Bonet,HIGH
+S6E 3,6,3,Ep. 3,70,Laganja Estranja,SAFE
+S6E 3,6,3,Ep. 3,72,Milk,HIGH
+S6E 3,6,3,Ep. 3,67,Gia Gunn,SAFE
+S6E 3,6,3,Ep. 3,62,April Carrión,BTM
+S6E 3,6,3,Ep. 3,74,Vivacious,ELIM
+S6E 3,6,3,Ep. 3,71,Magnolia Crawford,
+S6E 3,6,3,Ep. 3,69,Kelly Mantle,
+S7E 3,7,3,Ep. 3,88,Violet Chachki,SAFE
+S7E 3,7,3,Ep. 3,75,Ginger Minj,HIGH
+S7E 3,7,3,Ep. 3,84,Pearl,LOW
+S7E 3,7,3,Ep. 3,80,Kennedy Davenport,BTM
+S7E 3,7,3,Ep. 3,79,Katya,SAFE
+S7E 3,7,3,Ep. 3,87,Trixie Mattel,HIGH
+S7E 3,7,3,Ep. 3,82,Miss Fame,HIGH
+S7E 3,7,3,Ep. 3,76,Jaidynn Diore Fierce,HIGH
+S7E 3,7,3,Ep. 3,81,Max,WIN
+S7E 3,7,3,Ep. 3,78,Kandy Ho,SAFE
+S7E 3,7,3,Ep. 3,83,Mrs. Kasha Davis,HIGH
+S7E 3,7,3,Ep. 3,77,Jasmine Masters,ELIM
+S7E 3,7,3,Ep. 3,85,Sasha Belle,
+S7E 3,7,3,Ep. 3,86,Tempest DuJour,
+S8E 3,8,3,Ep. 3,90,Bob the Drag Queen,WIN
+S8E 3,8,3,Ep. 3,95,Kim Chi,SAFE
+S8E 3,8,3,Ep. 3,97,Naomi Smalls,SAFE
+S8E 3,8,3,Ep. 3,91,Chi Chi DeVayne ,SAFE
+S8E 3,8,3,Ep. 3,94,Derrick Barry,LOW
+S8E 3,8,3,Ep. 3,100,Thorgy Thor,HIGH
+S8E 3,8,3,Ep. 3,99,Robbie Turner,BTM
+S8E 3,8,3,Ep. 3,89,Acid Betty,HIGH
+S8E 3,8,3,Ep. 3,98,Naysha Lopez,SAFE
+S8E 3,8,3,Ep. 3,92,Cynthia Lee Fontaine,ELIM
+S8E 3,8,3,Ep. 3,93,Dax ExclamationPoint,
+S8E 3,8,3,Ep. 3,96,Laila McQueen,
+S9E 3,9,3,Ep. 3,110,Sasha Velour,SAFE
+S9E 3,9,3,Ep. 3,109,Peppermint,HIGH
+S9E 3,9,3,Ep. 3,111,Shea Couleé,SAFE
+S9E 3,9,3,Ep. 3,112,Trinity Taylor,WIN
+S9E 3,9,3,Ep. 3,102,Alexis Michelle,SAFE
+S9E 3,9,3,Ep. 3,108,Nina Bo'nina Brown,SAFE
+S9E 3,9,3,Ep. 3,113,Valentina,HIGH
+S9E 3,9,3,Ep. 3,105,Farrah Moan,LOW
+S9E 3,9,3,Ep. 3,101,Aja,BTM
+S9E 3,9,3,Ep. 3,92,Cynthia Lee Fontaine,SAFE
+S9E 3,9,3,Ep. 3,104,Eureka,SAFE
+S9E 3,9,3,Ep. 3,103,Charlie Hides,SAFE
+S9E 3,9,3,Ep. 3,107,Kimora Blac,ELIM
+S9E 3,9,3,Ep. 3,106,Jaymes Mansfield,
+S10E 3,10,3,Ep. 3,114,Aquaria,SAFE
+S10E 3,10,3,Ep. 3,104,Eureka,HIGH
+S10E 3,10,3,Ep. 3,119,Kameron Michaels,LOW
+S10E 3,10,3,Ep. 3,115,Asia O'Hara,WIN
+S10E 3,10,3,Ep. 3,121,Miz Cracker,SAFE
+S10E 3,10,3,Ep. 3,123,Monét X Change,SAFE
+S10E 3,10,3,Ep. 3,124,The Vixen,SAFE
+S10E 3,10,3,Ep. 3,122,Monique Heart,SAFE
+S10E 3,10,3,Ep. 3,116,Blair St. Clair,HIGH
+S10E 3,10,3,Ep. 3,120,Mayhem Miller,BTM
+S10E 3,10,3,Ep. 3,117,Dusty Ray Bottoms,SAFE
+S10E 3,10,3,Ep. 3,126,Yuhua Hamasaki,ELIM
+S10E 3,10,3,Ep. 3,118,Kalorie Karbdashian Williams,
+S10E 3,10,3,Ep. 3,125,Vanessa Vanjie Mateo,
+S11E 3,11,3,Ep. 3,140,Yvie Oddly,HIGH
+S11E 3,11,3,Ep. 3,129,Brooke Lynn Hytes,HIGH
+S11E 3,11,3,Ep. 3,127,A'keria C. Davenport,BTM
+S11E 3,11,3,Ep. 3,138,Silky Nutmeg Ganache,HIGH
+S11E 3,11,3,Ep. 3,125,Vanessa Vanjie Mateo,HIGH
+S11E 3,11,3,Ep. 3,133,Nina West,WIN
+S11E 3,11,3,Ep. 3,137,Shuga Cain,BTM
+S11E 3,11,3,Ep. 3,134,Plastique Tiara,BTM
+S11E 3,11,3,Ep. 3,135,Ra'Jah O'Hara,BTM
+S11E 3,11,3,Ep. 3,136,Scarlet Envy,BTM
+S11E 3,11,3,Ep. 3,128,Ariel Versace,HIGH
+S11E 3,11,3,Ep. 3,132,Mercedes Iman Diamond,HIGH
+S11E 3,11,3,Ep. 3,130,Honey Davenport,ELIM
+S11E 3,11,3,Ep. 3,131,Kahanna Montrese,
+S11E 3,11,3,Ep. 3,139,Soju,
+S12E 3,12,3,Ep. 3,148,Jaida Essence Hall,SAFE
+S12E 3,12,3,Ep. 3,143,Crystal Methyd,LOW
+S12E 3,12,3,Ep. 3,145,Gigi Goode,SAFE
+S12E 3,12,3,Ep. 3,152,Sherry Pie,WIN
+S12E 3,12,3,Ep. 3,147,Jackie Cox,HIGH
+S12E 3,12,3,Ep. 3,146,Heidi N Closet,HIGH
+S12E 3,12,3,Ep. 3,153,Widow Von'Du,SAFE
+S12E 3,12,3,Ep. 3,149,Jan,SAFE
+S12E 3,12,3,Ep. 3,142,Brita,SAFE
+S12E 3,12,3,Ep. 3,141,Aiden Zhane,SAFE
+S12E 3,12,3,Ep. 3,150,Nicky Doll,BTM
+S12E 3,12,3,Ep. 3,151,Rock M. Sakura,SAFE
+S12E 3,12,3,Ep. 3,144,Dahlia Sin,ELIM
+S1E 4,1,4,Ep. 4,2,BeBe Zahara Benet,HIGH
+S1E 4,1,4,Ep. 4,4,Nina Flowers,HIGH
+S1E 4,1,4,Ep. 4,6,Rebecca Glasscock,BTM
+S1E 4,1,4,Ep. 4,7,Shannel,LOW
+S1E 4,1,4,Ep. 4,5,Ongina,WIN
+S1E 4,1,4,Ep. 4,3,Jade,ELIM
+S1E 4,1,4,Ep. 4,1,Akashia,
+S1E 4,1,4,Ep. 4,8,Tammie Brown,
+S1E 4,1,4,Ep. 4,9,"Victoria ""Porkchop"" Parker",
+S3E 4,3,4,Ep. 4,30,Raja,SAFE
+S3E 4,3,4,Ep. 4,26,Manila Luzon,SAFE
+S3E 4,3,4,Ep. 4,22,Alexis Mateo,WIN
+S3E 4,3,4,Ep. 4,33,Yara Sofia,HIGH
+S3E 4,3,4,Ep. 4,23,Carmen Carrera,SAFE
+S3E 4,3,4,Ep. 4,18,Shangela,SAFE
+S3E 4,3,4,Ep. 4,24,Delta Work,SAFE
+S3E 4,3,4,Ep. 4,31,Stacy Layne Matthews,HIGH
+S3E 4,3,4,Ep. 4,27,Mariah,LOW
+S3E 4,3,4,Ep. 4,25,India Ferrah,BTM
+S3E 4,3,4,Ep. 4,28,Mimi Imfurst,ELIM
+S3E 4,3,4,Ep. 4,29,Phoenix,
+S3E 4,3,4,Ep. 4,32,Venus D-Lite,
+S4E 4,4,4,Ep. 4,44,Sharon Needles,SAFE
+S4E 4,4,4,Ep. 4,35,Chad Michaels,HIGH
+S4E 4,4,4,Ep. 4,43,Phi Phi O'Hara,HIGH
+S4E 4,4,4,Ep. 4,40,Latrice Royale,WIN
+S4E 4,4,4,Ep. 4,38,Kenya Michaels,LOW
+S4E 4,4,4,Ep. 4,36,DiDa Ritz,SAFE
+S4E 4,4,4,Ep. 4,46,Willam,HIGH
+S4E 4,4,4,Ep. 4,37,Jiggly Caliente,HIGH
+S4E 4,4,4,Ep. 4,42,Milan,BTM
+S4E 4,4,4,Ep. 4,41,Madame LaQueer,ELIM
+S4E 4,4,4,Ep. 4,45,The Princess,
+S4E 4,4,4,Ep. 4,39,Lashauwn Beyond,
+S4E 4,4,4,Ep. 4,34,Alisa Summers,
+S5E 4,5,4,Ep. 4,54,Jinkx Monsoon,HIGH
+S5E 4,5,4,Ep. 4,47,Alaska,SAFE
+S5E 4,5,4,Ep. 4,58,Roxxxy Andrews,LOW
+S5E 4,5,4,Ep. 4,50,Detox,SAFE
+S5E 4,5,4,Ep. 4,49,Coco Montrese,SAFE
+S5E 4,5,4,Ep. 4,48,Alyssa Edwards,WIN
+S5E 4,5,4,Ep. 4,52,Ivy Winters,HIGH
+S5E 4,5,4,Ep. 4,53,Jade Jolie,SAFE
+S5E 4,5,4,Ep. 4,55,Lineysha Sparx,SAFE
+S5E 4,5,4,Ep. 4,51,Honey Mahogany,ELIM
+S5E 4,5,4,Ep. 4,60,Vivienne Pinay,ELIM
+S5E 4,5,4,Ep. 4,56,Monica Beverly Hillz,
+S5E 4,5,4,Ep. 4,59,Serena ChaCha,
+S5E 4,5,4,Ep. 4,57,Penny Tration,
+S7E 4,7,4,Ep. 4,88,Violet Chachki,SAFE
+S7E 4,7,4,Ep. 4,75,Ginger Minj,SAFE
+S7E 4,7,4,Ep. 4,84,Pearl,BTM
+S7E 4,7,4,Ep. 4,80,Kennedy Davenport,WIN
+S7E 4,7,4,Ep. 4,79,Katya,HIGH
+S7E 4,7,4,Ep. 4,87,Trixie Mattel,ELIM
+S7E 4,7,4,Ep. 4,82,Miss Fame,SAFE
+S7E 4,7,4,Ep. 4,76,Jaidynn Diore Fierce,HIGH
+S7E 4,7,4,Ep. 4,81,Max,SAFE
+S7E 4,7,4,Ep. 4,78,Kandy Ho,LOW
+S7E 4,7,4,Ep. 4,83,Mrs. Kasha Davis,SAFE
+S7E 4,7,4,Ep. 4,77,Jasmine Masters,
+S7E 4,7,4,Ep. 4,85,Sasha Belle,
+S7E 4,7,4,Ep. 4,86,Tempest DuJour,
+S8E 4,8,4,Ep. 4,90,Bob the Drag Queen,SAFE
+S8E 4,8,4,Ep. 4,95,Kim Chi,HIGH
+S8E 4,8,4,Ep. 4,97,Naomi Smalls,HIGH
+S8E 4,8,4,Ep. 4,91,Chi Chi DeVayne ,BTM
+S8E 4,8,4,Ep. 4,94,Derrick Barry,LOW
+S8E 4,8,4,Ep. 4,100,Thorgy Thor,SAFE
+S8E 4,8,4,Ep. 4,99,Robbie Turner,WIN
+S8E 4,8,4,Ep. 4,89,Acid Betty,SAFE
+S8E 4,8,4,Ep. 4,98,Naysha Lopez,ELIM
+S8E 4,8,4,Ep. 4,92,Cynthia Lee Fontaine,
+S8E 4,8,4,Ep. 4,93,Dax ExclamationPoint,
+S8E 4,8,4,Ep. 4,96,Laila McQueen,
+S9E 4,9,4,Ep. 4,110,Sasha Velour,WIN
+S9E 4,9,4,Ep. 4,109,Peppermint,LOW
+S9E 4,9,4,Ep. 4,111,Shea Couleé,WIN
+S9E 4,9,4,Ep. 4,112,Trinity Taylor,BTM
+S9E 4,9,4,Ep. 4,102,Alexis Michelle,HIGH
+S9E 4,9,4,Ep. 4,108,Nina Bo'nina Brown,SAFE
+S9E 4,9,4,Ep. 4,113,Valentina,HIGH
+S9E 4,9,4,Ep. 4,105,Farrah Moan,HIGH
+S9E 4,9,4,Ep. 4,101,Aja,HIGH
+S9E 4,9,4,Ep. 4,92,Cynthia Lee Fontaine,SAFE
+S9E 4,9,4,Ep. 4,104,Eureka,SAFE
+S9E 4,9,4,Ep. 4,103,Charlie Hides,ELIM
+S9E 4,9,4,Ep. 4,107,Kimora Blac,
+S9E 4,9,4,Ep. 4,106,Jaymes Mansfield,
+S13E 4,13,4,Ep. 4,163,Symone,WIN
+S13E 4,13,4,Ep. 4,159,Kandy Muse,HIGH
+S13E 4,13,4,Ep. 4,156,Gottmik,SAFE
+S13E 4,13,4,Ep. 4,162,Rosé,HIGH
+S13E 4,13,4,Ep. 4,161,Olivia Lux,SAFE
+S13E 4,13,4,Ep. 4,166,Utica Queen,SAFE
+S13E 4,13,4,Ep. 4,165,Tina Burner,SAFE
+S13E 4,13,4,Ep. 4,154,Denali,BTM
+S13E 4,13,4,Ep. 4,155,Elliott with 2 Ts,SAFE
+S13E 4,13,4,Ep. 4,160,LaLa Ri,LOW
+S13E 4,13,4,Ep. 4,164,Tamisha Iman,SAFE
+S13E 4,13,4,Ep. 4,157,Joey Jay,SAFE
+S13E 4,13,4,Ep. 4,158,Kahmora Hall,ELIM
+S2E 5,2,5,Ep. 5,21,Tyra Sanchez,WIN
+S2E 5,2,5,Ep. 5,16,Raven,HIGH
+S2E 5,2,5,Ep. 5,11,Jujubee,HIGH
+S2E 5,2,5,Ep. 5,20,Tatianna,LOW
+S2E 5,2,5,Ep. 5,15,Pandora Boxx,SAFE
+S2E 5,2,5,Ep. 5,10,Jessica Wild,HIGH
+S2E 5,2,5,Ep. 5,17,Sahara Davenport ,BTM
+S2E 5,2,5,Ep. 5,12,Morgan McMichaels,ELIM
+S2E 5,2,5,Ep. 5,19,Sonique,
+S2E 5,2,5,Ep. 5,13,Mystique Summers Madison,
+S2E 5,2,5,Ep. 5,14,Nicole Paige Brooks,
+S2E 5,2,5,Ep. 5,18,Shangela,
+S3E 5,3,5,Ep. 5,30,Raja,SAFE
+S3E 5,3,5,Ep. 5,26,Manila Luzon,WIN
+S3E 5,3,5,Ep. 5,22,Alexis Mateo,SAFE
+S3E 5,3,5,Ep. 5,33,Yara Sofia,SAFE
+S3E 5,3,5,Ep. 5,23,Carmen Carrera,SAFE
+S3E 5,3,5,Ep. 5,18,Shangela,HIGH
+S3E 5,3,5,Ep. 5,24,Delta Work,SAFE
+S3E 5,3,5,Ep. 5,31,Stacy Layne Matthews,BTM
+S3E 5,3,5,Ep. 5,27,Mariah,LOW
+S3E 5,3,5,Ep. 5,25,India Ferrah,ELIM
+S3E 5,3,5,Ep. 5,28,Mimi Imfurst,
+S3E 5,3,5,Ep. 5,29,Phoenix,
+S3E 5,3,5,Ep. 5,32,Venus D-Lite,
+S7E 5,7,5,Ep. 5,88,Violet Chachki,LOW
+S7E 5,7,5,Ep. 5,75,Ginger Minj,SAFE
+S7E 5,7,5,Ep. 5,84,Pearl,WIN
+S7E 5,7,5,Ep. 5,80,Kennedy Davenport,HIGH
+S7E 5,7,5,Ep. 5,79,Katya,SAFE
+S7E 5,7,5,Ep. 5,87,Trixie Mattel,
+S7E 5,7,5,Ep. 5,82,Miss Fame,SAFE
+S7E 5,7,5,Ep. 5,76,Jaidynn Diore Fierce,HIGH
+S7E 5,7,5,Ep. 5,81,Max,WIN
+S7E 5,7,5,Ep. 5,78,Kandy Ho,BTM
+S7E 5,7,5,Ep. 5,83,Mrs. Kasha Davis,ELIM
+S7E 5,7,5,Ep. 5,77,Jasmine Masters,
+S7E 5,7,5,Ep. 5,85,Sasha Belle,
+S7E 5,7,5,Ep. 5,86,Tempest DuJour,
+S10E 5,10,5,Ep. 5,114,Aquaria,SAFE
+S10E 5,10,5,Ep. 5,104,Eureka,WIN
+S10E 5,10,5,Ep. 5,119,Kameron Michaels,SAFE
+S10E 5,10,5,Ep. 5,115,Asia O'Hara,SAFE
+S10E 5,10,5,Ep. 5,121,Miz Cracker,HIGH
+S10E 5,10,5,Ep. 5,123,Monét X Change,BTM
+S10E 5,10,5,Ep. 5,124,The Vixen,LOW
+S10E 5,10,5,Ep. 5,122,Monique Heart,HIGH
+S10E 5,10,5,Ep. 5,116,Blair St. Clair,SAFE
+S10E 5,10,5,Ep. 5,120,Mayhem Miller,ELIM
+S10E 5,10,5,Ep. 5,117,Dusty Ray Bottoms,
+S10E 5,10,5,Ep. 5,126,Yuhua Hamasaki,
+S10E 5,10,5,Ep. 5,118,Kalorie Karbdashian Williams,
+S10E 5,10,5,Ep. 5,125,Vanessa Vanjie Mateo,
+S12E 5,12,5,Ep. 5,148,Jaida Essence Hall,SAFE
+S12E 5,12,5,Ep. 5,143,Crystal Methyd,SAFE
+S12E 5,12,5,Ep. 5,145,Gigi Goode,HIGH
+S12E 5,12,5,Ep. 5,152,Sherry Pie,WIN
+S12E 5,12,5,Ep. 5,147,Jackie Cox,HIGH
+S12E 5,12,5,Ep. 5,146,Heidi N Closet,BTM
+S12E 5,12,5,Ep. 5,153,Widow Von'Du,HIGH
+S12E 5,12,5,Ep. 5,149,Jan,HIGH
+S12E 5,12,5,Ep. 5,142,Brita,LOW
+S12E 5,12,5,Ep. 5,141,Aiden Zhane,HIGH
+S12E 5,12,5,Ep. 5,150,Nicky Doll,ELIM
+S12E 5,12,5,Ep. 5,151,Rock M. Sakura,
+S12E 5,12,5,Ep. 5,144,Dahlia Sin,
+S2E 6,2,6,Ep. 6,21,Tyra Sanchez,LOW
+S2E 6,2,6,Ep. 6,16,Raven,HIGH
+S2E 6,2,6,Ep. 6,11,Jujubee,BTM
+S2E 6,2,6,Ep. 6,20,Tatianna,SAFE
+S2E 6,2,6,Ep. 6,15,Pandora Boxx,HIGH
+S2E 6,2,6,Ep. 6,10,Jessica Wild,WIN
+S2E 6,2,6,Ep. 6,17,Sahara Davenport ,ELIM
+S2E 6,2,6,Ep. 6,12,Morgan McMichaels,
+S2E 6,2,6,Ep. 6,19,Sonique,
+S2E 6,2,6,Ep. 6,13,Mystique Summers Madison,
+S2E 6,2,6,Ep. 6,14,Nicole Paige Brooks,
+S2E 6,2,6,Ep. 6,18,Shangela,
+S4E 6,4,6,Ep. 6,44,Sharon Needles,SAFE
+S4E 6,4,6,Ep. 6,35,Chad Michaels,SAFE
+S4E 6,4,6,Ep. 6,43,Phi Phi O'Hara,HIGH
+S4E 6,4,6,Ep. 6,40,Latrice Royale,HIGH
+S4E 6,4,6,Ep. 6,38,Kenya Michaels,
+S4E 6,4,6,Ep. 6,36,DiDa Ritz,LOW
+S4E 6,4,6,Ep. 6,46,Willam,WIN
+S4E 6,4,6,Ep. 6,37,Jiggly Caliente,BTM
+S4E 6,4,6,Ep. 6,42,Milan,ELIM
+S4E 6,4,6,Ep. 6,41,Madame LaQueer,
+S4E 6,4,6,Ep. 6,45,The Princess,
+S4E 6,4,6,Ep. 6,39,Lashauwn Beyond,
+S4E 6,4,6,Ep. 6,34,Alisa Summers,
+S5E 6,5,6,Ep. 6,54,Jinkx Monsoon,HIGH
+S5E 6,5,6,Ep. 6,47,Alaska,LOW
+S5E 6,5,6,Ep. 6,58,Roxxxy Andrews,HIGH
+S5E 6,5,6,Ep. 6,50,Detox,SAFE
+S5E 6,5,6,Ep. 6,49,Coco Montrese,BTM
+S5E 6,5,6,Ep. 6,48,Alyssa Edwards,LOW
+S5E 6,5,6,Ep. 6,52,Ivy Winters,WIN
+S5E 6,5,6,Ep. 6,53,Jade Jolie,ELIM
+S5E 6,5,6,Ep. 6,55,Lineysha Sparx,
+S5E 6,5,6,Ep. 6,51,Honey Mahogany,
+S5E 6,5,6,Ep. 6,60,Vivienne Pinay,
+S5E 6,5,6,Ep. 6,56,Monica Beverly Hillz,
+S5E 6,5,6,Ep. 6,59,Serena ChaCha,
+S5E 6,5,6,Ep. 6,57,Penny Tration,
+S6E 6,6,6,Ep. 6,64,Bianca Del Rio,HIGH
+S6E 6,6,6,Ep. 6,61,Adore Delano,WIN
+S6E 6,6,6,Ep. 6,65,Courtney Act,SAFE
+S6E 6,6,6,Ep. 6,66,Darienne Lake,LOW
+S6E 6,6,6,Ep. 6,63,BenDeLaCreme,SAFE
+S6E 6,6,6,Ep. 6,68,Joslyn Fox,HIGH
+S6E 6,6,6,Ep. 6,73,Trinity K. Bonet,BTM
+S6E 6,6,6,Ep. 6,70,Laganja Estranja,SAFE
+S6E 6,6,6,Ep. 6,72,Milk,ELIM
+S6E 6,6,6,Ep. 6,67,Gia Gunn,
+S6E 6,6,6,Ep. 6,62,April Carrión,
+S6E 6,6,6,Ep. 6,74,Vivacious,
+S6E 6,6,6,Ep. 6,71,Magnolia Crawford,
+S6E 6,6,6,Ep. 6,69,Kelly Mantle,
+S7E 6,7,6,Ep. 6,88,Violet Chachki,SAFE
+S7E 6,7,6,Ep. 6,75,Ginger Minj,HIGH
+S7E 6,7,6,Ep. 6,84,Pearl,SAFE
+S7E 6,7,6,Ep. 6,80,Kennedy Davenport,HIGH
+S7E 6,7,6,Ep. 6,79,Katya,WIN
+S7E 6,7,6,Ep. 6,87,Trixie Mattel,
+S7E 6,7,6,Ep. 6,82,Miss Fame,LOW
+S7E 6,7,6,Ep. 6,76,Jaidynn Diore Fierce,BTM
+S7E 6,7,6,Ep. 6,81,Max,SAFE
+S7E 6,7,6,Ep. 6,78,Kandy Ho,ELIM
+S7E 6,7,6,Ep. 6,83,Mrs. Kasha Davis,
+S7E 6,7,6,Ep. 6,77,Jasmine Masters,
+S7E 6,7,6,Ep. 6,85,Sasha Belle,
+S7E 6,7,6,Ep. 6,86,Tempest DuJour,
+S10E 6,10,6,Ep. 6,114,Aquaria,SAFE
+S10E 6,10,6,Ep. 6,104,Eureka,WIN
+S10E 6,10,6,Ep. 6,119,Kameron Michaels,HIGH
+S10E 6,10,6,Ep. 6,115,Asia O'Hara,SAFE
+S10E 6,10,6,Ep. 6,121,Miz Cracker,LOW
+S10E 6,10,6,Ep. 6,123,Monét X Change,HIGH
+S10E 6,10,6,Ep. 6,124,The Vixen,BTM
+S10E 6,10,6,Ep. 6,122,Monique Heart,SAFE
+S10E 6,10,6,Ep. 6,116,Blair St. Clair,ELIM
+S10E 6,10,6,Ep. 6,120,Mayhem Miller,
+S10E 6,10,6,Ep. 6,117,Dusty Ray Bottoms,
+S10E 6,10,6,Ep. 6,126,Yuhua Hamasaki,
+S10E 6,10,6,Ep. 6,118,Kalorie Karbdashian Williams,
+S10E 6,10,6,Ep. 6,125,Vanessa Vanjie Mateo,
+S11E 6,11,6,Ep. 6,140,Yvie Oddly,HIGH
+S11E 6,11,6,Ep. 6,129,Brooke Lynn Hytes,HIGH
+S11E 6,11,6,Ep. 6,127,A'keria C. Davenport,WIN
+S11E 6,11,6,Ep. 6,138,Silky Nutmeg Ganache,HIGH
+S11E 6,11,6,Ep. 6,125,Vanessa Vanjie Mateo,SAFE
+S11E 6,11,6,Ep. 6,133,Nina West,LOW
+S11E 6,11,6,Ep. 6,137,Shuga Cain,HIGH
+S11E 6,11,6,Ep. 6,134,Plastique Tiara,SAFE
+S11E 6,11,6,Ep. 6,135,Ra'Jah O'Hara,BTM
+S11E 6,11,6,Ep. 6,136,Scarlet Envy,ELIM
+S11E 6,11,6,Ep. 6,128,Ariel Versace,
+S11E 6,11,6,Ep. 6,132,Mercedes Iman Diamond,
+S11E 6,11,6,Ep. 6,130,Honey Davenport,
+S11E 6,11,6,Ep. 6,131,Kahanna Montrese,
+S11E 6,11,6,Ep. 6,139,Soju,
+S13E 6,13,6,Ep. 6,163,Symone,SAFE
+S13E 6,13,6,Ep. 6,159,Kandy Muse,BTM
+S13E 6,13,6,Ep. 6,156,Gottmik,SAFE
+S13E 6,13,6,Ep. 6,162,Rosé,SAFE
+S13E 6,13,6,Ep. 6,161,Olivia Lux,WIN
+S13E 6,13,6,Ep. 6,166,Utica Queen,LOW
+S13E 6,13,6,Ep. 6,165,Tina Burner,HIGH
+S13E 6,13,6,Ep. 6,154,Denali,SAFE
+S13E 6,13,6,Ep. 6,155,Elliott with 2 Ts,HIGH
+S13E 6,13,6,Ep. 6,160,LaLa Ri,SAFE
+S13E 6,13,6,Ep. 6,164,Tamisha Iman,ELIM
+S13E 6,13,6,Ep. 6,157,Joey Jay,
+S13E 6,13,6,Ep. 6,158,Kahmora Hall,
+S2E 7,2,7,Ep. 7,21,Tyra Sanchez,HIGH
+S2E 7,2,7,Ep. 7,16,Raven,WIN
+S2E 7,2,7,Ep. 7,11,Jujubee,HIGH
+S2E 7,2,7,Ep. 7,20,Tatianna,BTM
+S2E 7,2,7,Ep. 7,15,Pandora Boxx,LOW
+S2E 7,2,7,Ep. 7,10,Jessica Wild,ELIM
+S2E 7,2,7,Ep. 7,17,Sahara Davenport ,
+S2E 7,2,7,Ep. 7,12,Morgan McMichaels,
+S2E 7,2,7,Ep. 7,19,Sonique,
+S2E 7,2,7,Ep. 7,13,Mystique Summers Madison,
+S2E 7,2,7,Ep. 7,14,Nicole Paige Brooks,
+S2E 7,2,7,Ep. 7,18,Shangela,
+S3E 7,3,7,Ep. 7,30,Raja,WIN
+S3E 7,3,7,Ep. 7,26,Manila Luzon,HIGH
+S3E 7,3,7,Ep. 7,22,Alexis Mateo,BTM
+S3E 7,3,7,Ep. 7,33,Yara Sofia,HIGH
+S3E 7,3,7,Ep. 7,23,Carmen Carrera,LOW
+S3E 7,3,7,Ep. 7,18,Shangela,LOW
+S3E 7,3,7,Ep. 7,24,Delta Work,HIGH
+S3E 7,3,7,Ep. 7,31,Stacy Layne Matthews,ELIM
+S3E 7,3,7,Ep. 7,27,Mariah,
+S3E 7,3,7,Ep. 7,25,India Ferrah,
+S3E 7,3,7,Ep. 7,28,Mimi Imfurst,
+S3E 7,3,7,Ep. 7,29,Phoenix,
+S3E 7,3,7,Ep. 7,32,Venus D-Lite,
+S4E 7,4,7,Ep. 7,44,Sharon Needles,HIGH
+S4E 7,4,7,Ep. 7,35,Chad Michaels,LOW
+S4E 7,4,7,Ep. 7,43,Phi Phi O'Hara,WIN
+S4E 7,4,7,Ep. 7,40,Latrice Royale,LOW
+S4E 7,4,7,Ep. 7,38,Kenya Michaels,
+S4E 7,4,7,Ep. 7,36,DiDa Ritz,SAFE
+S4E 7,4,7,Ep. 7,46,Willam,BTM
+S4E 7,4,7,Ep. 7,37,Jiggly Caliente,ELIM
+S4E 7,4,7,Ep. 7,42,Milan,
+S4E 7,4,7,Ep. 7,41,Madame LaQueer,
+S4E 7,4,7,Ep. 7,45,The Princess,
+S4E 7,4,7,Ep. 7,39,Lashauwn Beyond,
+S4E 7,4,7,Ep. 7,34,Alisa Summers,
+S6E 7,6,7,Ep. 7,64,Bianca Del Rio,HIGH
+S6E 7,6,7,Ep. 7,61,Adore Delano,WIN
+S6E 7,6,7,Ep. 7,65,Courtney Act,LOW
+S6E 7,6,7,Ep. 7,66,Darienne Lake,BTM
+S6E 7,6,7,Ep. 7,63,BenDeLaCreme,BTM
+S6E 7,6,7,Ep. 7,68,Joslyn Fox,LOW
+S6E 7,6,7,Ep. 7,73,Trinity K. Bonet,HIGH
+S6E 7,6,7,Ep. 7,70,Laganja Estranja,WIN
+S6E 7,6,7,Ep. 7,72,Milk,
+S6E 7,6,7,Ep. 7,67,Gia Gunn,
+S6E 7,6,7,Ep. 7,62,April Carrión,
+S6E 7,6,7,Ep. 7,74,Vivacious,
+S6E 7,6,7,Ep. 7,71,Magnolia Crawford,
+S6E 7,6,7,Ep. 7,69,Kelly Mantle,
+S8E 7,8,7,Ep. 7,90,Bob the Drag Queen,WIN
+S8E 7,8,7,Ep. 7,95,Kim Chi,LOW
+S8E 7,8,7,Ep. 7,97,Naomi Smalls,HIGH
+S8E 7,8,7,Ep. 7,91,Chi Chi DeVayne ,BTM
+S8E 7,8,7,Ep. 7,94,Derrick Barry,WIN
+S8E 7,8,7,Ep. 7,100,Thorgy Thor,ELIM
+S8E 7,8,7,Ep. 7,99,Robbie Turner,
+S8E 7,8,7,Ep. 7,89,Acid Betty,
+S8E 7,8,7,Ep. 7,98,Naysha Lopez,
+S8E 7,8,7,Ep. 7,92,Cynthia Lee Fontaine,
+S8E 7,8,7,Ep. 7,93,Dax ExclamationPoint,
+S8E 7,8,7,Ep. 7,96,Laila McQueen,
+S9E 7,9,7,Ep. 7,110,Sasha Velour,LOW
+S9E 7,9,7,Ep. 7,109,Peppermint,SAFE
+S9E 7,9,7,Ep. 7,111,Shea Couleé,HIGH
+S9E 7,9,7,Ep. 7,112,Trinity Taylor,WIN
+S9E 7,9,7,Ep. 7,102,Alexis Michelle,SAFE
+S9E 7,9,7,Ep. 7,108,Nina Bo'nina Brown,BTM
+S9E 7,9,7,Ep. 7,113,Valentina,HIGH
+S9E 7,9,7,Ep. 7,105,Farrah Moan,SAFE
+S9E 7,9,7,Ep. 7,101,Aja,ELIM
+S9E 7,9,7,Ep. 7,92,Cynthia Lee Fontaine,
+S9E 7,9,7,Ep. 7,104,Eureka,
+S9E 7,9,7,Ep. 7,103,Charlie Hides,
+S9E 7,9,7,Ep. 7,107,Kimora Blac,
+S9E 7,9,7,Ep. 7,106,Jaymes Mansfield,
+S11E 7,11,7,Ep. 7,140,Yvie Oddly,HIGH
+S11E 7,11,7,Ep. 7,129,Brooke Lynn Hytes,HIGH
+S11E 7,11,7,Ep. 7,127,A'keria C. Davenport,BTM
+S11E 7,11,7,Ep. 7,138,Silky Nutmeg Ganache,SAFE
+S11E 7,11,7,Ep. 7,125,Vanessa Vanjie Mateo,SAFE
+S11E 7,11,7,Ep. 7,133,Nina West,LOW
+S11E 7,11,7,Ep. 7,137,Shuga Cain,SAFE
+S11E 7,11,7,Ep. 7,134,Plastique Tiara,WIN
+S11E 7,11,7,Ep. 7,135,Ra'Jah O'Hara,ELIM
+S11E 7,11,7,Ep. 7,136,Scarlet Envy,
+S11E 7,11,7,Ep. 7,128,Ariel Versace,
+S11E 7,11,7,Ep. 7,132,Mercedes Iman Diamond,
+S11E 7,11,7,Ep. 7,130,Honey Davenport,
+S11E 7,11,7,Ep. 7,131,Kahanna Montrese,
+S11E 7,11,7,Ep. 7,139,Soju,
+S13E 7,13,7,Ep. 7,163,Symone,HIGH
+S13E 7,13,7,Ep. 7,159,Kandy Muse,HIGH
+S13E 7,13,7,Ep. 7,156,Gottmik,SAFE
+S13E 7,13,7,Ep. 7,162,Rosé,SAFE
+S13E 7,13,7,Ep. 7,161,Olivia Lux,WIN
+S13E 7,13,7,Ep. 7,166,Utica Queen,LOW
+S13E 7,13,7,Ep. 7,165,Tina Burner,SAFE
+S13E 7,13,7,Ep. 7,154,Denali,SAFE
+S13E 7,13,7,Ep. 7,155,Elliott with 2 Ts,BTM
+S13E 7,13,7,Ep. 7,160,LaLa Ri,ELIM
+S13E 7,13,7,Ep. 7,164,Tamisha Iman,
+S13E 7,13,7,Ep. 7,157,Joey Jay,
+S13E 7,13,7,Ep. 7,158,Kahmora Hall,
+S3E 8,3,8,Ep. 8,30,Raja,HIGH
+S3E 8,3,8,Ep. 8,26,Manila Luzon,BTM
+S3E 8,3,8,Ep. 8,22,Alexis Mateo,LOW
+S3E 8,3,8,Ep. 8,33,Yara Sofia,HIGH
+S3E 8,3,8,Ep. 8,23,Carmen Carrera,HIGH
+S3E 8,3,8,Ep. 8,18,Shangela,WIN
+S3E 8,3,8,Ep. 8,24,Delta Work,ELIM
+S3E 8,3,8,Ep. 8,31,Stacy Layne Matthews,
+S3E 8,3,8,Ep. 8,27,Mariah,
+S3E 8,3,8,Ep. 8,25,India Ferrah,
+S3E 8,3,8,Ep. 8,28,Mimi Imfurst,
+S3E 8,3,8,Ep. 8,29,Phoenix,
+S3E 8,3,8,Ep. 8,32,Venus D-Lite,
+S4E 8,4,8,Ep. 8,44,Sharon Needles,BTM
+S4E 8,4,8,Ep. 8,35,Chad Michaels,SAFE
+S4E 8,4,8,Ep. 8,43,Phi Phi O'Hara,BTM
+S4E 8,4,8,Ep. 8,40,Latrice Royale,WIN
+S4E 8,4,8,Ep. 8,38,Kenya Michaels,
+S4E 8,4,8,Ep. 8,36,DiDa Ritz,SAFE
+S4E 8,4,8,Ep. 8,46,Willam,DISQ
+S4E 8,4,8,Ep. 8,37,Jiggly Caliente,
+S4E 8,4,8,Ep. 8,42,Milan,
+S4E 8,4,8,Ep. 8,41,Madame LaQueer,
+S4E 8,4,8,Ep. 8,45,The Princess,
+S4E 8,4,8,Ep. 8,39,Lashauwn Beyond,
+S4E 8,4,8,Ep. 8,34,Alisa Summers,
+S5E 8,5,8,Ep. 8,54,Jinkx Monsoon,HIGH
+S5E 8,5,8,Ep. 8,47,Alaska,WIN
+S5E 8,5,8,Ep. 8,58,Roxxxy Andrews,LOW
+S5E 8,5,8,Ep. 8,50,Detox,HIGH
+S5E 8,5,8,Ep. 8,49,Coco Montrese,LOW
+S5E 8,5,8,Ep. 8,48,Alyssa Edwards,BTM
+S5E 8,5,8,Ep. 8,52,Ivy Winters,ELIM
+S5E 8,5,8,Ep. 8,53,Jade Jolie,
+S5E 8,5,8,Ep. 8,55,Lineysha Sparx,
+S5E 8,5,8,Ep. 8,51,Honey Mahogany,
+S5E 8,5,8,Ep. 8,60,Vivienne Pinay,
+S5E 8,5,8,Ep. 8,56,Monica Beverly Hillz,
+S5E 8,5,8,Ep. 8,59,Serena ChaCha,
+S5E 8,5,8,Ep. 8,57,Penny Tration,
+S6E 8,6,8,Ep. 8,64,Bianca Del Rio,WIN
+S6E 8,6,8,Ep. 8,61,Adore Delano,SAFE
+S6E 8,6,8,Ep. 8,65,Courtney Act,SAFE
+S6E 8,6,8,Ep. 8,66,Darienne Lake,HIGH
+S6E 8,6,8,Ep. 8,63,BenDeLaCreme,LOW
+S6E 8,6,8,Ep. 8,68,Joslyn Fox,BTM
+S6E 8,6,8,Ep. 8,73,Trinity K. Bonet,HIGH
+S6E 8,6,8,Ep. 8,70,Laganja Estranja,ELIM
+S6E 8,6,8,Ep. 8,72,Milk,
+S6E 8,6,8,Ep. 8,67,Gia Gunn,
+S6E 8,6,8,Ep. 8,62,April Carrión,
+S6E 8,6,8,Ep. 8,74,Vivacious,
+S6E 8,6,8,Ep. 8,71,Magnolia Crawford,
+S6E 8,6,8,Ep. 8,69,Kelly Mantle,
+S12E 8,12,8,Ep. 8,148,Jaida Essence Hall,HIGH
+S12E 8,12,8,Ep. 8,143,Crystal Methyd,HIGH
+S12E 8,12,8,Ep. 8,145,Gigi Goode,LOW
+S12E 8,12,8,Ep. 8,152,Sherry Pie,LOW
+S12E 8,12,8,Ep. 8,147,Jackie Cox,HIGH
+S12E 8,12,8,Ep. 8,146,Heidi N Closet,WIN
+S12E 8,12,8,Ep. 8,153,Widow Von'Du,BTM
+S12E 8,12,8,Ep. 8,149,Jan,ELIM
+S12E 8,12,8,Ep. 8,142,Brita,
+S12E 8,12,8,Ep. 8,141,Aiden Zhane,
+S12E 8,12,8,Ep. 8,150,Nicky Doll,
+S12E 8,12,8,Ep. 8,151,Rock M. Sakura,
+S12E 8,12,8,Ep. 8,144,Dahlia Sin,
+S3E 9,3,9,Ep. 9,30,Raja,LOW
+S3E 9,3,9,Ep. 9,26,Manila Luzon,LOW
+S3E 9,3,9,Ep. 9,22,Alexis Mateo,WIN
+S3E 9,3,9,Ep. 9,33,Yara Sofia,BTM
+S3E 9,3,9,Ep. 9,23,Carmen Carrera,BTM
+S3E 9,3,9,Ep. 9,18,Shangela,HIGH
+S3E 9,3,9,Ep. 9,24,Delta Work,
+S3E 9,3,9,Ep. 9,31,Stacy Layne Matthews,
+S3E 9,3,9,Ep. 9,27,Mariah,
+S3E 9,3,9,Ep. 9,25,India Ferrah,
+S3E 9,3,9,Ep. 9,28,Mimi Imfurst,
+S3E 9,3,9,Ep. 9,29,Phoenix,
+S3E 9,3,9,Ep. 9,32,Venus D-Lite,
+S4E 9,4,9,Ep. 9,44,Sharon Needles,WIN
+S4E 9,4,9,Ep. 9,35,Chad Michaels,HIGH
+S4E 9,4,9,Ep. 9,43,Phi Phi O'Hara,LOW
+S4E 9,4,9,Ep. 9,40,Latrice Royale,BTM
+S4E 9,4,9,Ep. 9,38,Kenya Michaels,
+S4E 9,4,9,Ep. 9,36,DiDa Ritz,ELIM
+S4E 9,4,9,Ep. 9,46,Willam,
+S4E 9,4,9,Ep. 9,37,Jiggly Caliente,
+S4E 9,4,9,Ep. 9,42,Milan,
+S4E 9,4,9,Ep. 9,41,Madame LaQueer,
+S4E 9,4,9,Ep. 9,45,The Princess,
+S4E 9,4,9,Ep. 9,39,Lashauwn Beyond,
+S4E 9,4,9,Ep. 9,34,Alisa Summers,
+S5E 9,5,9,Ep. 9,54,Jinkx Monsoon,WIN
+S5E 9,5,9,Ep. 9,47,Alaska,HIGH
+S5E 9,5,9,Ep. 9,58,Roxxxy Andrews,HIGH
+S5E 9,5,9,Ep. 9,50,Detox,LOW
+S5E 9,5,9,Ep. 9,49,Coco Montrese,BTM
+S5E 9,5,9,Ep. 9,48,Alyssa Edwards,ELIM
+S5E 9,5,9,Ep. 9,52,Ivy Winters,
+S5E 9,5,9,Ep. 9,53,Jade Jolie,
+S5E 9,5,9,Ep. 9,55,Lineysha Sparx,
+S5E 9,5,9,Ep. 9,51,Honey Mahogany,
+S5E 9,5,9,Ep. 9,60,Vivienne Pinay,
+S5E 9,5,9,Ep. 9,56,Monica Beverly Hillz,
+S5E 9,5,9,Ep. 9,59,Serena ChaCha,
+S5E 9,5,9,Ep. 9,57,Penny Tration,
+S6E 9,6,9,Ep. 9,64,Bianca Del Rio,SAFE
+S6E 9,6,9,Ep. 9,61,Adore Delano,BTM
+S6E 9,6,9,Ep. 9,65,Courtney Act,WIN
+S6E 9,6,9,Ep. 9,66,Darienne Lake,SAFE
+S6E 9,6,9,Ep. 9,63,BenDeLaCreme,HIGH
+S6E 9,6,9,Ep. 9,68,Joslyn Fox,LOW
+S6E 9,6,9,Ep. 9,73,Trinity K. Bonet,ELIM
+S6E 9,6,9,Ep. 9,70,Laganja Estranja,
+S6E 9,6,9,Ep. 9,72,Milk,
+S6E 9,6,9,Ep. 9,67,Gia Gunn,
+S6E 9,6,9,Ep. 9,62,April Carrión,
+S6E 9,6,9,Ep. 9,74,Vivacious,
+S6E 9,6,9,Ep. 9,71,Magnolia Crawford,
+S6E 9,6,9,Ep. 9,69,Kelly Mantle,
+S7E 9,7,9,Ep. 9,88,Violet Chachki,LOW
+S7E 9,7,9,Ep. 9,75,Ginger Minj,WIN
+S7E 9,7,9,Ep. 9,84,Pearl,BTM
+S7E 9,7,9,Ep. 9,80,Kennedy Davenport,HIGH
+S7E 9,7,9,Ep. 9,79,Katya,HIGH
+S7E 9,7,9,Ep. 9,87,Trixie Mattel,HIGH
+S7E 9,7,9,Ep. 9,82,Miss Fame,ELIM
+S7E 9,7,9,Ep. 9,76,Jaidynn Diore Fierce,
+S7E 9,7,9,Ep. 9,81,Max,
+S7E 9,7,9,Ep. 9,78,Kandy Ho,
+S7E 9,7,9,Ep. 9,83,Mrs. Kasha Davis,
+S7E 9,7,9,Ep. 9,77,Jasmine Masters,
+S7E 9,7,9,Ep. 9,85,Sasha Belle,
+S7E 9,7,9,Ep. 9,86,Tempest DuJour,
+S8E 9,8,9,Ep. 9,90,Bob the Drag Queen,TOP
+S8E 9,8,9,Ep. 9,95,Kim Chi,TOP
+S8E 9,8,9,Ep. 9,97,Naomi Smalls,TOP
+S8E 9,8,9,Ep. 9,91,Chi Chi DeVayne ,ELIM
+S8E 9,8,9,Ep. 9,94,Derrick Barry,
+S8E 9,8,9,Ep. 9,100,Thorgy Thor,
+S8E 9,8,9,Ep. 9,99,Robbie Turner,
+S8E 9,8,9,Ep. 9,89,Acid Betty,
+S8E 9,8,9,Ep. 9,98,Naysha Lopez,
+S8E 9,8,9,Ep. 9,92,Cynthia Lee Fontaine,
+S8E 9,8,9,Ep. 9,93,Dax ExclamationPoint,
+S8E 9,8,9,Ep. 9,96,Laila McQueen,
+S9E 9,9,9,Ep. 9,110,Sasha Velour,WIN
+S9E 9,9,9,Ep. 9,109,Peppermint,HIGH
+S9E 9,9,9,Ep. 9,111,Shea Couleé,WIN
+S9E 9,9,9,Ep. 9,112,Trinity Taylor,HIGH
+S9E 9,9,9,Ep. 9,102,Alexis Michelle,LOW
+S9E 9,9,9,Ep. 9,108,Nina Bo'nina Brown,BTM
+S9E 9,9,9,Ep. 9,113,Valentina,ELIM
+S9E 9,9,9,Ep. 9,105,Farrah Moan,
+S9E 9,9,9,Ep. 9,101,Aja,
+S9E 9,9,9,Ep. 9,92,Cynthia Lee Fontaine,
+S9E 9,9,9,Ep. 9,104,Eureka,
+S9E 9,9,9,Ep. 9,103,Charlie Hides,
+S9E 9,9,9,Ep. 9,107,Kimora Blac,
+S9E 9,9,9,Ep. 9,106,Jaymes Mansfield,
+S10E 9,10,9,Ep. 9,114,Aquaria,HIGH
+S10E 9,10,9,Ep. 9,104,Eureka,BTM
+S10E 9,10,9,Ep. 9,119,Kameron Michaels,BTM
+S10E 9,10,9,Ep. 9,115,Asia O'Hara,WIN
+S10E 9,10,9,Ep. 9,121,Miz Cracker,LOW
+S10E 9,10,9,Ep. 9,123,Monét X Change,HIGH
+S10E 9,10,9,Ep. 9,124,The Vixen,
+S10E 9,10,9,Ep. 9,122,Monique Heart,
+S10E 9,10,9,Ep. 9,116,Blair St. Clair,
+S10E 9,10,9,Ep. 9,120,Mayhem Miller,
+S10E 9,10,9,Ep. 9,117,Dusty Ray Bottoms,
+S10E 9,10,9,Ep. 9,126,Yuhua Hamasaki,
+S10E 9,10,9,Ep. 9,118,Kalorie Karbdashian Williams,
+S10E 9,10,9,Ep. 9,125,Vanessa Vanjie Mateo,
+S11E 9,11,9,Ep. 9,140,Yvie Oddly,SAFE
+S11E 9,11,9,Ep. 9,129,Brooke Lynn Hytes,HIGH
+S11E 9,11,9,Ep. 9,127,A'keria C. Davenport,WIN
+S11E 9,11,9,Ep. 9,138,Silky Nutmeg Ganache,HIGH
+S11E 9,11,9,Ep. 9,125,Vanessa Vanjie Mateo,BTM
+S11E 9,11,9,Ep. 9,133,Nina West,SAFE
+S11E 9,11,9,Ep. 9,137,Shuga Cain,LOW
+S11E 9,11,9,Ep. 9,134,Plastique Tiara,ELIM
+S11E 9,11,9,Ep. 9,135,Ra'Jah O'Hara,
+S11E 9,11,9,Ep. 9,136,Scarlet Envy,
+S11E 9,11,9,Ep. 9,128,Ariel Versace,
+S11E 9,11,9,Ep. 9,132,Mercedes Iman Diamond,
+S11E 9,11,9,Ep. 9,130,Honey Davenport,
+S11E 9,11,9,Ep. 9,131,Kahanna Montrese,
+S11E 9,11,9,Ep. 9,139,Soju,
+S12E 9,12,9,Ep. 9,148,Jaida Essence Hall,WIN
+S12E 9,12,9,Ep. 9,143,Crystal Methyd,HIGH
+S12E 9,12,9,Ep. 9,145,Gigi Goode,LOW
+S12E 9,12,9,Ep. 9,152,Sherry Pie,SAFE
+S12E 9,12,9,Ep. 9,147,Jackie Cox,BTM
+S12E 9,12,9,Ep. 9,146,Heidi N Closet,HIGH
+S12E 9,12,9,Ep. 9,153,Widow Von'Du,ELIM
+S12E 9,12,9,Ep. 9,149,Jan,
+S12E 9,12,9,Ep. 9,142,Brita,
+S12E 9,12,9,Ep. 9,141,Aiden Zhane,
+S12E 9,12,9,Ep. 9,150,Nicky Doll,
+S12E 9,12,9,Ep. 9,151,Rock M. Sakura,
+S12E 9,12,9,Ep. 9,144,Dahlia Sin,
+S3E10,3,10,Ep.10,30,Raja,WIN
+S3E10,3,10,Ep.10,26,Manila Luzon,HIGH
+S3E10,3,10,Ep.10,22,Alexis Mateo,LOW
+S3E10,3,10,Ep.10,33,Yara Sofia,HIGH
+S3E10,3,10,Ep.10,23,Carmen Carrera,ELIM
+S3E10,3,10,Ep.10,18,Shangela,BTM
+S3E10,3,10,Ep.10,24,Delta Work,
+S3E10,3,10,Ep.10,31,Stacy Layne Matthews,
+S3E10,3,10,Ep.10,27,Mariah,
+S3E10,3,10,Ep.10,25,India Ferrah,
+S3E10,3,10,Ep.10,28,Mimi Imfurst,
+S3E10,3,10,Ep.10,29,Phoenix,
+S3E10,3,10,Ep.10,32,Venus D-Lite,
+S10E11,10,11,Ep.11,114,Aquaria,WIN
+S10E11,10,11,Ep.11,104,Eureka,HIGH
+S10E11,10,11,Ep.11,119,Kameron Michaels,BTM
+S10E11,10,11,Ep.11,115,Asia O'Hara,HIGH
+S10E11,10,11,Ep.11,121,Miz Cracker,ELIM
+S10E11,10,11,Ep.11,123,Monét X Change,
+S10E11,10,11,Ep.11,124,The Vixen,
+S10E11,10,11,Ep.11,122,Monique Heart,
+S10E11,10,11,Ep.11,116,Blair St. Clair,
+S10E11,10,11,Ep.11,120,Mayhem Miller,
+S10E11,10,11,Ep.11,117,Dusty Ray Bottoms,
+S10E11,10,11,Ep.11,126,Yuhua Hamasaki,
+S10E11,10,11,Ep.11,118,Kalorie Karbdashian Williams,
+S10E11,10,11,Ep.11,125,Vanessa Vanjie Mateo,
+S1E 8,1,8,Finale,2,BeBe Zahara Benet,WIN
+S1E 8,1,8,Finale,4,Nina Flowers,RUN
+S1E 8,1,8,Finale,6,Rebecca Glasscock,ELIM
+S1E 8,1,8,Finale,7,Shannel,
+S1E 8,1,8,Finale,5,Ongina,
+S1E 8,1,8,Finale,3,Jade,
+S1E 8,1,8,Finale,1,Akashia,
+S1E 8,1,8,Finale,8,Tammie Brown,
+S1E 8,1,8,Finale,9,"Victoria ""Porkchop"" Parker",
+S2E 11,2,11,Finale,21,Tyra Sanchez,WIN
+S2E 11,2,11,Finale,16,Raven,RUN
+S2E 11,2,11,Finale,11,Jujubee,ELIM
+S2E 11,2,11,Finale,20,Tatianna,
+S2E 11,2,11,Finale,15,Pandora Boxx,
+S2E 11,2,11,Finale,10,Jessica Wild,
+S2E 11,2,11,Finale,17,Sahara Davenport ,
+S2E 11,2,11,Finale,12,Morgan McMichaels,
+S2E 11,2,11,Finale,19,Sonique,
+S2E 11,2,11,Finale,13,Mystique Summers Madison,
+S2E 11,2,11,Finale,14,Nicole Paige Brooks,
+S2E 11,2,11,Finale,18,Shangela,
+S3E 15,3,15,Finale,30,Raja,WIN
+S3E 15,3,15,Finale,26,Manila Luzon,RUN
+S3E 15,3,15,Finale,22,Alexis Mateo,ELIM
+S3E 15,3,15,Finale,33,Yara Sofia,
+S3E 15,3,15,Finale,23,Carmen Carrera,
+S3E 15,3,15,Finale,18,Shangela,
+S3E 15,3,15,Finale,24,Delta Work,
+S3E 15,3,15,Finale,31,Stacy Layne Matthews,
+S3E 15,3,15,Finale,27,Mariah,
+S3E 15,3,15,Finale,25,India Ferrah,
+S3E 15,3,15,Finale,28,Mimi Imfurst,
+S3E 15,3,15,Finale,29,Phoenix,
+S3E 15,3,15,Finale,32,Venus D-Lite,
+S13E 2,13,2,GirlGroups,163,Symone,WIN
+S13E 3,13,3,GirlGroups,163,Symone,
+S13E 2,13,2,GirlGroups,159,Kandy Muse,LOW
+S13E 3,13,3,GirlGroups,159,Kandy Muse,
+S13E 2,13,2,GirlGroups,156,Gottmik,LOW
+S13E 3,13,3,GirlGroups,156,Gottmik,
+S13E 2,13,2,GirlGroups,162,Rosé,
+S13E 3,13,3,GirlGroups,162,Rosé,TOP
+S13E 2,13,2,GirlGroups,161,Olivia Lux,TOP
+S13E 3,13,3,GirlGroups,161,Olivia Lux,
+S13E 2,13,2,GirlGroups,166,Utica Queen,
+S13E 3,13,3,GirlGroups,166,Utica Queen,HIGH
+S13E 2,13,2,GirlGroups,165,Tina Burner,HIGH
+S13E 3,13,3,GirlGroups,165,Tina Burner,
+S13E 2,13,2,GirlGroups,154,Denali,
+S13E 3,13,3,GirlGroups,154,Denali,WIN
+S13E 2,13,2,GirlGroups,155,Elliott with 2 Ts,HIGH
+S13E 3,13,3,GirlGroups,155,Elliott with 2 Ts,
+S13E 2,13,2,GirlGroups,160,LaLa Ri,HIGH
+S13E 3,13,3,GirlGroups,160,LaLa Ri,
+S13E 2,13,2,GirlGroups,164,Tamisha Iman,
+S13E 3,13,3,GirlGroups,164,Tamisha Iman,HIGH
+S13E 2,13,2,GirlGroups,157,Joey Jay,
+S13E 3,13,3,GirlGroups,157,Joey Jay,LOW
+S13E 2,13,2,GirlGroups,158,Kahmora Hall,
+S13E 3,13,3,GirlGroups,158,Kahmora Hall,LOW
+S4E 14,4,14,Grand Finale,44,Sharon Needles,WIN
+S4E 14,4,14,Grand Finale,35,Chad Michaels,RUN
+S4E 14,4,14,Grand Finale,43,Phi Phi O'Hara,RUN
+S4E 14,4,14,Grand Finale,40,Latrice Royale,MISS CON
+S4E 14,4,14,Grand Finale,38,Kenya Michaels,GUEST
+S4E 14,4,14,Grand Finale,36,DiDa Ritz,GUEST
+S4E 14,4,14,Grand Finale,46,Willam,GUEST
+S4E 14,4,14,Grand Finale,37,Jiggly Caliente,GUEST
+S4E 14,4,14,Grand Finale,42,Milan,GUEST
+S4E 14,4,14,Grand Finale,41,Madame LaQueer,GUEST
+S4E 14,4,14,Grand Finale,45,The Princess,GUEST
+S4E 14,4,14,Grand Finale,39,Lashauwn Beyond,GUEST
+S4E 14,4,14,Grand Finale,34,Alisa Summers,GUEST
+S5E 14,5,14,Grand Finale,54,Jinkx Monsoon,WIN
+S5E 14,5,14,Grand Finale,47,Alaska,RUN
+S5E 14,5,14,Grand Finale,58,Roxxxy Andrews,RUN
+S5E 14,5,14,Grand Finale,50,Detox,GUEST
+S5E 14,5,14,Grand Finale,49,Coco Montrese,GUEST
+S5E 14,5,14,Grand Finale,48,Alyssa Edwards,GUEST
+S5E 14,5,14,Grand Finale,52,Ivy Winters,MISS CON
+S5E 14,5,14,Grand Finale,53,Jade Jolie,GUEST
+S5E 14,5,14,Grand Finale,55,Lineysha Sparx,GUEST
+S5E 14,5,14,Grand Finale,51,Honey Mahogany,GUEST
+S5E 14,5,14,Grand Finale,60,Vivienne Pinay,GUEST
+S5E 14,5,14,Grand Finale,56,Monica Beverly Hillz,GUEST
+S5E 14,5,14,Grand Finale,59,Serena ChaCha,GUEST
+S5E 14,5,14,Grand Finale,57,Penny Tration,GUEST
+S6E 14,6,14,Grand Finale,64,Bianca Del Rio,WIN
+S6E 14,6,14,Grand Finale,61,Adore Delano,RUN
+S6E 14,6,14,Grand Finale,65,Courtney Act,RUN
+S6E 14,6,14,Grand Finale,66,Darienne Lake,GUEST
+S6E 14,6,14,Grand Finale,63,BenDeLaCreme,MISS CON
+S6E 14,6,14,Grand Finale,68,Joslyn Fox,GUEST
+S6E 14,6,14,Grand Finale,73,Trinity K. Bonet,GUEST
+S6E 14,6,14,Grand Finale,70,Laganja Estranja,GUEST
+S6E 14,6,14,Grand Finale,72,Milk,GUEST
+S6E 14,6,14,Grand Finale,67,Gia Gunn,GUEST
+S6E 14,6,14,Grand Finale,62,April Carrión,GUEST
+S6E 14,6,14,Grand Finale,74,Vivacious,GUEST
+S6E 14,6,14,Grand Finale,71,Magnolia Crawford,GUEST
+S6E 14,6,14,Grand Finale,69,Kelly Mantle,GUEST
+S7E 14,7,14,Grand Finale,88,Violet Chachki,WIN
+S7E 14,7,14,Grand Finale,75,Ginger Minj,RUN
+S7E 14,7,14,Grand Finale,84,Pearl,RUN
+S7E 14,7,14,Grand Finale,80,Kennedy Davenport,GUEST
+S7E 14,7,14,Grand Finale,79,Katya,MISS CON
+S7E 14,7,14,Grand Finale,87,Trixie Mattel,GUEST
+S7E 14,7,14,Grand Finale,82,Miss Fame,GUEST
+S7E 14,7,14,Grand Finale,76,Jaidynn Diore Fierce,GUEST
+S7E 14,7,14,Grand Finale,81,Max,GUEST
+S7E 14,7,14,Grand Finale,78,Kandy Ho,GUEST
+S7E 14,7,14,Grand Finale,83,Mrs. Kasha Davis,GUEST
+S7E 14,7,14,Grand Finale,77,Jasmine Masters,GUEST
+S7E 14,7,14,Grand Finale,85,Sasha Belle,GUEST
+S7E 14,7,14,Grand Finale,86,Tempest DuJour,GUEST
+S8E 10,8,10,Grand Finale,90,Bob the Drag Queen,WIN
+S8E 10,8,10,Grand Finale,95,Kim Chi,RUN
+S8E 10,8,10,Grand Finale,97,Naomi Smalls,RUN
+S8E 10,8,10,Grand Finale,91,Chi Chi DeVayne ,GUEST
+S8E 10,8,10,Grand Finale,94,Derrick Barry,GUEST
+S8E 10,8,10,Grand Finale,100,Thorgy Thor,GUEST
+S8E 10,8,10,Grand Finale,99,Robbie Turner,GUEST
+S8E 10,8,10,Grand Finale,89,Acid Betty,GUEST
+S8E 10,8,10,Grand Finale,98,Naysha Lopez,GUEST
+S8E 10,8,10,Grand Finale,92,Cynthia Lee Fontaine,MISS CON
+S8E 10,8,10,Grand Finale,93,Dax ExclamationPoint,GUEST
+S8E 10,8,10,Grand Finale,96,Laila McQueen,GUEST
+S9E 14,9,14,Grand Finale,110,Sasha Velour,WIN
+S9E 14,9,14,Grand Finale,109,Peppermint,ELIM
+S9E 14,9,14,Grand Finale,111,Shea Couleé,ELIM
+S9E 14,9,14,Grand Finale,112,Trinity Taylor,ELIM
+S9E 14,9,14,Grand Finale,102,Alexis Michelle,GUEST
+S9E 14,9,14,Grand Finale,108,Nina Bo'nina Brown,GUEST
+S9E 14,9,14,Grand Finale,113,Valentina,GUEST
+S9E 14,9,14,Grand Finale,105,Farrah Moan,GUEST
+S9E 14,9,14,Grand Finale,101,Aja,GUEST
+S9E 14,9,14,Grand Finale,92,Cynthia Lee Fontaine,GUEST
+S9E 14,9,14,Grand Finale,104,Eureka,GUEST
+S9E 14,9,14,Grand Finale,103,Charlie Hides,GUEST
+S9E 14,9,14,Grand Finale,107,Kimora Blac,GUEST
+S9E 14,9,14,Grand Finale,106,Jaymes Mansfield,GUEST
+S10E14,10,14,Grand Finale,114,Aquaria,WIN
+S10E14,10,14,Grand Finale,104,Eureka,ELIM
+S10E14,10,14,Grand Finale,119,Kameron Michaels,ELIM
+S10E14,10,14,Grand Finale,115,Asia O'Hara,ELIM
+S10E14,10,14,Grand Finale,121,Miz Cracker,GUEST
+S10E14,10,14,Grand Finale,123,Monét X Change,MISS CON
+S10E14,10,14,Grand Finale,124,The Vixen,GUEST
+S10E14,10,14,Grand Finale,122,Monique Heart,GUEST
+S10E14,10,14,Grand Finale,116,Blair St. Clair,GUEST
+S10E14,10,14,Grand Finale,120,Mayhem Miller,GUEST
+S10E14,10,14,Grand Finale,117,Dusty Ray Bottoms,GUEST
+S10E14,10,14,Grand Finale,126,Yuhua Hamasaki,GUEST
+S10E14,10,14,Grand Finale,118,Kalorie Karbdashian Williams,GUEST
+S10E14,10,14,Grand Finale,125,Vanessa Vanjie Mateo,GUEST
+S11E 14,11,14,Grand Finale,140,Yvie Oddly,WIN
+S11E 14,11,14,Grand Finale,129,Brooke Lynn Hytes,ELIM
+S11E 14,11,14,Grand Finale,127,A'keria C. Davenport,ELIM
+S11E 14,11,14,Grand Finale,138,Silky Nutmeg Ganache,ELIM
+S11E 14,11,14,Grand Finale,125,Vanessa Vanjie Mateo,GUEST
+S11E 14,11,14,Grand Finale,133,Nina West,MISS CON
+S11E 14,11,14,Grand Finale,137,Shuga Cain,GUEST
+S11E 14,11,14,Grand Finale,134,Plastique Tiara,GUEST
+S11E 14,11,14,Grand Finale,135,Ra'Jah O'Hara,GUEST
+S11E 14,11,14,Grand Finale,136,Scarlet Envy,GUEST
+S11E 14,11,14,Grand Finale,128,Ariel Versace,GUEST
+S11E 14,11,14,Grand Finale,132,Mercedes Iman Diamond,GUEST
+S11E 14,11,14,Grand Finale,130,Honey Davenport,GUEST
+S11E 14,11,14,Grand Finale,131,Kahanna Montrese,GUEST
+S11E 14,11,14,Grand Finale,139,Soju,GUEST
+S12E 14,12,14,GrandFinale,148,Jaida Essence Hall,WIN
+S12E 14,12,14,GrandFinale,143,Crystal Methyd,RUN
+S12E 14,12,14,GrandFinale,145,Gigi Goode,RUN
+S12E 14,12,14,GrandFinale,152,Sherry Pie,
+S12E 14,12,14,GrandFinale,147,Jackie Cox,GUEST
+S12E 14,12,14,GrandFinale,146,Heidi N Closet,MISS CON
+S12E 14,12,14,GrandFinale,153,Widow Von'Du,GUEST
+S12E 14,12,14,GrandFinale,149,Jan,GUEST
+S12E 14,12,14,GrandFinale,142,Brita,GUEST
+S12E 14,12,14,GrandFinale,141,Aiden Zhane,GUEST
+S12E 14,12,14,GrandFinale,150,Nicky Doll,GUEST
+S12E 14,12,14,GrandFinale,151,Rock M. Sakura,GUEST
+S12E 14,12,14,GrandFinale,144,Dahlia Sin,GUEST
+S13E 16,13,16,GrandFinale,163,Symone,WIN
+S13E 16,13,16,GrandFinale,159,Kandy Muse,ELIM
+S13E 16,13,16,GrandFinale,156,Gottmik,ELIM
+S13E 16,13,16,GrandFinale,162,Rosé,ELIM
+S13E 16,13,16,GrandFinale,161,Olivia Lux,GUEST
+S13E 16,13,16,GrandFinale,166,Utica Queen,GUEST
+S13E 16,13,16,GrandFinale,165,Tina Burner,GUEST
+S13E 16,13,16,GrandFinale,154,Denali,GUEST
+S13E 16,13,16,GrandFinale,155,Elliott with 2 Ts,GUEST
+S13E 16,13,16,GrandFinale,160,LaLa Ri,MISS CON
+S13E 16,13,16,GrandFinale,164,Tamisha Iman,GUEST
+S13E 16,13,16,GrandFinale,157,Joey Jay,GUEST
+S13E 16,13,16,GrandFinale,158,Kahmora Hall,GUEST
+S3E12,3,12,Make Over,30,Raja,BTM
+S3E12,3,12,Make Over,26,Manila Luzon,WIN
+S3E12,3,12,Make Over,22,Alexis Mateo,HIGH
+S3E12,3,12,Make Over,33,Yara Sofia,HIGH
+S3E12,3,12,Make Over,23,Carmen Carrera,ELIM
+S3E12,3,12,Make Over,18,Shangela,
+S3E12,3,12,Make Over,24,Delta Work,
+S3E12,3,12,Make Over,31,Stacy Layne Matthews,
+S3E12,3,12,Make Over,27,Mariah,
+S3E12,3,12,Make Over,25,India Ferrah,
+S3E12,3,12,Make Over,28,Mimi Imfurst,
+S3E12,3,12,Make Over,29,Phoenix,
+S3E12,3,12,Make Over,32,Venus D-Lite,
+S5E10,5,10,Make Over,54,Jinkx Monsoon,HIGH
+S5E10,5,10,Make Over,47,Alaska,LOW
+S5E10,5,10,Make Over,58,Roxxxy Andrews,WIN
+S5E10,5,10,Make Over,50,Detox,BTM
+S5E10,5,10,Make Over,49,Coco Montrese,ELIM
+S5E10,5,10,Make Over,48,Alyssa Edwards,
+S5E10,5,10,Make Over,52,Ivy Winters,
+S5E10,5,10,Make Over,53,Jade Jolie,
+S5E10,5,10,Make Over,55,Lineysha Sparx,
+S5E10,5,10,Make Over,51,Honey Mahogany,
+S5E10,5,10,Make Over,60,Vivienne Pinay,
+S5E10,5,10,Make Over,56,Monica Beverly Hillz,
+S5E10,5,10,Make Over,59,Serena ChaCha,
+S5E10,5,10,Make Over,57,Penny Tration,
+S6E10,6,10,Make Over,64,Bianca Del Rio,WIN
+S6E10,6,10,Make Over,61,Adore Delano,BTM
+S6E10,6,10,Make Over,65,Courtney Act,SAFE
+S6E10,6,10,Make Over,66,Darienne Lake,LOW
+S6E10,6,10,Make Over,63,BenDeLaCreme,HIGH
+S6E10,6,10,Make Over,68,Joslyn Fox,ELIM
+S6E10,6,10,Make Over,73,Trinity K. Bonet,
+S6E10,6,10,Make Over,70,Laganja Estranja,
+S6E10,6,10,Make Over,72,Milk,
+S6E10,6,10,Make Over,67,Gia Gunn,
+S6E10,6,10,Make Over,62,April Carrión,
+S6E10,6,10,Make Over,74,Vivacious,
+S6E10,6,10,Make Over,71,Magnolia Crawford,
+S6E10,6,10,Make Over,69,Kelly Mantle,
+S9E10,9,10,Make Over,110,Sasha Velour,HIGH
+S9E10,9,10,Make Over,109,Peppermint,SAFE
+S9E10,9,10,Make Over,111,Shea Couleé,BTM
+S9E10,9,10,Make Over,112,Trinity Taylor,WIN
+S9E10,9,10,Make Over,102,Alexis Michelle,LOW
+S9E10,9,10,Make Over,108,Nina Bo'nina Brown,ELIM
+S9E10,9,10,Make Over,113,Valentina,
+S9E10,9,10,Make Over,105,Farrah Moan,
+S9E10,9,10,Make Over,101,Aja,
+S9E10,9,10,Make Over,92,Cynthia Lee Fontaine,
+S9E10,9,10,Make Over,104,Eureka,
+S9E10,9,10,Make Over,103,Charlie Hides,
+S9E10,9,10,Make Over,107,Kimora Blac,
+S9E10,9,10,Make Over,106,Jaymes Mansfield,
+S10E10,10,10,Make Over,114,Aquaria,LOW
+S10E10,10,10,Make Over,104,Eureka,HIGH
+S10E10,10,10,Make Over,119,Kameron Michaels,BTM
+S10E10,10,10,Make Over,115,Asia O'Hara,HIGH
+S10E10,10,10,Make Over,121,Miz Cracker,WIN
+S10E10,10,10,Make Over,123,Monét X Change,ELIM
+S10E10,10,10,Make Over,124,The Vixen,
+S10E10,10,10,Make Over,122,Monique Heart,
+S10E10,10,10,Make Over,116,Blair St. Clair,
+S10E10,10,10,Make Over,120,Mayhem Miller,
+S10E10,10,10,Make Over,117,Dusty Ray Bottoms,
+S10E10,10,10,Make Over,126,Yuhua Hamasaki,
+S10E10,10,10,Make Over,118,Kalorie Karbdashian Williams,
+S10E10,10,10,Make Over,125,Vanessa Vanjie Mateo,
+S11E 11,11,11,Make Over,140,Yvie Oddly,LOW
+S11E 11,11,11,Make Over,129,Brooke Lynn Hytes,WIN
+S11E 11,11,11,Make Over,127,A'keria C. Davenport,HIGH
+S11E 11,11,11,Make Over,138,Silky Nutmeg Ganache,BTM
+S11E 11,11,11,Make Over,125,Vanessa Vanjie Mateo,HIGH
+S11E 11,11,11,Make Over,133,Nina West,ELIM
+S11E 11,11,11,Make Over,137,Shuga Cain,GUEST
+S11E 11,11,11,Make Over,134,Plastique Tiara,GUEST
+S11E 11,11,11,Make Over,135,Ra'Jah O'Hara,
+S11E 11,11,11,Make Over,136,Scarlet Envy,GUEST
+S11E 11,11,11,Make Over,128,Ariel Versace,GUEST
+S11E 11,11,11,Make Over,132,Mercedes Iman Diamond,
+S11E 11,11,11,Make Over,130,Honey Davenport,GUEST
+S11E 11,11,11,Make Over,131,Kahanna Montrese,
+S11E 11,11,11,Make Over,139,Soju,GUEST
+S1E 5,1,5,MakeOver,2,BeBe Zahara Benet,BTM
+S1E 5,1,5,MakeOver,4,Nina Flowers,LOW
+S1E 5,1,5,MakeOver,6,Rebecca Glasscock,WIN
+S1E 5,1,5,MakeOver,7,Shannel,HIGH
+S1E 5,1,5,MakeOver,5,Ongina,ELIM
+S1E 5,1,5,MakeOver,3,Jade,
+S1E 5,1,5,MakeOver,1,Akashia,
+S1E 5,1,5,MakeOver,8,Tammie Brown,
+S1E 5,1,5,MakeOver,9,"Victoria ""Porkchop"" Parker",
+S2E 8,2,8,MakeOver,21,Tyra Sanchez,HIGH
+S2E 8,2,8,MakeOver,16,Raven,WIN
+S2E 8,2,8,MakeOver,11,Jujubee,BTM
+S2E 8,2,8,MakeOver,20,Tatianna,HIGH
+S2E 8,2,8,MakeOver,15,Pandora Boxx,ELIM
+S2E 8,2,8,MakeOver,10,Jessica Wild,
+S2E 8,2,8,MakeOver,17,Sahara Davenport ,
+S2E 8,2,8,MakeOver,12,Morgan McMichaels,
+S2E 8,2,8,MakeOver,19,Sonique,
+S2E 8,2,8,MakeOver,13,Mystique Summers Madison,
+S2E 8,2,8,MakeOver,14,Nicole Paige Brooks,
+S2E 8,2,8,MakeOver,18,Shangela,
+S4E 10,4,10,MakeOver,44,Sharon Needles,LOW
+S4E 10,4,10,MakeOver,35,Chad Michaels,HIGH
+S4E 10,4,10,MakeOver,43,Phi Phi O'Hara,WIN
+S4E 10,4,10,MakeOver,40,Latrice Royale,BTM
+S4E 10,4,10,MakeOver,38,Kenya Michaels,ELIM
+S4E 10,4,10,MakeOver,36,DiDa Ritz,
+S4E 10,4,10,MakeOver,46,Willam,
+S4E 10,4,10,MakeOver,37,Jiggly Caliente,
+S4E 10,4,10,MakeOver,42,Milan,
+S4E 10,4,10,MakeOver,41,Madame LaQueer,
+S4E 10,4,10,MakeOver,45,The Princess,
+S4E 10,4,10,MakeOver,39,Lashauwn Beyond,
+S4E 10,4,10,MakeOver,34,Alisa Summers,
+S7E 8,7,8,MakeOver,88,Violet Chachki,HIGH
+S7E 8,7,8,MakeOver,75,Ginger Minj,BTM
+S7E 8,7,8,MakeOver,84,Pearl,WIN
+S7E 8,7,8,MakeOver,80,Kennedy Davenport,SAFE
+S7E 8,7,8,MakeOver,79,Katya,HIGH
+S7E 8,7,8,MakeOver,87,Trixie Mattel,WIN
+S7E 8,7,8,MakeOver,82,Miss Fame,LOW
+S7E 8,7,8,MakeOver,76,Jaidynn Diore Fierce,ELIM
+S7E 8,7,8,MakeOver,81,Max,OUT
+S7E 8,7,8,MakeOver,78,Kandy Ho,OUT
+S7E 8,7,8,MakeOver,83,Mrs. Kasha Davis,OUT
+S7E 8,7,8,MakeOver,77,Jasmine Masters,OUT
+S7E 8,7,8,MakeOver,85,Sasha Belle,OUT
+S7E 8,7,8,MakeOver,86,Tempest DuJour,OUT
+S8E 6,8,6,MakeOver,90,Bob the Drag Queen,SAFE
+S8E 6,8,6,MakeOver,95,Kim Chi,HIGH
+S8E 6,8,6,MakeOver,97,Naomi Smalls,WIN
+S8E 6,8,6,MakeOver,91,Chi Chi DeVayne ,LOW
+S8E 6,8,6,MakeOver,94,Derrick Barry,BTM
+S8E 6,8,6,MakeOver,100,Thorgy Thor,SAFE
+S8E 6,8,6,MakeOver,99,Robbie Turner,ELIM
+S8E 6,8,6,MakeOver,89,Acid Betty,
+S8E 6,8,6,MakeOver,98,Naysha Lopez,
+S8E 6,8,6,MakeOver,92,Cynthia Lee Fontaine,
+S8E 6,8,6,MakeOver,93,Dax ExclamationPoint,
+S8E 6,8,6,MakeOver,96,Laila McQueen,
+S12E 10,12,10,MakeOver,148,Jaida Essence Hall,WIN
+S12E 10,12,10,MakeOver,143,Crystal Methyd,HIGH
+S12E 10,12,10,MakeOver,145,Gigi Goode,SAFE
+S12E 10,12,10,MakeOver,152,Sherry Pie,HIGH
+S12E 10,12,10,MakeOver,147,Jackie Cox,BTM
+S12E 10,12,10,MakeOver,146,Heidi N Closet,BTM
+S12E 10,12,10,MakeOver,153,Widow Von'Du,
+S12E 10,12,10,MakeOver,149,Jan,
+S12E 10,12,10,MakeOver,142,Brita,
+S12E 10,12,10,MakeOver,141,Aiden Zhane,
+S12E 10,12,10,MakeOver,150,Nicky Doll,
+S12E 10,12,10,MakeOver,151,Rock M. Sakura,
+S12E 10,12,10,MakeOver,144,Dahlia Sin,
+S13E 10,13,10,MakeOver,163,Symone,WIN
+S13E 10,13,10,MakeOver,159,Kandy Muse,HIGH
+S13E 10,13,10,MakeOver,156,Gottmik,HIGH
+S13E 10,13,10,MakeOver,162,Rosé,LOW
+S13E 10,13,10,MakeOver,161,Olivia Lux,BTM
+S13E 10,13,10,MakeOver,166,Utica Queen,WIN
+S13E 10,13,10,MakeOver,165,Tina Burner,LOW
+S13E 10,13,10,MakeOver,154,Denali,ELIM
+S13E 10,13,10,MakeOver,155,Elliott with 2 Ts,
+S13E 10,13,10,MakeOver,160,LaLa Ri,
+S13E 10,13,10,MakeOver,164,Tamisha Iman,
+S13E 10,13,10,MakeOver,157,Joey Jay,
+S13E 10,13,10,MakeOver,158,Kahmora Hall,
+S6E 1,6,1,Premiere,64,Bianca Del Rio,
+S6E 2,6,2,Premiere,64,Bianca Del Rio,WIN
+S6E 1,6,1,Premiere,61,Adore Delano,LOW
+S6E 2,6,2,Premiere,61,Adore Delano,
+S6E 1,6,1,Premiere,65,Courtney Act,
+S6E 2,6,2,Premiere,65,Courtney Act,SAFE
+S6E 1,6,1,Premiere,66,Darienne Lake,
+S6E 2,6,2,Premiere,66,Darienne Lake,BTM
+S6E 1,6,1,Premiere,63,BenDeLaCreme,WIN
+S6E 2,6,2,Premiere,63,BenDeLaCreme,
+S6E 1,6,1,Premiere,68,Joslyn Fox,
+S6E 2,6,2,Premiere,68,Joslyn Fox,LOW
+S6E 1,6,1,Premiere,73,Trinity K. Bonet,
+S6E 2,6,2,Premiere,73,Trinity K. Bonet,HIGH
+S6E 1,6,1,Premiere,70,Laganja Estranja,SAFE
+S6E 2,6,2,Premiere,70,Laganja Estranja,
+S6E 1,6,1,Premiere,72,Milk,
+S6E 2,6,2,Premiere,72,Milk,HIGH
+S6E 1,6,1,Premiere,67,Gia Gunn,HIGH
+S6E 2,6,2,Premiere,67,Gia Gunn,
+S6E 1,6,1,Premiere,62,April Carrión,HIGH
+S6E 2,6,2,Premiere,62,April Carrión,
+S6E 1,6,1,Premiere,74,Vivacious,BTM
+S6E 2,6,2,Premiere,74,Vivacious,
+S6E 1,6,1,Premiere,71,Magnolia Crawford,
+S6E 2,6,2,Premiere,71,Magnolia Crawford,ELIM
+S6E 1,6,1,Premiere,69,Kelly Mantle,ELIM
+S6E 2,6,2,Premiere,69,Kelly Mantle,
+S12E 1,12,1,Premiere,148,Jaida Essence Hall,
+S12E 2,12,2,Premiere,148,Jaida Essence Hall,WIN
+S12E 1,12,1,Premiere,143,Crystal Methyd,SAFE
+S12E 2,12,2,Premiere,143,Crystal Methyd,
+S12E 1,12,1,Premiere,145,Gigi Goode,TOP
+S12E 2,12,2,Premiere,145,Gigi Goode,
+S12E 1,12,1,Premiere,152,Sherry Pie,
+S12E 2,12,2,Premiere,152,Sherry Pie,TOP
+S12E 1,12,1,Premiere,147,Jackie Cox,HIGH
+S12E 2,12,2,Premiere,147,Jackie Cox,
+S12E 1,12,1,Premiere,146,Heidi N Closet,LOW
+S12E 2,12,2,Premiere,146,Heidi N Closet,
+S12E 1,12,1,Premiere,153,Widow Von'Du,WIN
+S12E 2,12,2,Premiere,153,Widow Von'Du,
+S12E 1,12,1,Premiere,149,Jan,
+S12E 2,12,2,Premiere,149,Jan,HIGH
+S12E 1,12,1,Premiere,142,Brita,HIGH
+S12E 2,12,2,Premiere,142,Brita,
+S12E 1,12,1,Premiere,141,Aiden Zhane,
+S12E 2,12,2,Premiere,141,Aiden Zhane,HIGH
+S12E 1,12,1,Premiere,150,Nicky Doll,LOW
+S12E 2,12,2,Premiere,150,Nicky Doll,
+S12E 1,12,1,Premiere,151,Rock M. Sakura,
+S12E 2,12,2,Premiere,151,Rock M. Sakura,LOW
+S12E 1,12,1,Premiere,144,Dahlia Sin,
+S12E 2,12,2,Premiere,144,Dahlia Sin,LOW
+S1E 7,1,7,Recap,2,BeBe Zahara Benet,GUEST
+S1E 7,1,7,Recap,4,Nina Flowers,GUEST
+S1E 7,1,7,Recap,6,Rebecca Glasscock,GUEST
+S1E 7,1,7,Recap,7,Shannel,
+S1E 7,1,7,Recap,5,Ongina,
+S1E 7,1,7,Recap,3,Jade,
+S1E 7,1,7,Recap,1,Akashia,
+S1E 7,1,7,Recap,8,Tammie Brown,
+S1E 7,1,7,Recap,9,"Victoria ""Porkchop"" Parker",
+S2E10,2,10,Recap,21,Tyra Sanchez,GUEST
+S2E10,2,10,Recap,16,Raven,GUEST
+S2E10,2,10,Recap,11,Jujubee,GUEST
+S2E10,2,10,Recap,20,Tatianna,
+S2E10,2,10,Recap,15,Pandora Boxx,
+S2E10,2,10,Recap,10,Jessica Wild,
+S2E10,2,10,Recap,17,Sahara Davenport ,
+S2E10,2,10,Recap,12,Morgan McMichaels,
+S2E10,2,10,Recap,19,Sonique,
+S2E10,2,10,Recap,13,Mystique Summers Madison,
+S2E10,2,10,Recap,14,Nicole Paige Brooks,
+S2E10,2,10,Recap,18,Shangela,
+S3E14,3,14,Recap,30,Raja,GUEST
+S3E14,3,14,Recap,26,Manila Luzon,GUEST
+S3E14,3,14,Recap,22,Alexis Mateo,GUEST
+S3E14,3,14,Recap,33,Yara Sofia,
+S3E14,3,14,Recap,23,Carmen Carrera,
+S3E14,3,14,Recap,18,Shangela,
+S3E14,3,14,Recap,24,Delta Work,
+S3E14,3,14,Recap,31,Stacy Layne Matthews,
+S3E14,3,14,Recap,27,Mariah,
+S3E14,3,14,Recap,25,India Ferrah,
+S3E14,3,14,Recap,28,Mimi Imfurst,
+S3E14,3,14,Recap,29,Phoenix,
+S3E14,3,14,Recap,32,Venus D-Lite,
+S4E 12,4,12,Recap,44,Sharon Needles,GUEST
+S4E 12,4,12,Recap,35,Chad Michaels,GUEST
+S4E 12,4,12,Recap,43,Phi Phi O'Hara,GUEST
+S4E 12,4,12,Recap,40,Latrice Royale,
+S4E 12,4,12,Recap,38,Kenya Michaels,
+S4E 12,4,12,Recap,36,DiDa Ritz,
+S4E 12,4,12,Recap,46,Willam,
+S4E 12,4,12,Recap,37,Jiggly Caliente,
+S4E 12,4,12,Recap,42,Milan,
+S4E 12,4,12,Recap,41,Madame LaQueer,
+S4E 12,4,12,Recap,45,The Princess,
+S4E 12,4,12,Recap,39,Lashauwn Beyond,
+S4E 12,4,12,Recap,34,Alisa Summers,
+S5E13,5,13,Recap,54,Jinkx Monsoon,GUEST
+S5E13,5,13,Recap,47,Alaska,GUEST
+S5E13,5,13,Recap,58,Roxxxy Andrews,GUEST
+S5E13,5,13,Recap,50,Detox,
+S5E13,5,13,Recap,49,Coco Montrese,
+S5E13,5,13,Recap,48,Alyssa Edwards,
+S5E13,5,13,Recap,52,Ivy Winters,
+S5E13,5,13,Recap,53,Jade Jolie,
+S5E13,5,13,Recap,55,Lineysha Sparx,
+S5E13,5,13,Recap,51,Honey Mahogany,
+S5E13,5,13,Recap,60,Vivienne Pinay,
+S5E13,5,13,Recap,56,Monica Beverly Hillz,
+S5E13,5,13,Recap,59,Serena ChaCha,
+S5E13,5,13,Recap,57,Penny Tration,
+S6E13,6,13,Recap,64,Bianca Del Rio,GUEST
+S6E13,6,13,Recap,61,Adore Delano,GUEST
+S6E13,6,13,Recap,65,Courtney Act,GUEST
+S6E13,6,13,Recap,66,Darienne Lake,
+S6E13,6,13,Recap,63,BenDeLaCreme,
+S6E13,6,13,Recap,68,Joslyn Fox,
+S6E13,6,13,Recap,73,Trinity K. Bonet,
+S6E13,6,13,Recap,70,Laganja Estranja,
+S6E13,6,13,Recap,72,Milk,
+S6E13,6,13,Recap,67,Gia Gunn,
+S6E13,6,13,Recap,62,April Carrión,
+S6E13,6,13,Recap,74,Vivacious,
+S6E13,6,13,Recap,71,Magnolia Crawford,
+S6E13,6,13,Recap,69,Kelly Mantle,
+S7E 13,7,13,Recap,88,Violet Chachki,GUEST
+S7E 13,7,13,Recap,75,Ginger Minj,GUEST
+S7E 13,7,13,Recap,84,Pearl,GUEST
+S7E 13,7,13,Recap,80,Kennedy Davenport,
+S7E 13,7,13,Recap,79,Katya,
+S7E 13,7,13,Recap,87,Trixie Mattel,
+S7E 13,7,13,Recap,82,Miss Fame,
+S7E 13,7,13,Recap,76,Jaidynn Diore Fierce,
+S7E 13,7,13,Recap,81,Max,
+S7E 13,7,13,Recap,78,Kandy Ho,
+S7E 13,7,13,Recap,83,Mrs. Kasha Davis,
+S7E 13,7,13,Recap,77,Jasmine Masters,
+S7E 13,7,13,Recap,85,Sasha Belle,
+S7E 13,7,13,Recap,86,Tempest DuJour,
+S1E 9,1,9,Reunion,2,BeBe Zahara Benet,GUEST
+S1E 9,1,9,Reunion,4,Nina Flowers,MISS CON
+S1E 9,1,9,Reunion,6,Rebecca Glasscock,GUEST
+S1E 9,1,9,Reunion,7,Shannel,GUEST
+S1E 9,1,9,Reunion,5,Ongina,GUEST
+S1E 9,1,9,Reunion,3,Jade,GUEST
+S1E 9,1,9,Reunion,1,Akashia,GUEST
+S1E 9,1,9,Reunion,8,Tammie Brown,GUEST
+S1E 9,1,9,Reunion,9,"Victoria ""Porkchop"" Parker",GUEST
+S2E 12,2,12,Reunion,21,Tyra Sanchez,GUEST
+S2E 12,2,12,Reunion,16,Raven,GUEST
+S2E 12,2,12,Reunion,11,Jujubee,GUEST
+S2E 12,2,12,Reunion,20,Tatianna,GUEST
+S2E 12,2,12,Reunion,15,Pandora Boxx,MISS CON
+S2E 12,2,12,Reunion,10,Jessica Wild,GUEST
+S2E 12,2,12,Reunion,17,Sahara Davenport ,GUEST
+S2E 12,2,12,Reunion,12,Morgan McMichaels,GUEST
+S2E 12,2,12,Reunion,19,Sonique,GUEST
+S2E 12,2,12,Reunion,13,Mystique Summers Madison,GUEST
+S2E 12,2,12,Reunion,14,Nicole Paige Brooks,GUEST
+S2E 12,2,12,Reunion,18,Shangela,GUEST
+S3E 16,3,16,Reunion,30,Raja,GUEST
+S3E 16,3,16,Reunion,26,Manila Luzon,GUEST
+S3E 16,3,16,Reunion,22,Alexis Mateo,GUEST
+S3E 16,3,16,Reunion,33,Yara Sofia,MISS CON
+S3E 16,3,16,Reunion,23,Carmen Carrera,GUEST
+S3E 16,3,16,Reunion,18,Shangela,GUEST
+S3E 16,3,16,Reunion,24,Delta Work,GUEST
+S3E 16,3,16,Reunion,31,Stacy Layne Matthews,GUEST
+S3E 16,3,16,Reunion,27,Mariah,GUEST
+S3E 16,3,16,Reunion,25,India Ferrah,GUEST
+S3E 16,3,16,Reunion,28,Mimi Imfurst,GUEST
+S3E 16,3,16,Reunion,29,Phoenix,GUEST
+S3E 16,3,16,Reunion,32,Venus D-Lite,GUEST
+S9E 13,9,13,Reunion,110,Sasha Velour,GUEST
+S9E 13,9,13,Reunion,109,Peppermint,GUEST
+S9E 13,9,13,Reunion,111,Shea Couleé,GUEST
+S9E 13,9,13,Reunion,112,Trinity Taylor,GUEST
+S9E 13,9,13,Reunion,102,Alexis Michelle,GUEST
+S9E 13,9,13,Reunion,108,Nina Bo'nina Brown,GUEST
+S9E 13,9,13,Reunion,113,Valentina,MISS CON
+S9E 13,9,13,Reunion,105,Farrah Moan,GUEST
+S9E 13,9,13,Reunion,101,Aja,GUEST
+S9E 13,9,13,Reunion,92,Cynthia Lee Fontaine,GUEST
+S9E 13,9,13,Reunion,104,Eureka,GUEST
+S9E 13,9,13,Reunion,103,Charlie Hides,GUEST
+S9E 13,9,13,Reunion,107,Kimora Blac,GUEST
+S9E 13,9,13,Reunion,106,Jaymes Mansfield,GUEST
+S10E 13,10,13,Reunion,114,Aquaria,GUEST
+S10E 13,10,13,Reunion,104,Eureka,GUEST
+S10E 13,10,13,Reunion,119,Kameron Michaels,GUEST
+S10E 13,10,13,Reunion,115,Asia O'Hara,GUEST
+S10E 13,10,13,Reunion,121,Miz Cracker,GUEST
+S10E 13,10,13,Reunion,123,Monét X Change,GUEST
+S10E 13,10,13,Reunion,124,The Vixen,GUEST
+S10E 13,10,13,Reunion,122,Monique Heart,GUEST
+S10E 13,10,13,Reunion,116,Blair St. Clair,GUEST
+S10E 13,10,13,Reunion,120,Mayhem Miller,GUEST
+S10E 13,10,13,Reunion,117,Dusty Ray Bottoms,GUEST
+S10E 13,10,13,Reunion,126,Yuhua Hamasaki,GUEST
+S10E 13,10,13,Reunion,118,Kalorie Karbdashian Williams,GUEST
+S10E 13,10,13,Reunion,125,Vanessa Vanjie Mateo,GUEST
+S11E 13,11,13,Reunion,140,Yvie Oddly,GUEST
+S11E 13,11,13,Reunion,129,Brooke Lynn Hytes,GUEST
+S11E 13,11,13,Reunion,127,A'keria C. Davenport,GUEST
+S11E 13,11,13,Reunion,138,Silky Nutmeg Ganache,GUEST
+S11E 13,11,13,Reunion,125,Vanessa Vanjie Mateo,GUEST
+S11E 13,11,13,Reunion,133,Nina West,GUEST
+S11E 13,11,13,Reunion,137,Shuga Cain,GUEST
+S11E 13,11,13,Reunion,134,Plastique Tiara,GUEST
+S11E 13,11,13,Reunion,135,Ra'Jah O'Hara,GUEST
+S11E 13,11,13,Reunion,136,Scarlet Envy,GUEST
+S11E 13,11,13,Reunion,128,Ariel Versace,GUEST
+S11E 13,11,13,Reunion,132,Mercedes Iman Diamond,GUEST
+S11E 13,11,13,Reunion,130,Honey Davenport,GUEST
+S11E 13,11,13,Reunion,131,Kahanna Montrese,GUEST
+S11E 13,11,13,Reunion,139,Soju,GUEST
+S12E 13,12,13,Reunion,148,Jaida Essence Hall,GUEST
+S12E 13,12,13,Reunion,143,Crystal Methyd,GUEST
+S12E 13,12,13,Reunion,145,Gigi Goode,GUEST
+S12E 13,12,13,Reunion,152,Sherry Pie,
+S12E 13,12,13,Reunion,147,Jackie Cox,GUEST
+S12E 13,12,13,Reunion,146,Heidi N Closet,GUEST
+S12E 13,12,13,Reunion,153,Widow Von'Du,GUEST
+S12E 13,12,13,Reunion,149,Jan,GUEST
+S12E 13,12,13,Reunion,142,Brita,GUEST
+S12E 13,12,13,Reunion,141,Aiden Zhane,GUEST
+S12E 13,12,13,Reunion,150,Nicky Doll,GUEST
+S12E 13,12,13,Reunion,151,Rock M. Sakura,GUEST
+S12E 13,12,13,Reunion,144,Dahlia Sin,GUEST
+S13E 15,13,15,Reunion,163,Symone,GUEST
+S13E 15,13,15,Reunion,159,Kandy Muse,GUEST
+S13E 15,13,15,Reunion,156,Gottmik,GUEST
+S13E 15,13,15,Reunion,162,Rosé,GUEST
+S13E 15,13,15,Reunion,161,Olivia Lux,GUEST
+S13E 15,13,15,Reunion,166,Utica Queen,GUEST
+S13E 15,13,15,Reunion,165,Tina Burner,GUEST
+S13E 15,13,15,Reunion,154,Denali,WIN
+S13E 15,13,15,Reunion,155,Elliott with 2 Ts,GUEST
+S13E 15,13,15,Reunion,160,LaLa Ri,GUEST
+S13E 15,13,15,Reunion,164,Tamisha Iman,GUEST
+S13E 15,13,15,Reunion,157,Joey Jay,GUEST
+S13E 15,13,15,Reunion,158,Kahmora Hall,GUEST
+S5E 7,5,7,Roast,54,Jinkx Monsoon,HIGH
+S5E 7,5,7,Roast,47,Alaska,HIGH
+S5E 7,5,7,Roast,58,Roxxxy Andrews,BTM
+S5E 7,5,7,Roast,50,Detox,SAFE
+S5E 7,5,7,Roast,49,Coco Montrese,WIN
+S5E 7,5,7,Roast,48,Alyssa Edwards,BTM
+S5E 7,5,7,Roast,52,Ivy Winters,LOW
+S5E 7,5,7,Roast,53,Jade Jolie,
+S5E 7,5,7,Roast,55,Lineysha Sparx,
+S5E 7,5,7,Roast,51,Honey Mahogany,
+S5E 7,5,7,Roast,60,Vivienne Pinay,
+S5E 7,5,7,Roast,56,Monica Beverly Hillz,
+S5E 7,5,7,Roast,59,Serena ChaCha,
+S5E 7,5,7,Roast,57,Penny Tration,
+S9E 8,9,8,Roast,110,Sasha Velour,HIGH
+S9E 8,9,8,Roast,109,Peppermint,WIN
+S9E 8,9,8,Roast,111,Shea Couleé,HIGH
+S9E 8,9,8,Roast,112,Trinity Taylor,LOW
+S9E 8,9,8,Roast,102,Alexis Michelle,BTM
+S9E 8,9,8,Roast,108,Nina Bo'nina Brown,SAFE
+S9E 8,9,8,Roast,113,Valentina,SAFE
+S9E 8,9,8,Roast,105,Farrah Moan,ELIM
+S9E 8,9,8,Roast,101,Aja,
+S9E 8,9,8,Roast,92,Cynthia Lee Fontaine,
+S9E 8,9,8,Roast,104,Eureka,
+S9E 8,9,8,Roast,103,Charlie Hides,
+S9E 8,9,8,Roast,107,Kimora Blac,
+S9E 8,9,8,Roast,106,Jaymes Mansfield,
+S13E 12,13,12,Roast,163,Symone,BTM
+S13E 12,13,12,Roast,159,Kandy Muse,WIN
+S13E 12,13,12,Roast,156,Gottmik,HIGH
+S13E 12,13,12,Roast,162,Rosé,HIGH
+S13E 12,13,12,Roast,161,Olivia Lux,LOW
+S13E 12,13,12,Roast,166,Utica Queen,ELIM
+S13E 12,13,12,Roast,165,Tina Burner,
+S13E 12,13,12,Roast,154,Denali,
+S13E 12,13,12,Roast,155,Elliott with 2 Ts,
+S13E 12,13,12,Roast,160,LaLa Ri,
+S13E 12,13,12,Roast,164,Tamisha Iman,
+S13E 12,13,12,Roast,157,Joey Jay,
+S13E 12,13,12,Roast,158,Kahmora Hall,
+S6E 4,6,4,Rusical,64,Bianca Del Rio,SAFE
+S6E 4,6,4,Rusical,61,Adore Delano,HIGH
+S6E 4,6,4,Rusical,65,Courtney Act,WIN
+S6E 4,6,4,Rusical,66,Darienne Lake,LOW
+S6E 4,6,4,Rusical,63,BenDeLaCreme,HIGH
+S6E 4,6,4,Rusical,68,Joslyn Fox,SAFE
+S6E 4,6,4,Rusical,73,Trinity K. Bonet,BTM
+S6E 4,6,4,Rusical,70,Laganja Estranja,SAFE
+S6E 4,6,4,Rusical,72,Milk,SAFE
+S6E 4,6,4,Rusical,67,Gia Gunn,SAFE
+S6E 4,6,4,Rusical,62,April Carrión,ELIM
+S6E 4,6,4,Rusical,74,Vivacious,
+S6E 4,6,4,Rusical,71,Magnolia Crawford,
+S6E 4,6,4,Rusical,69,Kelly Mantle,
+S7E 2,7,2,Rusical,88,Violet Chachki,HIGH
+S7E 2,7,2,Rusical,75,Ginger Minj,WIN
+S7E 2,7,2,Rusical,84,Pearl,SAFE
+S7E 2,7,2,Rusical,80,Kennedy Davenport,SAFE
+S7E 2,7,2,Rusical,79,Katya,BTM
+S7E 2,7,2,Rusical,87,Trixie Mattel,SAFE
+S7E 2,7,2,Rusical,82,Miss Fame,LOW
+S7E 2,7,2,Rusical,76,Jaidynn Diore Fierce,SAFE
+S7E 2,7,2,Rusical,81,Max,SAFE
+S7E 2,7,2,Rusical,78,Kandy Ho,SAFE
+S7E 2,7,2,Rusical,83,Mrs. Kasha Davis,HIGH
+S7E 2,7,2,Rusical,77,Jasmine Masters,SAFE
+S7E 2,7,2,Rusical,85,Sasha Belle,ELIM
+S7E 2,7,2,Rusical,86,Tempest DuJour,
+S8E 2,8,2,Rusical,90,Bob the Drag Queen,SAFE
+S8E 2,8,2,Rusical,95,Kim Chi,LOW
+S8E 2,8,2,Rusical,97,Naomi Smalls,SAFE
+S8E 2,8,2,Rusical,91,Chi Chi DeVayne ,WIN
+S8E 2,8,2,Rusical,94,Derrick Barry,SAFE
+S8E 2,8,2,Rusical,100,Thorgy Thor,HIGH
+S8E 2,8,2,Rusical,99,Robbie Turner,SAFE
+S8E 2,8,2,Rusical,89,Acid Betty,HIGH
+S8E 2,8,2,Rusical,98,Naysha Lopez,
+S8E 2,8,2,Rusical,92,Cynthia Lee Fontaine,SAFE
+S8E 2,8,2,Rusical,93,Dax ExclamationPoint,ELIM
+S8E 2,8,2,Rusical,96,Laila McQueen,ELIM
+S9E 5,9,5,Rusical,110,Sasha Velour,SAFE
+S9E 5,9,5,Rusical,109,Peppermint,HIGH
+S9E 5,9,5,Rusical,111,Shea Couleé,WIN
+S9E 5,9,5,Rusical,112,Trinity Taylor,SAFE
+S9E 5,9,5,Rusical,102,Alexis Michelle,HIGH
+S9E 5,9,5,Rusical,108,Nina Bo'nina Brown,LOW
+S9E 5,9,5,Rusical,113,Valentina,SAFE
+S9E 5,9,5,Rusical,105,Farrah Moan,BTM
+S9E 5,9,5,Rusical,101,Aja,SAFE
+S9E 5,9,5,Rusical,92,Cynthia Lee Fontaine,BTM
+S9E 5,9,5,Rusical,104,Eureka,SAFE
+S9E 5,9,5,Rusical,103,Charlie Hides,
+S9E 5,9,5,Rusical,107,Kimora Blac,
+S9E 5,9,5,Rusical,106,Jaymes Mansfield,
+S10E 2,10,2,Rusical,114,Aquaria,SAFE
+S10E 8,10,8,Rusical,114,Aquaria,LOW
+S10E 2,10,2,Rusical,104,Eureka,BTM
+S10E 8,10,8,Rusical,104,Eureka,SAFE
+S10E 2,10,2,Rusical,119,Kameron Michaels,HIGH
+S10E 8,10,8,Rusical,119,Kameron Michaels,WIN
+S10E 2,10,2,Rusical,115,Asia O'Hara,SAFE
+S10E 8,10,8,Rusical,115,Asia O'Hara,BTM
+S10E 2,10,2,Rusical,121,Miz Cracker,HIGH
+S10E 8,10,8,Rusical,121,Miz Cracker,SAFE
+S10E 2,10,2,Rusical,123,Monét X Change,HIGH
+S10E 8,10,8,Rusical,123,Monét X Change,HIGH
+S10E 2,10,2,Rusical,124,The Vixen,WIN
+S10E 8,10,8,Rusical,124,The Vixen,ELIM
+S10E 2,10,2,Rusical,122,Monique Heart,LOW
+S10E 8,10,8,Rusical,122,Monique Heart,
+S10E 2,10,2,Rusical,116,Blair St. Clair,HIGH
+S10E 8,10,8,Rusical,116,Blair St. Clair,
+S10E 2,10,2,Rusical,120,Mayhem Miller,HIGH
+S10E 8,10,8,Rusical,120,Mayhem Miller,
+S10E 2,10,2,Rusical,117,Dusty Ray Bottoms,SAFE
+S10E 8,10,8,Rusical,117,Dusty Ray Bottoms,
+S10E 2,10,2,Rusical,126,Yuhua Hamasaki,SAFE
+S10E 8,10,8,Rusical,126,Yuhua Hamasaki,
+S10E 2,10,2,Rusical,118,Kalorie Karbdashian Williams,ELIM
+S10E 8,10,8,Rusical,118,Kalorie Karbdashian Williams,
+S10E 2,10,2,Rusical,125,Vanessa Vanjie Mateo,
+S10E 8,10,8,Rusical,125,Vanessa Vanjie Mateo,
+S11E 4,11,4,Rusical,140,Yvie Oddly,HIGH
+S11E 4,11,4,Rusical,129,Brooke Lynn Hytes,HIGH
+S11E 4,11,4,Rusical,127,A'keria C. Davenport,SAFE
+S11E 4,11,4,Rusical,138,Silky Nutmeg Ganache,WIN
+S11E 4,11,4,Rusical,125,Vanessa Vanjie Mateo,LOW
+S11E 4,11,4,Rusical,133,Nina West,SAFE
+S11E 4,11,4,Rusical,137,Shuga Cain,SAFE
+S11E 4,11,4,Rusical,134,Plastique Tiara,SAFE
+S11E 4,11,4,Rusical,135,Ra'Jah O'Hara,BTM
+S11E 4,11,4,Rusical,136,Scarlet Envy,SAFE
+S11E 4,11,4,Rusical,128,Ariel Versace,SAFE
+S11E 4,11,4,Rusical,132,Mercedes Iman Diamond,ELIM
+S11E 4,11,4,Rusical,130,Honey Davenport,
+S11E 4,11,4,Rusical,131,Kahanna Montrese,
+S11E 4,11,4,Rusical,139,Soju,
+S12E 12,12,12,Rusical,148,Jaida Essence Hall,HIGH
+S12E 7,12,7,Rusical,148,Jaida Essence Hall,SAFE
+S12E 12,12,12,Rusical,143,Crystal Methyd,BTM
+S12E 7,12,7,Rusical,143,Crystal Methyd,HIGH
+S12E 12,12,12,Rusical,145,Gigi Goode,WIN
+S12E 7,12,7,Rusical,145,Gigi Goode,WIN
+S12E 12,12,12,Rusical,152,Sherry Pie,DISQ
+S12E 7,12,7,Rusical,152,Sherry Pie,SAFE
+S12E 12,12,12,Rusical,147,Jackie Cox,ELIM
+S12E 7,12,7,Rusical,147,Jackie Cox,LOW
+S12E 12,12,12,Rusical,146,Heidi N Closet,
+S12E 7,12,7,Rusical,146,Heidi N Closet,BTM
+S12E 12,12,12,Rusical,153,Widow Von'Du,
+S12E 7,12,7,Rusical,153,Widow Von'Du,SAFE
+S12E 12,12,12,Rusical,149,Jan,
+S12E 7,12,7,Rusical,149,Jan,HIGH
+S12E 12,12,12,Rusical,142,Brita,
+S12E 7,12,7,Rusical,142,Brita,ELIM
+S12E 12,12,12,Rusical,141,Aiden Zhane,
+S12E 7,12,7,Rusical,141,Aiden Zhane,
+S12E 12,12,12,Rusical,150,Nicky Doll,
+S12E 7,12,7,Rusical,150,Nicky Doll,
+S12E 12,12,12,Rusical,151,Rock M. Sakura,
+S12E 7,12,7,Rusical,151,Rock M. Sakura,
+S12E 12,12,12,Rusical,144,Dahlia Sin,
+S12E 7,12,7,Rusical,144,Dahlia Sin,
+S13E 8,13,8,Rusical,163,Symone,BTM
+S13E 8,13,8,Rusical,159,Kandy Muse,BTM
+S13E 8,13,8,Rusical,156,Gottmik,HIGH
+S13E 8,13,8,Rusical,162,Rosé,WIN
+S13E 8,13,8,Rusical,161,Olivia Lux,SAFE
+S13E 8,13,8,Rusical,166,Utica Queen,SAFE
+S13E 8,13,8,Rusical,165,Tina Burner,LOW
+S13E 8,13,8,Rusical,154,Denali,HIGH
+S13E 8,13,8,Rusical,155,Elliott with 2 Ts,SAFE
+S13E 8,13,8,Rusical,160,LaLa Ri,
+S13E 8,13,8,Rusical,164,Tamisha Iman,
+S13E 8,13,8,Rusical,157,Joey Jay,
+S13E 8,13,8,Rusical,158,Kahmora Hall,
+S3E 6,3,6,Snatch Game,30,Raja,HIGH
+S3E 6,3,6,Snatch Game,26,Manila Luzon,SAFE
+S3E 6,3,6,Snatch Game,22,Alexis Mateo,HIGH
+S3E 6,3,6,Snatch Game,33,Yara Sofia,LOW
+S3E 6,3,6,Snatch Game,23,Carmen Carrera,SAFE
+S3E 6,3,6,Snatch Game,18,Shangela,SAFE
+S3E 6,3,6,Snatch Game,24,Delta Work,BTM
+S3E 6,3,6,Snatch Game,31,Stacy Layne Matthews,WIN
+S3E 6,3,6,Snatch Game,27,Mariah,ELIM
+S3E 6,3,6,Snatch Game,25,India Ferrah,
+S3E 6,3,6,Snatch Game,28,Mimi Imfurst,
+S3E 6,3,6,Snatch Game,29,Phoenix,
+S3E 6,3,6,Snatch Game,32,Venus D-Lite,
+S6E 5,6,5,Snatch Game,64,Bianca Del Rio,HIGH
+S6E 5,6,5,Snatch Game,61,Adore Delano,HIGH
+S6E 5,6,5,Snatch Game,65,Courtney Act,SAFE
+S6E 5,6,5,Snatch Game,66,Darienne Lake,SAFE
+S6E 5,6,5,Snatch Game,63,BenDeLaCreme,WIN
+S6E 5,6,5,Snatch Game,68,Joslyn Fox,SAFE
+S6E 5,6,5,Snatch Game,73,Trinity K. Bonet,SAFE
+S6E 5,6,5,Snatch Game,70,Laganja Estranja,BTM
+S6E 5,6,5,Snatch Game,72,Milk,LOW
+S6E 5,6,5,Snatch Game,67,Gia Gunn,ELIM
+S6E 5,6,5,Snatch Game,62,April Carrión,
+S6E 5,6,5,Snatch Game,74,Vivacious,
+S6E 5,6,5,Snatch Game,71,Magnolia Crawford,
+S6E 5,6,5,Snatch Game,69,Kelly Mantle,
+S9E 6,9,6,Snatch Game,110,Sasha Velour,HIGH
+S9E 6,9,6,Snatch Game,109,Peppermint,BTM
+S9E 6,9,6,Snatch Game,111,Shea Couleé,SAFE
+S9E 6,9,6,Snatch Game,112,Trinity Taylor,SAFE
+S9E 6,9,6,Snatch Game,102,Alexis Michelle,WIN
+S9E 6,9,6,Snatch Game,108,Nina Bo'nina Brown,HIGH
+S9E 6,9,6,Snatch Game,113,Valentina,SAFE
+S9E 6,9,6,Snatch Game,105,Farrah Moan,LOW
+S9E 6,9,6,Snatch Game,101,Aja,SAFE
+S9E 6,9,6,Snatch Game,92,Cynthia Lee Fontaine,ELIM
+S9E 6,9,6,Snatch Game,104,Eureka,
+S9E 6,9,6,Snatch Game,103,Charlie Hides,
+S9E 6,9,6,Snatch Game,107,Kimora Blac,
+S9E 6,9,6,Snatch Game,106,Jaymes Mansfield,
+S10E 7,10,7,Snatch Game,114,Aquaria,WIN
+S10E 7,10,7,Snatch Game,104,Eureka,HIGH
+S10E 7,10,7,Snatch Game,119,Kameron Michaels,SAFE
+S10E 7,10,7,Snatch Game,115,Asia O'Hara,LOW
+S10E 7,10,7,Snatch Game,121,Miz Cracker,SAFE
+S10E 7,10,7,Snatch Game,123,Monét X Change,HIGH
+S10E 7,10,7,Snatch Game,124,The Vixen,BTM
+S10E 7,10,7,Snatch Game,122,Monique Heart,ELIM
+S10E 7,10,7,Snatch Game,116,Blair St. Clair,
+S10E 7,10,7,Snatch Game,120,Mayhem Miller,
+S10E 7,10,7,Snatch Game,117,Dusty Ray Bottoms,
+S10E 7,10,7,Snatch Game,126,Yuhua Hamasaki,
+S10E 7,10,7,Snatch Game,118,Kalorie Karbdashian Williams,
+S10E 7,10,7,Snatch Game,125,Vanessa Vanjie Mateo,
+S2E 4,2,4,Snatch Game,21,Tyra Sanchez,SAFE
+S2E 4,2,4,Snatch Game,16,Raven,SAFE
+S2E 4,2,4,Snatch Game,11,Jujubee,LOW
+S2E 4,2,4,Snatch Game,20,Tatianna,WIN
+S2E 4,2,4,Snatch Game,15,Pandora Boxx,HIGH
+S2E 4,2,4,Snatch Game,10,Jessica Wild,SAFE
+S2E 4,2,4,Snatch Game,17,Sahara Davenport ,SAFE
+S2E 4,2,4,Snatch Game,12,Morgan McMichaels,BTM
+S2E 4,2,4,Snatch Game,19,Sonique,ELIM
+S2E 4,2,4,Snatch Game,13,Mystique Summers Madison,
+S2E 4,2,4,Snatch Game,14,Nicole Paige Brooks,
+S2E 4,2,4,Snatch Game,18,Shangela,
+S4E 5,4,5,Snatch Game,44,Sharon Needles,HIGH
+S4E 5,4,5,Snatch Game,35,Chad Michaels,WIN
+S4E 5,4,5,Snatch Game,43,Phi Phi O'Hara,LOW
+S4E 5,4,5,Snatch Game,40,Latrice Royale,SAFE
+S4E 5,4,5,Snatch Game,38,Kenya Michaels,ELIM
+S4E 5,4,5,Snatch Game,36,DiDa Ritz,SAFE
+S4E 5,4,5,Snatch Game,46,Willam,HIGH
+S4E 5,4,5,Snatch Game,37,Jiggly Caliente,SAFE
+S4E 5,4,5,Snatch Game,42,Milan,BTM
+S4E 5,4,5,Snatch Game,41,Madame LaQueer,
+S4E 5,4,5,Snatch Game,45,The Princess,
+S4E 5,4,5,Snatch Game,39,Lashauwn Beyond,
+S4E 5,4,5,Snatch Game,34,Alisa Summers,
+S5E 5,5,5,Snatch Game,54,Jinkx Monsoon,WIN
+S5E 5,5,5,Snatch Game,47,Alaska,HIGH
+S5E 5,5,5,Snatch Game,58,Roxxxy Andrews,HIGH
+S5E 5,5,5,Snatch Game,50,Detox,BTM
+S5E 5,5,5,Snatch Game,49,Coco Montrese,SAFE
+S5E 5,5,5,Snatch Game,48,Alyssa Edwards,LOW
+S5E 5,5,5,Snatch Game,52,Ivy Winters,LOW
+S5E 5,5,5,Snatch Game,53,Jade Jolie,SAFE
+S5E 5,5,5,Snatch Game,55,Lineysha Sparx,ELIM
+S5E 5,5,5,Snatch Game,51,Honey Mahogany,
+S5E 5,5,5,Snatch Game,60,Vivienne Pinay,
+S5E 5,5,5,Snatch Game,56,Monica Beverly Hillz,
+S5E 5,5,5,Snatch Game,59,Serena ChaCha,
+S5E 5,5,5,Snatch Game,57,Penny Tration,
+S7E 7,7,7,Snatch Game,88,Violet Chachki,SAFE
+S7E 7,7,7,Snatch Game,75,Ginger Minj,WIN
+S7E 7,7,7,Snatch Game,84,Pearl,SAFE
+S7E 7,7,7,Snatch Game,80,Kennedy Davenport,WIN
+S7E 7,7,7,Snatch Game,79,Katya,HIGH
+S7E 7,7,7,Snatch Game,87,Trixie Mattel,
+S7E 7,7,7,Snatch Game,82,Miss Fame,LOW
+S7E 7,7,7,Snatch Game,76,Jaidynn Diore Fierce,BTM
+S7E 7,7,7,Snatch Game,81,Max,ELIM
+S7E 7,7,7,Snatch Game,78,Kandy Ho,
+S7E 7,7,7,Snatch Game,83,Mrs. Kasha Davis,
+S7E 7,7,7,Snatch Game,77,Jasmine Masters,
+S7E 7,7,7,Snatch Game,85,Sasha Belle,
+S7E 7,7,7,Snatch Game,86,Tempest DuJour,
+S8E 5,8,5,Snatch Game,90,Bob the Drag Queen,WIN
+S8E 5,8,5,Snatch Game,95,Kim Chi,SAFE
+S8E 5,8,5,Snatch Game,97,Naomi Smalls,BTM
+S8E 5,8,5,Snatch Game,91,Chi Chi DeVayne ,SAFE
+S8E 5,8,5,Snatch Game,94,Derrick Barry,HIGH
+S8E 5,8,5,Snatch Game,100,Thorgy Thor,HIGH
+S8E 5,8,5,Snatch Game,99,Robbie Turner,LOW
+S8E 5,8,5,Snatch Game,89,Acid Betty,ELIM
+S8E 5,8,5,Snatch Game,98,Naysha Lopez,
+S8E 5,8,5,Snatch Game,92,Cynthia Lee Fontaine,
+S8E 5,8,5,Snatch Game,93,Dax ExclamationPoint,
+S8E 5,8,5,Snatch Game,96,Laila McQueen,
+S11E 8,11,8,Snatch Game,140,Yvie Oddly,BTM
+S11E 8,11,8,Snatch Game,129,Brooke Lynn Hytes,BTM
+S11E 8,11,8,Snatch Game,127,A'keria C. Davenport,SAFE
+S11E 8,11,8,Snatch Game,138,Silky Nutmeg Ganache,WIN
+S11E 8,11,8,Snatch Game,125,Vanessa Vanjie Mateo,LOW
+S11E 8,11,8,Snatch Game,133,Nina West,HIGH
+S11E 8,11,8,Snatch Game,137,Shuga Cain,HIGH
+S11E 8,11,8,Snatch Game,134,Plastique Tiara,SAFE
+S11E 8,11,8,Snatch Game,135,Ra'Jah O'Hara,
+S11E 8,11,8,Snatch Game,136,Scarlet Envy,
+S11E 8,11,8,Snatch Game,128,Ariel Versace,
+S11E 8,11,8,Snatch Game,132,Mercedes Iman Diamond,
+S11E 8,11,8,Snatch Game,130,Honey Davenport,
+S11E 8,11,8,Snatch Game,131,Kahanna Montrese,
+S11E 8,11,8,Snatch Game,139,Soju,
+S12E 6,12,6,Snatch Game,148,Jaida Essence Hall,SAFE
+S12E 6,12,6,Snatch Game,143,Crystal Methyd,LOW
+S12E 6,12,6,Snatch Game,145,Gigi Goode,WIN
+S12E 6,12,6,Snatch Game,152,Sherry Pie,HIGH
+S12E 6,12,6,Snatch Game,147,Jackie Cox,HIGH
+S12E 6,12,6,Snatch Game,146,Heidi N Closet,SAFE
+S12E 6,12,6,Snatch Game,153,Widow Von'Du,SAFE
+S12E 6,12,6,Snatch Game,149,Jan,SAFE
+S12E 6,12,6,Snatch Game,142,Brita,BTM
+S12E 6,12,6,Snatch Game,141,Aiden Zhane,ELIM
+S12E 6,12,6,Snatch Game,150,Nicky Doll,
+S12E 6,12,6,Snatch Game,151,Rock M. Sakura,
+S12E 6,12,6,Snatch Game,144,Dahlia Sin,
+S13E 9,13,9,Snatch Game,163,Symone,SAFE
+S13E 9,13,9,Snatch Game,159,Kandy Muse,SAFE
+S13E 9,13,9,Snatch Game,156,Gottmik,WIN
+S13E 9,13,9,Snatch Game,162,Rosé,HIGH
+S13E 9,13,9,Snatch Game,161,Olivia Lux,LOW
+S13E 9,13,9,Snatch Game,166,Utica Queen,BTM
+S13E 9,13,9,Snatch Game,165,Tina Burner,SAFE
+S13E 9,13,9,Snatch Game,154,Denali,HIGH
+S13E 9,13,9,Snatch Game,155,Elliott with 2 Ts,ELIM
+S13E 9,13,9,Snatch Game,160,LaLa Ri,
+S13E 9,13,9,Snatch Game,164,Tamisha Iman,
+S13E 9,13,9,Snatch Game,157,Joey Jay,
+S13E 9,13,9,Snatch Game,158,Kahmora Hall,
