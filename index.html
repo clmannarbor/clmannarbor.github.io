@@ -12,7 +12,7 @@
   Select a file: <input type="file" id="myFile">
 <button onclick='processFile()'>Show just "wins"</button>
  <br><br>
- <h3>All data in file: </h3><table id="myTable" border=1></table>
+<table id="myTable" border=1></table>
 
  <script>
 var text = "<h3>Just wins:</h3><table cellpadding=1 border=1>";
@@ -59,14 +59,22 @@ function processFile() {
                     //append row child
                     row.appendChild(cellElement);  
                     if ((i==6)&&(rowContent[i]=="WIN"))
-                    		{remove_commas = rowContent.replace(",", "</td><td>");
-                    		text=text + "<tr><td>" + remove_commas+"<br></td></tr>";
+                    		{
+                    		text=text + "<tr><td>" + rowContent+"<br></td></tr>";
+                    		//text = text.replace(",", "</td><td>");
+                    		
+                    		
+                    		let re = /,/gi;
+							text = text.replace(re, '</td><td>');
+
+
+
                     		 }
                 }
                  
                  document.getElementById("demo").innerHTML =text;
                 //append table contents
-                myTable.appendChild(row);
+                //myTable.appendChild(row); #uncomment this to see all data
             }
         }
          //call file reader onload
