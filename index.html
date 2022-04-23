@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Google Sheets API Quickstart</title>
+    <title>Drag Race data sandbox</title>
     <meta charset="utf-8" />
   </head>
   <body>
@@ -17,7 +17,7 @@ Example of cross-referencing the Ball results with a second array (contestant bi
 
  <br><br>
  
-  <p id="demo2"></p>
+  <p id="results_here"></p>
  
  
 
@@ -2547,7 +2547,7 @@ function get_wins_and_real_name() {
 
 	}
 	html+="</table>";
-	document.getElementById("demo2").innerHTML = html;
+	document.getElementById("results_here").innerHTML = html;
 
     return false;
 }
@@ -2569,7 +2569,7 @@ function get_wins() {
 
 	}
 	html+="</table>";
-	document.getElementById("demo2").innerHTML = html;
+	document.getElementById("results_here").innerHTML = html;
 
     return false;
 }
@@ -2590,7 +2590,7 @@ function get_ball_wins() {
 
 	}
 	html+="</table>";
-	document.getElementById("demo2").innerHTML = html;
+	document.getElementById("results_here").innerHTML = html;
 
     return false;
 }
