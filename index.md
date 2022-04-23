@@ -1,37 +1,90 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Sheets API Quickstart</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+ <div id="demo"></div></table>
+ 
+ <table id="winTable" border=1></table>
+ 
+  Select a file: <input type="file" id="myFile">
+<button onclick='processFile()'>Show just "wins"</button>
+ <br><br>
+ <h3>All data in file: </h3><table id="myTable" border=1></table>
 
-You can use the [editor on GitHub](https://github.com/clmannarbor/clmannarbor.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+ <script>
+var text = "<h3>Just wins:</h3><table cellpadding=1 border=1>";
+function processFile() {
+	var hold_wins = ""
+    var fileSize = 0;
+    //get file
+    var theFile = document.getElementById("myFile");
+    
+     var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+     //check if file is CSV
+     if (regex.test(theFile.value.toLowerCase())) {
+     //check if browser support FileReader
+        if (typeof (FileReader) != "undefined") {
+       //get table element
+        var table = document.getElementById("myTable");
+        var headerLine = "";
+        //create html5 file reader object
+        var myReader = new FileReader();
+        // call filereader. onload function
+        myReader.onload = function(e) {
+            var content = myReader.result;
+            //split csv file using "\n" for new line ( each row)
+            var lines = content.split("\r");
+            //loop all rows
+            for (var count = 0; count < lines.length; count++) {
+                //create a tr element
+                var row = document.createElement("tr");
+                //split each row content
+                var rowContent = lines[count].split(",");
+                //loop throw all columns of a row
+                for (var i = 0; i < rowContent.length; i++) {
+                   //create td element 
+                    var cellElement = document.createElement("td");
+                    if (count == 0) {
+                        cellElement = document.createElement("th");
+                    } else {
+                        cellElement = document.createElement("td");
+                    }
+                    //add a row element as a node for table
+                    var cellContent = document.createTextNode(rowContent[i]);
+                    
+                    cellElement.appendChild(cellContent);
+                    //append row child
+                    row.appendChild(cellElement);  
+                    if ((i==6)&&(rowContent[i]=="WIN"))
+                    		{remove_commas = rowContent.replace(",", "</td><td>");
+                    		text=text + "<tr><td>" + remove_commas+"<br></td></tr>";
+                    		 }
+                }
+                 
+                 document.getElementById("demo").innerHTML =text;
+                //append table contents
+                myTable.appendChild(row);
+            }
+        }
+         //call file reader onload
+          myReader.readAsText(theFile.files[0]);
+          
+        }
+        else 
+        {
+              alert("This browser does not support HTML5.");
+        }
+        
+    }
+    else {
+                alert("Please upload a valid CSV file.");
+    }
+    return false;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/clmannarbor/clmannarbor.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</script>
+</body></html>
