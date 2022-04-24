@@ -6,20 +6,63 @@
   </head>
   <body>
  
+ <br>This is just a demo to show how fast search results can happen. Obviously not what you'd really search on or how you want it to look.<br><br>
+ You'd have the data in google sheets and export to a CSV on your hard drive. A 'utility script' would sit in the same folder as the CSV files
+ and you could run it anytime to generate a new index.html page that sucked in all the CSV data and made embedded arrays with it. Then
+ when you were ready, you'd replace the index.html file on your GitHub account with the new index.html file.
  <h2>Analyze episode outcomes</h2>
-  
+  <b> Demo of buttons:<br></b><br>
+<ul>
 Show  data for anyone with 'WIN': <button onclick='get_wins()'>Show episode winners</button><br><br>
 Show  data for anyone who won a Ball challenge: <button onclick='get_ball_wins()'>Show Ball winners</button><br><br>
 Example of cross-referencing the Ball results with a second array (contestant biographical info): 
  <button onclick='get_wins_and_real_name()'>Add in real name to Ball challenge data </button>
  <br><br>
+ </ul>
+<b> Demo with pulldowns:<br></b><br>
+In reality you'd have multiple pulldowns that you could 'AND' or 'OR' together to make different queries.  This is really just to show javascript code for how pulldowns work.
+<ul>
+<form>
+  
+	<select name="drag-search" id="drag-search" onchange = "dropdownMenu()">
+	   <option> ---Show me: --- </option>  
+	   <option value="get_wins()">Anyone with a WIN</option>
+	  <option value="get_ball_wins()">Anyone who won a Ball Challenge</option>
+	  <option value="get_wins_and_real_name()">Ball winners PLUS real names</option>
+	 </select>
  
+	  <button onclick="submitForm(event)">Submit</button>
+
+</form>
+</ul>
  <p id="results_here"></p>
- 
- 
+
+ <p id="results"></p>
 
  <script>
  
+ 
+ 
+function submitForm(ev) {
+  ev.preventDefault();
+  let selectInputs = document.querySelectorAll('select');
+  let res = [];
+  selectInputs.forEach(input => {res.push(input.value)})
+
+	for (var i = 0; i < res.length; i++) {
+		if (res[i] == "get_wins()") {get_wins();}
+		else if (res[i] == "get_ball_wins()") {get_ball_wins();}
+		else if (res[i] == "get_wins_and_real_name()") {get_wins_and_real_name();}
+	}
+
+
+
+ // document.getElementById("results").innerHTML = res;
+
+
+
+  return res;
+}
  // each data table will be embedded as an array of objects:
 const contestant_data = 
 
@@ -2580,7 +2623,7 @@ function get_wins_and_real_name() {
 		html+="<td align=center>"+winsArray[i].episode_type+"</td>";
  		var cross_find = winsArray[i].contestant_id;
 		let cross_find_data = contestant_data.filter(name => name.contestant_id ===cross_find);
-		 let cross_find_name = cross_find_data[0].real_name;
+		let cross_find_name = cross_find_data[0].real_name;
 		html+="<td align=center>"+winsArray[i].contestant+"<br>" + cross_find_name + "</td>";
 		//html+="<td align=center>"+winsArray[i].outcome+"</td>";
 		html+="</tr>";
