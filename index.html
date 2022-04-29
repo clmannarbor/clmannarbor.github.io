@@ -2604,7 +2604,13 @@ function get_wins(filter_value) {
 }
 function get_ball_wins(filter_value) {
 	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="Ball");
-	let bornArray = contestant_data.filter(queen =>queen.born ===filter_value); 
+	bornArray=[];
+	if (filter_value === "any") {bornArray = contestant_data.filter(queen =>queen.born !="blah"); }
+
+	 else {
+	bornArray = contestant_data.filter(queen =>queen.born ===filter_value); 
+	}
+
 
  	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td><td  align=center><b>Location</b></td></tr>";
 	for (var i = 0; i < winsArray.length; i++) 
