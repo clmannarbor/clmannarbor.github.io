@@ -29,7 +29,11 @@ In reality you'd have multiple pulldowns that you could 'AND' or 'OR' together t
 	   <option> ---Show me: --- </option>  
 	   <option value="get_wins()">Anyone with a WIN</option>
 	  <option value="get_ball_wins()">Anyone who won a Ball Challenge</option>
-	  <option value="get_wins_and_real_name()">Ball winners PLUS real names</option>
+ 	 </select> &nbsp;who lives in&nbsp;
+	<select name="location_search" id="location-search" onchange = "dropdownMenu()">
+	   <option value="any"> --anywhere --- </option>  
+	   <option value=" CA">California</option>
+	  <option value=" TX">Texas</option>
 	 </select>
  
 	  <button onclick="submitForm(event)">Submit</button>
@@ -49,12 +53,11 @@ function submitForm(ev) {
   let selectInputs = document.querySelectorAll('select');
   let res = [];
   selectInputs.forEach(input => {res.push(input.value)})
-
-	for (var i = 0; i < res.length; i++) {
-		if (res[i] == "get_wins()") {get_wins();}
-		else if (res[i] == "get_ball_wins()") {get_ball_wins();}
-		else if (res[i] == "get_wins_and_real_name()") {get_wins_and_real_name();}
-	}
+ 
+ 	for (var i = 0; i < res.length; i++) {
+		if (res[0] == "get_wins()") {get_wins(res[1]);}
+		else if (res[0] == "get_ball_wins()") {get_ball_wins(res[1]);}
+ 	}
 
 
 
@@ -2569,49 +2572,81 @@ const episode_outcomes =
 	{"season_episode":"S13E 9","season":"13","episode":"9","episode_type":"Snatch Game","contestant_id":"158","contestant":"Kahmora Hall","outcome":""}
 ];
  
-
-function get_wins() {
+function get_wins(filter_value) {
 	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN");
+	locationsArray=[];
+	if (filter_value === "any") {locationsArray = contestant_data.filter(queen =>queen.location !="blah"); }
+
+	 else {
+	locationsArray = contestant_data.filter(queen =>queen.location ===filter_value); 
+	}
 
  
-	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td></tr>";
-	for (var i = 0; i < winsArray.length; i++) {
-		html+="<tr>";
-		html+="<td align=center>"+winsArray[i].season+"</td>";
-		html+="<td align=center>"+winsArray[i].episode+"</td>";
-		html+="<td align=center>"+winsArray[i].episode_type+"</td>";
- 		html+="<td align=center>"+winsArray[i].contestant+"</td>";
-		//html+="<td align=center>"+winsArray[i].outcome+"</td>";
+	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td><td  align=center><b>Location</b></td></tr>";
+	for (var i = 0; i < winsArray.length; i++) 
+	{
 	
-		html+="</tr>";
+		for (var j = 0; j< locationsArray.length; j++)
+		{
+		
+			if (winsArray[i].contestant == locationsArray[j].contestant)
+				{
+					html+="<tr>";
+					html+="<td align=center>"+winsArray[i].season+"</td>";
+					html+="<td align=center>"+winsArray[i].episode+"</td>";
+					html+="<td align=center>"+winsArray[i].episode_type+"</td>";
+					html+="<td align=center>"+winsArray[i].contestant+"</td>";
+					html+="<td align=center>"+locationsArray[j].location+"</td>";
+
+					html+="</tr>";
+				}
+		}
+		
 
 	}
+
+
 	html+="</table>";
 	document.getElementById("results_here").innerHTML = html;
 
     return false;
 }
-function get_ball_wins() {
+function get_ball_wins(filter_value) {
 	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="Ball");
+	let locationsArray = contestant_data.filter(queen =>queen.location ===filter_value); 
 
- 
-	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td></tr>";
-	for (var i = 0; i < winsArray.length; i++) {
-		html+="<tr>";
-		html+="<td align=center>"+winsArray[i].season+"</td>";
-		html+="<td align=center>"+winsArray[i].episode+"</td>";
-		html+="<td align=center>"+winsArray[i].episode_type+"</td>";
- 		html+="<td align=center>"+winsArray[i].contestant+"</td>";
-		//html+="<td align=center>"+winsArray[i].outcome+"</td>";
+ 	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td><td  align=center><b>Location</b></td></tr>";
+	for (var i = 0; i < winsArray.length; i++) 
+	{
 	
-		html+="</tr>";
+		for (var j = 0; j< locationsArray.length; j++)
+		{
+		
+			if (winsArray[i].contestant == locationsArray[j].contestant)
+				{
+					html+="<tr>";
+					html+="<td align=center>"+winsArray[i].season+"</td>";
+					html+="<td align=center>"+winsArray[i].episode+"</td>";
+					html+="<td align=center>"+winsArray[i].episode_type+"</td>";
+					html+="<td align=center>"+winsArray[i].contestant+"</td>";
+					html+="<td align=center>"+locationsArray[j].location+"</td>";
+
+					html+="</tr>";
+				}
+		}
+		
 
 	}
+
+
 	html+="</table>";
 	document.getElementById("results_here").innerHTML = html;
 
     return false;
 }
+
+
+
 function get_wins_and_real_name() {
 	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN");
 
