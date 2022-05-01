@@ -21,8 +21,8 @@ The location pulldown is automatically populated with whatever data is in the ar
   
 	<select name="drag-search" id="drag-search" onchange = "dropdownMenu()">
 	   <option> ---Show me: --- </option>  
-	   <option value="get_wins()">Anyone with a WIN</option>
-	  <option value="get_ball_wins()">Anyone who won a Ball Challenge</option>
+	   <option value="any">Anyone with a WIN</option>
+	  <option value="ball">Anyone who won a Ball Challenge</option>
  	 </select> &nbsp;who was born in&nbsp;
   <select id="selectBorn">
 	   <option value="any"> Anywhere </option>  
@@ -37,7 +37,7 @@ The location pulldown is automatically populated with whatever data is in the ar
 </form>
 </ul>
  <p id="results_here"></p>
-
+ 
 
 <script>
 
@@ -48,17 +48,14 @@ function submitForm(ev) {
   let selectInputs = document.querySelectorAll('select');
   let res = [];
   selectInputs.forEach(input => {res.push(input.value)})
+  //document.getElementById("results").innerHTML = res;
+
+  get_wins(res[0],res[1],res[2]);
  
- 	for (var i = 0; i < res.length; i++) {
-		if (res[0] == "get_wins()") {get_wins(res[1],res[2]);}
-		else if (res[0] == "get_ball_wins()") {get_ball_wins(res[1],res[2]);}
- 	}
 
 
 
- // document.getElementById("results").innerHTML = res;
-
-
+ 
 
   return res;
 }
@@ -68,7 +65,7 @@ const contestant_data =
 [
 {"contestant_id":"103","contestant":"Charlie Hides","real_name":"Charlie Hides","birth_date":"7/12/64","born":"MA","born_country":"USA","ethnicity":"Irish American","height":"","gender":"Non-Binary","pronouns\r":"\r"},
 {"contestant_id":"86","contestant":"Tempest DuJour","real_name":"Patrick Holt","birth_date":"9/1/67","born":"NC","born_country":"USA","ethnicity":"","height":"","gender":"Male","pronouns\r":"\r"},
-{"contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","real_name":"Victor Bowling","birth_date":"1/16/69","born":"NC","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","real_name":"Victor Bowling","birth_date":"1/16/69","born":"NC","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"164","contestant":"Tamisha Iman","real_name":"Will Crawford","birth_date":"10/16/70","born":"AL","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"83","contestant":"Mrs. Kasha Davis","real_name":"Edward Popil","birth_date":"3/12/71","born":"NY","born_country":"USA","ethnicity":"","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"35","contestant":"Chad Michaels","real_name":"Chad Michael Storbeck","birth_date":"3/20/71","born":"CA","born_country":"USA","ethnicity":"","height":"","gender":"Male","pronouns\r":"\r"},
@@ -79,14 +76,14 @@ const contestant_data =
 {"contestant_id":"57","contestant":"Penny Tration","real_name":"Tony Cody","birth_date":"10/12/72","born":"OH","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"4","contestant":"Nina Flowers","real_name":"Jorge Luis Flores SÃ¡nchez","birth_date":"2/22/74","born":"CO","born_country":"USA","ethnicity":"Puerto Rican","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"74","contestant":"Vivacious","real_name":"Osmond Vacious","birth_date":"3/7/74","born":"","born_country":"","ethnicity":"Afro-Jamaican","height":"","gender":"Male","pronouns\r":"\r"},
-{"contestant_id":"30","contestant":"Raja","real_name":"Sutan Ibrahim Karim Amrullah","birth_date":"6/14/74","born":"CA","born_country":"USA","ethnicity":"Dutch-Indonesian American","height":"\"6'3\"\" (1.90m)\"","gender":"Non-Binary","pronouns\r":"\r"},
+{"contestant_id":"30","contestant":"Raja","real_name":"Sutan Ibrahim Karim Amrullah","birth_date":"6/14/74","born":"CA","born_country":"USA","ethnicity":"Dutch-Indonesian American","height":"6'3\"\" (1.90m)\"","gender":"Non-Binary","pronouns\r":"\r"},
 {"contestant_id":"49","contestant":"Coco Montrese","real_name":"Martin Cooper","birth_date":"7/2/74","born":"FL","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"42","contestant":"Milan","real_name":"Dwayne Cooper","birth_date":"5/27/75","born":"SC","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"He/Him & They/Them\r"},
 {"contestant_id":"64","contestant":"Bianca Del Rio","real_name":"Roy Rene Haylock","birth_date":"6/27/75","born":"LA","born_country":"USA","ethnicity":"Cuban-Honduran American","height":"5â€²9.5â€³ (1.77 m)","gender":"Male","pronouns\r":"\r"},
-{"contestant_id":"24","contestant":"Delta Work","real_name":"Gabriel Villarreal","birth_date":"1/23/76","born":"CA","born_country":"USA","ethnicity":"Mexican American","height":"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"24","contestant":"Delta Work","real_name":"Gabriel Villarreal","birth_date":"1/23/76","born":"CA","born_country":"USA","ethnicity":"Mexican-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"69","contestant":"Kelly Mantle","real_name":"Kelly Mantle","birth_date":"7/9/76","born":"OK","born_country":"USA","ethnicity":"Native American (Cherokee)","height":"","gender":"Two-Spirit","pronouns\r":"\r"},
 {"contestant_id":"77","contestant":"Jasmine Masters","real_name":"Martell Robinson","birth_date":"10/16/76","born":"CA","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"\r"},
-{"contestant_id":"137","contestant":"Shuga Cain","real_name":"Jesus Martinez","birth_date":"11/20/77","born":"CA","born_country":"USA","ethnicity":"\"Salvadoran","height":" Spanish & Apache\"","gender":"","pronouns\r":""},
+{"contestant_id":"137","contestant":"Shuga Cain","real_name":"Jesus Martinez","birth_date":"11/20/77","born":"CA","born_country":"USA","ethnicity":"Salvadoran","height":" Spanish & Apache\"","gender":"","pronouns\r":""},
 {"contestant_id":"89","contestant":"Acid Betty","real_name":"Jamin Ruhren","birth_date":"12/10/77","born":"NY","born_country":"USA","ethnicity":"Jewish American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"133","contestant":"Nina West","real_name":"Andrew Levitt","birth_date":"8/10/78","born":"OH","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"He/Him/His\r"},
 {"contestant_id":"45","contestant":"The Princess","real_name":"Adam Biga","birth_date":"2/27/79","born":"NE","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"He/Him & They/Them\r"},
@@ -102,7 +99,7 @@ const contestant_data =
 {"contestant_id":"92","contestant":"Cynthia Lee Fontaine","real_name":"Carlos DÃ­az HernÃ¡ndez","birth_date":"2/16/81","born":"San Juan","born_country":"Puerto Rico","ethnicity":"Puerto Rican","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"2","contestant":"BeBe Zahara Benet","real_name":"Nea Marshall Kudi Ngwa","birth_date":"3/20/81","born":"Cameroon","born_country":"USA","ethnicity":"Cameroonian","height":"6â€²2â€³ (1.87 m)","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"12","contestant":"Morgan McMichaels","real_name":"Thomas White","birth_date":"5/28/81","born":"Dumbarton","born_country":"Scotland/UK","ethnicity":"Scottish","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"26","contestant":"Manila Luzon","real_name":"Karl Philip Michael Westerberg","birth_date":"8/10/81","born":"MN","born_country":"USA","ethnicity":"\"Filipino","height":" German","gender":" Swedish\"","pronouns\r":"5â€²10â€³ (1.78 m)"},
+{"contestant_id":"26","contestant":"Manila Luzon","real_name":"Karl Philip Michael Westerberg","birth_date":"8/10/81","born":"MN","born_country":"USA","ethnicity":"Filipino","height":" German","gender":" Swedish\"","pronouns\r":"5â€²10â€³ (1.78 m)"},
 {"contestant_id":"18","contestant":"Shangela","real_name":"Darius Jeremy Pierce","birth_date":"11/22/81","born":"TX","born_country":"USA","ethnicity":"Afro-Saudi American","height":"5â€²6â€³ (1.67 m)","gender":"","pronouns\r":"He/Him\r"},
 {"contestant_id":"44","contestant":"Sharon Needles","real_name":"Aaron Coady","birth_date":"11/28/81","born":"IA","born_country":"USA","ethnicity":"","height":"5â€²8â€³ (1.72 m)","gender":"","pronouns\r":"He/Him & She/Her\r"},
 {"contestant_id":"37","contestant":"Jiggly Caliente","real_name":"Bianca Castro","birth_date":"11/29/81","born":"NY","born_country":"USA","ethnicity":"Filipino","height":"","gender":"Female","pronouns\r":"She/Her\r"},
@@ -110,7 +107,7 @@ const contestant_data =
 {"contestant_id":"120","contestant":"Mayhem Miller","real_name":"Dequan Armand Johnson","birth_date":"2/9/82","born":"CA","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"He/Him\r"},
 {"contestant_id":"27","contestant":"Mariah","real_name":"Elijah Kelly","birth_date":"2/13/82","born":"GA","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"65","contestant":"Courtney Act","real_name":"Shane Gilberto Jenek","birth_date":"2/18/82","born":"Brisbane/QLD","born_country":"Australia","ethnicity":"European Australian","height":"5'9","gender":"Genderfluid","pronouns\r":"She/Her or They/Them\r"},
-{"contestant_id":"79","contestant":"Katya","real_name":"Brian Joseph McCook","birth_date":"5/1/82","born":"MA","born_country":"USA","ethnicity":"Irish American","height":"\"5'9\"\" (1.75 m)\"","gender":"Male","pronouns\r":"\r"},
+{"contestant_id":"79","contestant":"Katya","real_name":"Brian Joseph McCook","birth_date":"5/1/82","born":"MA","born_country":"USA","ethnicity":"Irish American","height":"5'9\"\" (1.75 m)\"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"6","contestant":"Rebecca Glasscock","real_name":"Javier JosÃ© Rivera Nieves","birth_date":"5/25/82","born":"FL","born_country":"USA","ethnicity":"Puerto Rican","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"46","contestant":"Willam","real_name":"Willam Bart Belli","birth_date":"6/30/82","born":"PA","born_country":"USA","ethnicity":"Italian-Yugoslav American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"115","contestant":"Asia O'Hara","real_name":"Antwan Mason Lee","birth_date":"7/7/82","born":"TX","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
@@ -132,10 +129,10 @@ const contestant_data =
 {"contestant_id":"31","contestant":"Stacy Layne Matthews","real_name":"Stacy Jones","birth_date":"7/19/84","born":"NC","born_country":"USA","ethnicity":"Native American (Lumbee)","height":"","gender":"Female","pronouns\r":"\r"},
 {"contestant_id":"93","contestant":"Dax ExclamationPoint","real_name":"Dax Martin","birth_date":"7/29/84","born":"GA","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"32","contestant":"Venus D-Lite","real_name":"Adam Daniel Guerra","birth_date":"9/5/84","born":"CA","born_country":"USA","ethnicity":"Italian American","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"75","contestant":"Ginger Minj","real_name":"Joshua Allen Eads","birth_date":"9/11/84","born":"FL","born_country":"USA","ethnicity":"Irish American","height":"\"5'4\"\" (162.5 cm)\"","gender":"Genderfluid","pronouns\r":"She/Her\r"},
+{"contestant_id":"75","contestant":"Ginger Minj","real_name":"Joshua Allen Eads","birth_date":"9/11/84","born":"FL","born_country":"USA","ethnicity":"Irish American","height":"5'4\"\" (162.5 cm)\"","gender":"Genderfluid","pronouns\r":"She/Her\r"},
 {"contestant_id":"102","contestant":"Alexis Michelle","real_name":"Alex Michaels","birth_date":"10/16/84","born":"NY","born_country":"USA","ethnicity":"Jewish American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"3","contestant":"Jade","real_name":"David Sotomayor Jr.","birth_date":"11/18/84","born":"IL","born_country":"USA","ethnicity":"Puerto Rican","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"112","contestant":"Trinity Taylor","real_name":"Ryan Ashton Taylor","birth_date":"12/10/84","born":"AL","born_country":"USA","ethnicity":"\"British","height":" Irish","gender":" Scandinavian","pronouns\r":" Italian"},
+{"contestant_id":"112","contestant":"Trinity Taylor","real_name":"Ryan Ashton Taylor","birth_date":"12/10/84","born":"AL","born_country":"USA","ethnicity":"British","height":" Irish","gender":" Scandinavian","pronouns\r":" Italian"},
 {"contestant_id":"17","contestant":"Sahara Davenport","real_name":"Antoine Ashley","birth_date":"12/17/84","born":"TX","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"56","contestant":"Monica Beverly Hillz","real_name":"Monica Michelle DeJesus-Anaya","birth_date":"1/31/85","born":"KY","born_country":"USA","ethnicity":"Afro-Puerto Rican","height":"","gender":"Female","pronouns\r":"\r"},
 {"contestant_id":"1","contestant":"Akashia","real_name":"Eric Flint","birth_date":"2/19/85","born":"","born_country":"","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
@@ -151,7 +148,7 @@ const contestant_data =
 {"contestant_id":"91","contestant":"Chi Chi DeVayne","real_name":"Zavion Michael Davenport","birth_date":"9/24/85","born":"LA","born_country":"USA","ethnicity":"Louisiana Creole","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"43","contestant":"Phi Phi O'Hara","real_name":"Jaremi Lee Carey","birth_date":"10/10/85","born":"","born_country":"","ethnicity":"Filipino-Portuguese American","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"135","contestant":"Ra'Jah O'Hara","real_name":"Benni Miller","birth_date":"12/31/85","born":"TX","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"He/Him & She/Her\r"},
-{"contestant_id":"129","contestant":"Brooke Lynn Hytes","real_name":"Brock Edward Hayhoe","birth_date":"3/10/86","born":"Ontario","born_country":"Canada","ethnicity":"French-Swedish Canadian","height":"\"6'3\"\" (190.5 cm)\"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"129","contestant":"Brooke Lynn Hytes","real_name":"Brock Edward Hayhoe","birth_date":"3/10/86","born":"Ontario","born_country":"Canada","ethnicity":"French-Swedish Canadian","height":"6'3\"\" (190.5 cm)\"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"85","contestant":"Sasha Belle","real_name":"Jared Breakenridge","birth_date":"3/19/86","born":"IA","born_country":"USA","ethnicity":"","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"25","contestant":"India Ferrah","real_name":"Shane Richardson","birth_date":"5/8/86","born":"OH","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"122","contestant":"Monique Heart","real_name":"Kevin Richardson","birth_date":"5/22/86","born":"NY","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"She/Her\r"},
@@ -161,11 +158,11 @@ const contestant_data =
 {"contestant_id":"130","contestant":"Honey Davenport","real_name":"James Clark","birth_date":"8/13/86","born":"PA","born_country":"USA","ethnicity":"African-American","height":"","gender":"Non-Binary","pronouns\r":"They/Them\r"},
 {"contestant_id":"52","contestant":"Ivy Winters","real_name":"Dustin Winters","birth_date":"10/5/86","born":"MI","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"53","contestant":"Jade Jolie","real_name":"Joshua Green","birth_date":"11/2/86","born":"FL","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"She/Her\r"},
-{"contestant_id":"148","contestant":"Jaida Essence Hall","real_name":"Jared Johnson","birth_date":"12/9/86","born":"WI","born_country":"USA","ethnicity":"African-American","height":"\"5â€™8\"\" (1.72m)\"","gender":"Male","pronouns\r":"She\r"},
+{"contestant_id":"148","contestant":"Jaida Essence Hall","real_name":"Jared Johnson","birth_date":"12/9/86","born":"WI","born_country":"USA","ethnicity":"African-American","height":"5â€™8\"\" (1.72m)\"","gender":"Male","pronouns\r":"She\r"},
 {"contestant_id":"132","contestant":"Mercedes Iman Diamond","real_name":"Curran","birth_date":"12/12/86","born":"MN","born_country":"USA","ethnicity":"Kenyan","height":"","gender":"Male","pronouns\r":"She/Her\r"},
 {"contestant_id":"36","contestant":"DiDa Ritz","real_name":"Xavier Hairston","birth_date":"12/20/86","born":"MI","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"72","contestant":"Milk","real_name":"Daniel Donigan","birth_date":"6/23/87","born":"NY","born_country":"USA","ethnicity":"Irish American","height":"6â€²4â€³ (1.93 m)","gender":"Non-Binary","pronouns\r":"He/Him & She/Her\r"},
-{"contestant_id":"110","contestant":"Sasha Velour","real_name":"\"Alexander \"\"Sasha\"\" Hedges Steinberg\"","birth_date":"6/25/87","born":"CA","born_country":"USA","ethnicity":"Russian-Jewish American","height":"5â€²9â€³ (1.75 m)","gender":"Genderfluid/Genderqueer","pronouns\r":"She/They\r"},
+{"contestant_id":"110","contestant":"Sasha Velour","real_name":"Alexander \"\"Sasha\"\" Hedges Steinberg\"","birth_date":"6/25/87","born":"CA","born_country":"USA","ethnicity":"Russian-Jewish American","height":"5â€²9â€³ (1.75 m)","gender":"Genderfluid/Genderqueer","pronouns\r":"She/They\r"},
 {"contestant_id":"95","contestant":"Kim Chi","real_name":"Sang-Young Shin","birth_date":"8/8/87","born":"IL","born_country":"USA","ethnicity":"Korean American","height":"6â€²4.25â€³ (1.94 m)","gender":"","pronouns\r":"She/Her\r"},
 {"contestant_id":"54","contestant":"Jinkx Monsoon","real_name":"Jerick Hoffer","birth_date":"9/18/87","born":"OR","born_country":"USA","ethnicity":"Jewish American","height":"5â€²7â€³ (1.70 m)","gender":"Non-Binary","pronouns\r":"She/Her\r"},
 {"contestant_id":"78","contestant":"Kandy Ho","real_name":"Frank Diaz","birth_date":"9/24/87","born":"Cayey","born_country":"Puerto Rico","ethnicity":"Puerto Rican","height":"","gender":"Male","pronouns\r":"\r"},
@@ -178,20 +175,20 @@ const contestant_data =
 {"contestant_id":"107","contestant":"Kimora Blac","real_name":"Von Nguyen","birth_date":"12/15/88","born":"NV","born_country":"USA","ethnicity":"Vietnamese American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"76","contestant":"Jaidynn Diore Fierce","real_name":"Christopher Williams","birth_date":"12/17/88","born":"TN","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"70","contestant":"Laganja Estranja","real_name":"Jay Jackson","birth_date":"12/28/88","born":"TX","born_country":"USA","ethnicity":"","height":"","gender":"Non-Binary Female","pronouns\r":"She/Her\r"},
-{"contestant_id":"111","contestant":"Shea CouleÃ©","real_name":"Jaren Kyei Marrell","birth_date":"2/8/89","born":"IL","born_country":"USA","ethnicity":"African-American","height":"\"5'9\"\" (1.75 m)\"","gender":"Non-Binary","pronouns\r":"She/Her\r"},
+{"contestant_id":"111","contestant":"Shea CouleÃ©","real_name":"Jaren Kyei Marrell","birth_date":"2/8/89","born":"IL","born_country":"USA","ethnicity":"African-American","height":"5'9\"\" (1.75 m)\"","gender":"Non-Binary","pronouns\r":"She/Her\r"},
 {"contestant_id":"153","contestant":"Widow Von'Du","real_name":"Ray Fry","birth_date":"4/17/89","born":"MO","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"62","contestant":"April CarriÃ³n","real_name":"Jason CarriÃ³n","birth_date":"4/23/89","born":"Guaynabo","born_country":"Puerto Rico","ethnicity":"Puerto Rican","height":"","gender":"Genderqueer","pronouns\r":"\r"},
 {"contestant_id":"162","contestant":"RosÃ©","real_name":"Ross Matthew McCorkell","birth_date":"5/26/89","born":"TX","born_country":"USA","ethnicity":"Scottish","height":"","gender":"Male","pronouns\r":"She/Her/He/Him\r"},
 {"contestant_id":"87","contestant":"Trixie Mattel","real_name":"Brian Michael Firkus","birth_date":"8/23/89","born":"WI","born_country":"USA","ethnicity":"Native American (Ojibwe)","height":"5â€²10â€³ (1.78 m)","gender":"Male","pronouns\r":"She/Her & They/Them\r"},
-{"contestant_id":"61","contestant":"Adore Delano","real_name":"Daniel Anthony Noriega","birth_date":"9/29/89","born":"CA","born_country":"USA","ethnicity":"\"Mexican","height":" German & Native American\"","gender":"\"5'9\"\" (1.75 m)\"","pronouns\r":"Non-Binary"},
+{"contestant_id":"61","contestant":"Adore Delano","real_name":"Daniel Anthony Noriega","birth_date":"9/29/89","born":"CA","born_country ":"USA","ethnicity":"Mexican","height":" German & Native American\"","gender":"5'9\"\" (1.75 m)\"","pronouns\r":"Non-Binary"},
 {"contestant_id":"39","contestant":"Lashauwn Beyond","real_name":"Lashauwn Jackson","birth_date":"11/11/89","born":"FL","born_country":"USA","ethnicity":"","height":"","gender":"Female","pronouns\r":"\r"},
-{"contestant_id":"106","contestant":"Jaymes Mansfield","real_name":"James Wirth","birth_date":"2/19/90","born":"TX","born_country":"USA","ethnicity":"Mexican American","height":"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"106","contestant":"Jaymes Mansfield","real_name":"James Wirth","birth_date":"2/19/90","born":"TX","born_country":"USA","ethnicity":"Mexican-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"123","contestant":"MonÃ©t X Change","real_name":"Kevin Bertin","birth_date":"2/19/90","born":"NY","born_country":"USA","ethnicity":"Afro-St. Lucian American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"126","contestant":"Yuhua Hamasaki","real_name":"Yuhua Ou","birth_date":"3/1/90","born":"","born_country":"","ethnicity":"Han Chinese","height":"","gender":"Non-Binary","pronouns\r":"\r"},
 {"contestant_id":"171","contestant":"DeJa Skye","real_name":"Willie Redman","birth_date":"4/22/90","born":"","born_country":"","ethnicity":"African-American","height":"","gender":"","pronouns\r":"She/Her/They/Them\r"},
-{"contestant_id":"38","contestant":"Kenya Michaels","real_name":"Kenya Olivera Bonilla","birth_date":"5/8/90","born":"Dorado","born_country":"Puerto Rico","ethnicity":"Afro-Puerto Rican","height":"\"5'0\"\" (1.52 m)\"","gender":"Female","pronouns\r":"She/Her\r"},
+{"contestant_id":"38","contestant":"Kenya Michaels","real_name":"Kenya Olivera Bonilla","birth_date":"5/8/90","born":"Dorado","born_country":"Puerto Rico","ethnicity":"Afro-Puerto Rican","height":"5'0\"\" (1.52 m)\"","gender":"Female","pronouns\r":"She/Her\r"},
 {"contestant_id":"67","contestant":"Gia Gunn","real_name":"Gia Ketaro Ichikawa","birth_date":"5/10/90","born":"IL","born_country":"USA","ethnicity":"Japanese American","height":"","gender":"Female","pronouns\r":"She/Her\r"},
-{"contestant_id":"118","contestant":"Kalorie Karbdashian Williams","real_name":"Daniel Hernandez","birth_date":"5/23/90","born":"NM","born_country":"USA","ethnicity":"Mexican American","height":"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"118","contestant":"Kalorie Karbdashian Williams","real_name":"Daniel Hernandez","birth_date":"5/23/90","born":"NM","born_country":"USA","ethnicity":"Mexican-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"141","contestant":"Aiden Zhane","real_name":"Devin Lewis","birth_date":"7/16/90","born":"MI","born_country":"USA","ethnicity":"","height":"5'10 (1.77 m)","gender":"Male","pronouns\r":"Any\r"},
 {"contestant_id":"177","contestant":"Lady Camden","real_name":"Rex Wheeler","birth_date":"8/9/90","born":"Camden Town","born_country":"England/UK","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"157","contestant":"Joey Jay","real_name":"Joseph","birth_date":"8/14/90","born":"WI","born_country":"USA","ethnicity":"Jewish American","height":"","gender":"Genderfluid","pronouns\r":"Any\r"},
@@ -203,21 +200,21 @@ const contestant_data =
 {"contestant_id":"124","contestant":"The Vixen","real_name":"Anthony Taylor","birth_date":"12/11/90","born":"IL","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"138","contestant":"Silky Nutmeg Ganache","real_name":"Reginald Nadjae Steele","birth_date":"12/31/90","born":"MS","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"She\r"},
 {"contestant_id":"73","contestant":"Trinity K. Bonet","real_name":"Joshua Jamal Jones","birth_date":"1/31/91","born":"FL","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"Him/He\r"},
-{"contestant_id":"150","contestant":"Nicky Doll","real_name":"Karl Sanchez","birth_date":"3/14/91","born":"Marseille","born_country":"France","ethnicity":"French-Spanish","height":"","gender":"Non-Binary","pronouns\r":"\"She/Her"},
-{"contestant_id":"143","contestant":"Crystal Methyd","real_name":"Cody Harness","birth_date":"4/16/91","born":"MO","born_country":"USA","ethnicity":"Mexican American","height":"\"5â€²10.5â€³ (1","gender":"79 m)\"","pronouns\r":"Non-Binary"},
+{"contestant_id":"150","contestant":"Nicky Doll","real_name":"Karl Sanchez","birth_date":"3/14/91","born":"Marseille","born_country":"France","ethnicity":"French-Spanish","height":"","gender":"Non-Binary","pronouns\r":"She/Her"},
+{"contestant_id":"143","contestant":"Crystal Methyd","real_name":"Cody Harness","birth_date":"4/16/91","born":"MO","born_country":"USA","ethnicity":"Mexican-American","height":"5â€²10.5â€³ (1","gender":"79 m)\"","pronouns\r":"Non-Binary"},
 {"contestant_id":"139","contestant":"Soju","real_name":"Tony Hyunsoo Ha","birth_date":"5/8/91","born":"IL","born_country":"USA","ethnicity":"Korean","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"144","contestant":"Dahlia Sin","real_name":"Erick Anthony","birth_date":"5/13/91","born":"NY","born_country":"USA","ethnicity":"Afro-Brazilian American","height":"","gender":"Non-Binary","pronouns\r":"\r"},
-{"contestant_id":"113","contestant":"Valentina","real_name":"James Andrew Leyva","birth_date":"5/14/91","born":"CA","born_country":"USA","ethnicity":"Mexican American","height":"5â€²8â€³ (1.72 m)","gender":"Non-Binary","pronouns\r":"She/Her\r"},
+{"contestant_id":"113","contestant":"Valentina","real_name":"James Andrew Leyva","birth_date":"5/14/91","born":"CA","born_country":"USA","ethnicity":"Mexican-American","height":"5â€²8â€³ (1.72 m)","gender":"Non-Binary","pronouns\r":"She/Her\r"},
 {"contestant_id":"174","contestant":"June Jambalaya","real_name":"TBA","birth_date":"6/1/91","born":"FL","born_country":"USA","ethnicity":"African-American","height":"","gender":"Male","pronouns\r":"She/Her\r"},
 {"contestant_id":"158","contestant":"Kahmora Hall","real_name":"Paul Tran","birth_date":"9/13/91","born":"IL","born_country":"USA","ethnicity":"Vietnamese American","height":"","gender":"","pronouns\r":"She/Her(In Drag)\r"},
-{"contestant_id":"125","contestant":"Vanessa Vanjie Mateo","real_name":"Jose Cancel","birth_date":"10/3/91","born":"FL","born_country":"USA","ethnicity":"Puerto Rican","height":"\"5'9\"\" (1.75m)\"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"125","contestant":"Vanessa Vanjie Mateo","real_name":"Jose Cancel","birth_date":"10/3/91","born":"FL","born_country":"USA","ethnicity":"Puerto Rican","height":"5'9\"\" (1.75m)\"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"152","contestant":"Sherry Pie","real_name":"Joey Gugliemelli","birth_date":"11/14/91","born":"NY","born_country":"USA","ethnicity":"Caucasian","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"136","contestant":"Scarlet Envy","real_name":"Jacob James","birth_date":"2/26/92","born":"KY","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"She/Her\r"},
 {"contestant_id":"154","contestant":"Denali","real_name":"Cordero Matthew Zuckerman","birth_date":"4/1/92","born":"AK","born_country":"USA","ethnicity":"German-Jewish & Indigenous Mexican","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"128","contestant":"Ariel Versace","real_name":"Bryan Philip Neel","birth_date":"4/13/92","born":"NJ","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"88","contestant":"Violet Chachki","real_name":"Paul Jason Dardo","birth_date":"6/13/92","born":"GA","born_country":"USA","ethnicity":"Ecuadorian American","height":"6â€²1â€³ (1.85 m)","gender":"Genderfluid","pronouns\r":"\r"},
 {"contestant_id":"81","contestant":"Max","real_name":"Max Malanaphy","birth_date":"6/24/92","born":"WI","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"176","contestant":"\"Kornbread \"\"The Snack\"\" JetÃ©\"","real_name":"Demoria Elsie Williams","birth_date":"7/14/92","born":"SC","born_country":"USA","ethnicity":"African-American","height":"","gender":"Female","pronouns\r":"\r"},
+{"contestant_id":"176","contestant":"Kornbread \"\"The Snack\"\" JetÃ©\"","real_name":"Demoria Elsie Williams","birth_date":"7/14/92","born":"SC","born_country":"USA","ethnicity":"African-American","height":"","gender":"Female","pronouns\r":"\r"},
 {"contestant_id":"131","contestant":"Kahanna Montrese","real_name":"Tyrone Hardiman","birth_date":"3/25/93","born":"CO","born_country":"USA","ethnicity":"Afro-Dominican American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"149","contestant":"Jan","real_name":"Charles Joseph Mantione","birth_date":"6/11/93","born":"NJ","born_country":"USA","ethnicity":"Italian-Armenian American","height":"","gender":"","pronouns\r":"She/Her\r"},
 {"contestant_id":"169","contestant":"Bosco","real_name":"Christopher Constantino","birth_date":"6/11/93","born":"MO","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"She/They\r"},
@@ -231,20 +228,20 @@ const contestant_data =
 {"contestant_id":"161","contestant":"Olivia Lux","real_name":"Fred Carlton","birth_date":"3/14/94","born":"NJ","born_country":"USA","ethnicity":"Afro-Puerto Rican","height":"","gender":"Male","pronouns\r":"\r"},
 {"contestant_id":"178","contestant":"Maddy Morphosis","real_name":"TBA","birth_date":"9/2/94","born":"AR","born_country":"USA","ethnicity":"","height":"","gender":"Male","pronouns\r":"She/Her\r"},
 {"contestant_id":"146","contestant":"Heidi N Closet","real_name":"Trevien Anthonie Cheek","birth_date":"9/29/94","born":"NC","born_country":"USA","ethnicity":"African-American","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"159","contestant":"Kandy Muse","real_name":"Kevin Gabriel Candelario","birth_date":"11/3/94","born":"NY","born_country":"USA","ethnicity":"Afro-Dominican American","height":"\"5'11\"\" (1.80m)\"","gender":"Male","pronouns\r":"\r"},
-{"contestant_id":"163","contestant":"Symone","real_name":"Reggie Gavin","birth_date":"1/14/95","born":"AR","born_country":"USA","ethnicity":"African-American","height":"\"5'7\"\" (1.70 m)\"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"159","contestant":"Kandy Muse","real_name":"Kevin Gabriel Candelario","birth_date":"11/3/94","born":"NY","born_country":"USA","ethnicity":"Afro-Dominican American","height":"5'11\"\" (1.80m)\"","gender":"Male","pronouns\r":"\r"},
+{"contestant_id":"163","contestant":"Symone","real_name":"Reggie Gavin","birth_date":"1/14/95","born":"AR","born_country":"USA","ethnicity":"African-American","height":"5'7\"\" (1.70 m)\"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"180","contestant":"Willow Pill","real_name":"Will Patterson","birth_date":"1/22/95","born":"CO","born_country":"USA","ethnicity":"","height":"","gender":"Genderfluid","pronouns\r":"She/Her\r"},
 {"contestant_id":"167","contestant":"Alyssa Hunter","real_name":"Joshua Enrique Ortolaza Resto","birth_date":"2/19/95","born":"San Juan","born_country":"Puerto Rico","ethnicity":"Puerto Rican","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"116","contestant":"Blair St. Clair","real_name":"Blair","birth_date":"5/16/95","born":"IN","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"166","contestant":"Utica Queen","real_name":"Ethan Mundt","birth_date":"6/2/95","born":"MN","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":"She/Her (In Drag)\r"},
 {"contestant_id":"114","contestant":"Aquaria","real_name":"Giovanni Palandrani","birth_date":"2/12/96","born":"PA","born_country":"USA","ethnicity":"Italian American","height":"5â€²9â€³ (1.75 m)","gender":"","pronouns\r":"She/Her & They/Them\r"},
-{"contestant_id":"170","contestant":"Daya Betty","real_name":"Trenton Clarke","birth_date":"2/19/96","born":"MO","born_country":"USA","ethnicity":"","height":"\"6'4\"\" (1.93 m)\"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"170","contestant":"Daya Betty","real_name":"Trenton Clarke","birth_date":"2/19/96","born":"MO","born_country":"USA","ethnicity":"","height":"6'4\"\" (1.93 m)\"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"175","contestant":"Kerri Colby","real_name":"Elyse Alessandra Anderson","birth_date":"7/30/96","born":"TX","born_country":"USA","ethnicity":"African-American","height":"","gender":"Female","pronouns\r":"She/Her\r"},
-{"contestant_id":"156","contestant":"Gottmik","real_name":"Kade Gottlieb","birth_date":"8/19/96","born":"AZ","born_country":"USA","ethnicity":"German American","height":"\"5'7\"\" (1.70 m)\"","gender":"Male","pronouns\r":"She/Her\r"},
+{"contestant_id":"156","contestant":"Gottmik","real_name":"Kade Gottlieb","birth_date":"8/19/96","born":"AZ","born_country":"USA","ethnicity":"German American","height":"5'7\"\" (1.70 m)\"","gender":"Male","pronouns\r":"She/Her\r"},
 {"contestant_id":"134","contestant":"Plastique Tiara","real_name":"Duc Tran Nguyen","birth_date":"4/11/97","born":"Ho Chi Minh City","born_country":"Vietnam","ethnicity":"Vietnamese","height":"","gender":"","pronouns\r":"She/Her or They/Them\r"},
 {"contestant_id":"145","contestant":"Gigi Goode","real_name":"Gigi Geggie","birth_date":"12/2/97","born":"IL","born_country":"USA","ethnicity":"Scottish-Scandinavian American","height":"5â€²11â€³ (1.80m)","gender":"Non-Binary","pronouns\r":"She/Her\r"},
 {"contestant_id":"172","contestant":"Jasmine Kennedie","real_name":"Kyle Koritkowski","birth_date":"5/22/99","born":"WV","born_country":"USA","ethnicity":"Polish American","height":"","gender":"","pronouns\r":"\r"},
-{"contestant_id":"173","contestant":"Jorgeous","real_name":"Jorge Meza","birth_date":"11/27/99","born":"TX","born_country":"USA","ethnicity":"Mexican American","height":"","gender":"","pronouns\r":"\r"},
+{"contestant_id":"173","contestant":"Jorgeous","real_name":"Jorge Meza","birth_date":"11/27/99","born":"TX","born_country":"USA","ethnicity":"Mexican-American","height":"","gender":"","pronouns\r":"\r"},
 {"contestant_id":"179","contestant":"Orion Story","real_name":"Chance Lambert","birth_date":"","born":"MI","born_country":"USA","ethnicity":"","height":"","gender":"","pronouns\r":""}
 ]
 
@@ -258,7 +255,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 6","season":"1","episode":"6","episode_type":"Ball","contestant_id":"3","contestant":"Jade","outcome":""},
 	{"season_episode":"S1E 6","season":"1","episode":"6","episode_type":"Ball","contestant_id":"1","contestant":"Akashia","outcome":""},
 	{"season_episode":"S1E 6","season":"1","episode":"6","episode_type":"Ball","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 6","season":"1","episode":"6","episode_type":"Ball","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 6","season":"1","episode":"6","episode_type":"Ball","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E 9","season":"2","episode":"9","episode_type":"Ball","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"WIN"},
 	{"season_episode":"S2E 9","season":"2","episode":"9","episode_type":"Ball","contestant_id":"16","contestant":"Raven","outcome":"HIGH"},
 	{"season_episode":"S2E 9","season":"2","episode":"9","episode_type":"Ball","contestant_id":"11","contestant":"Jujubee","outcome":"BTM"},
@@ -454,7 +451,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 1","season":"1","episode":"1","episode_type":"Ep. 1","contestant_id":"3","contestant":"Jade","outcome":"SAFE"},
 	{"season_episode":"S1E 1","season":"1","episode":"1","episode_type":"Ep. 1","contestant_id":"1","contestant":"Akashia","outcome":"BTM"},
 	{"season_episode":"S1E 1","season":"1","episode":"1","episode_type":"Ep. 1","contestant_id":"8","contestant":"Tammie Brown","outcome":"SAFE"},
-	{"season_episode":"S1E 1","season":"1","episode":"1","episode_type":"Ep. 1","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":"ELIM"},
+	{"season_episode":"S1E 1","season":"1","episode":"1","episode_type":"Ep. 1","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":"ELIM"},
 	{"season_episode":"S2E 1","season":"2","episode":"1","episode_type":"Ep. 1","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"HIGH"},
 	{"season_episode":"S2E 1","season":"2","episode":"1","episode_type":"Ep. 1","contestant_id":"16","contestant":"Raven","outcome":"SAFE"},
 	{"season_episode":"S2E 1","season":"2","episode":"1","episode_type":"Ep. 1","contestant_id":"11","contestant":"Jujubee","outcome":"SAFE"},
@@ -763,7 +760,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 2","season":"1","episode":"2","episode_type":"Ep. 2","contestant_id":"3","contestant":"Jade","outcome":"SAFE"},
 	{"season_episode":"S1E 2","season":"1","episode":"2","episode_type":"Ep. 2","contestant_id":"1","contestant":"Akashia","outcome":"BTM"},
 	{"season_episode":"S1E 2","season":"1","episode":"2","episode_type":"Ep. 2","contestant_id":"8","contestant":"Tammie Brown","outcome":"ELIM"},
-	{"season_episode":"S1E 2","season":"1","episode":"2","episode_type":"Ep. 2","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 2","season":"1","episode":"2","episode_type":"Ep. 2","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E 2","season":"2","episode":"2","episode_type":"Ep. 2","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"HIGH"},
 	{"season_episode":"S2E 2","season":"2","episode":"2","episode_type":"Ep. 2","contestant_id":"16","contestant":"Raven","outcome":"BTM"},
 	{"season_episode":"S2E 2","season":"2","episode":"2","episode_type":"Ep. 2","contestant_id":"11","contestant":"Jujubee","outcome":"HIGH"},
@@ -853,7 +850,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 3","season":"1","episode":"3","episode_type":"Ep. 3","contestant_id":"3","contestant":"Jade","outcome":"LOW"},
 	{"season_episode":"S1E 3","season":"1","episode":"3","episode_type":"Ep. 3","contestant_id":"1","contestant":"Akashia","outcome":"ELIM"},
 	{"season_episode":"S1E 3","season":"1","episode":"3","episode_type":"Ep. 3","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 3","season":"1","episode":"3","episode_type":"Ep. 3","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 3","season":"1","episode":"3","episode_type":"Ep. 3","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E 3","season":"2","episode":"3","episode_type":"Ep. 3","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"WIN"},
 	{"season_episode":"S2E 3","season":"2","episode":"3","episode_type":"Ep. 3","contestant_id":"16","contestant":"Raven","outcome":"BTM"},
 	{"season_episode":"S2E 3","season":"2","episode":"3","episode_type":"Ep. 3","contestant_id":"11","contestant":"Jujubee","outcome":"SAFE"},
@@ -1010,7 +1007,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 4","season":"1","episode":"4","episode_type":"Ep. 4","contestant_id":"3","contestant":"Jade","outcome":"ELIM"},
 	{"season_episode":"S1E 4","season":"1","episode":"4","episode_type":"Ep. 4","contestant_id":"1","contestant":"Akashia","outcome":""},
 	{"season_episode":"S1E 4","season":"1","episode":"4","episode_type":"Ep. 4","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 4","season":"1","episode":"4","episode_type":"Ep. 4","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 4","season":"1","episode":"4","episode_type":"Ep. 4","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S3E 4","season":"3","episode":"4","episode_type":"Ep. 4","contestant_id":"30","contestant":"Raja","outcome":"SAFE"},
 	{"season_episode":"S3E 4","season":"3","episode":"4","episode_type":"Ep. 4","contestant_id":"26","contestant":"Manila Luzon","outcome":"SAFE"},
 	{"season_episode":"S3E 4","season":"3","episode":"4","episode_type":"Ep. 4","contestant_id":"22","contestant":"Alexis Mateo","outcome":"WIN"},
@@ -1623,7 +1620,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 8","season":"1","episode":"8","episode_type":"Finale","contestant_id":"3","contestant":"Jade","outcome":""},
 	{"season_episode":"S1E 8","season":"1","episode":"8","episode_type":"Finale","contestant_id":"1","contestant":"Akashia","outcome":""},
 	{"season_episode":"S1E 8","season":"1","episode":"8","episode_type":"Finale","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 8","season":"1","episode":"8","episode_type":"Finale","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 8","season":"1","episode":"8","episode_type":"Finale","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E 11","season":"2","episode":"11","episode_type":"Finale","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"WIN"},
 	{"season_episode":"S2E 11","season":"2","episode":"11","episode_type":"Finale","contestant_id":"16","contestant":"Raven","outcome":"RUN"},
 	{"season_episode":"S2E 11","season":"2","episode":"11","episode_type":"Finale","contestant_id":"11","contestant":"Jujubee","outcome":"ELIM"},
@@ -1903,7 +1900,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 5","season":"1","episode":"5","episode_type":"MakeOver","contestant_id":"3","contestant":"Jade","outcome":""},
 	{"season_episode":"S1E 5","season":"1","episode":"5","episode_type":"MakeOver","contestant_id":"1","contestant":"Akashia","outcome":""},
 	{"season_episode":"S1E 5","season":"1","episode":"5","episode_type":"MakeOver","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 5","season":"1","episode":"5","episode_type":"MakeOver","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 5","season":"1","episode":"5","episode_type":"MakeOver","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E 8","season":"2","episode":"8","episode_type":"MakeOver","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"HIGH"},
 	{"season_episode":"S2E 8","season":"2","episode":"8","episode_type":"MakeOver","contestant_id":"16","contestant":"Raven","outcome":"WIN"},
 	{"season_episode":"S2E 8","season":"2","episode":"8","episode_type":"MakeOver","contestant_id":"11","contestant":"Jujubee","outcome":"BTM"},
@@ -2043,7 +2040,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 7","season":"1","episode":"7","episode_type":"Recap","contestant_id":"3","contestant":"Jade","outcome":""},
 	{"season_episode":"S1E 7","season":"1","episode":"7","episode_type":"Recap","contestant_id":"1","contestant":"Akashia","outcome":""},
 	{"season_episode":"S1E 7","season":"1","episode":"7","episode_type":"Recap","contestant_id":"8","contestant":"Tammie Brown","outcome":""},
-	{"season_episode":"S1E 7","season":"1","episode":"7","episode_type":"Recap","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
+	{"season_episode":"S1E 7","season":"1","episode":"7","episode_type":"Recap","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":""},
 	{"season_episode":"S2E10","season":"2","episode":"10","episode_type":"Recap","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"GUEST"},
 	{"season_episode":"S2E10","season":"2","episode":"10","episode_type":"Recap","contestant_id":"16","contestant":"Raven","outcome":"GUEST"},
 	{"season_episode":"S2E10","season":"2","episode":"10","episode_type":"Recap","contestant_id":"11","contestant":"Jujubee","outcome":"GUEST"},
@@ -2132,7 +2129,7 @@ const episode_outcomes =
 	{"season_episode":"S1E 9","season":"1","episode":"9","episode_type":"Reunion","contestant_id":"3","contestant":"Jade","outcome":"GUEST"},
 	{"season_episode":"S1E 9","season":"1","episode":"9","episode_type":"Reunion","contestant_id":"1","contestant":"Akashia","outcome":"GUEST"},
 	{"season_episode":"S1E 9","season":"1","episode":"9","episode_type":"Reunion","contestant_id":"8","contestant":"Tammie Brown","outcome":"GUEST"},
-	{"season_episode":"S1E 9","season":"1","episode":"9","episode_type":"Reunion","contestant_id":"9","contestant":"\"Victoria \"\"Porkchop\"\" Parker\"","outcome":"GUEST"},
+	{"season_episode":"S1E 9","season":"1","episode":"9","episode_type":"Reunion","contestant_id":"9","contestant":"Victoria \"\"Porkchop\"\" Parker\"","outcome":"GUEST"},
 	{"season_episode":"S2E 12","season":"2","episode":"12","episode_type":"Reunion","contestant_id":"21","contestant":"Tyra Sanchez","outcome":"GUEST"},
 	{"season_episode":"S2E 12","season":"2","episode":"12","episode_type":"Reunion","contestant_id":"16","contestant":"Raven","outcome":"GUEST"},
 	{"season_episode":"S2E 12","season":"2","episode":"12","episode_type":"Reunion","contestant_id":"11","contestant":"Jujubee","outcome":"GUEST"},
@@ -2567,14 +2564,16 @@ const episode_outcomes =
 	{"season_episode":"S13E 9","season":"13","episode":"9","episode_type":"Snatch Game","contestant_id":"158","contestant":"Kahmora Hall","outcome":""}
 ];
  
-function get_wins(filter_value_born, filter_value_ethnicity) {
-	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN");
-
-// these arrays are used only within the function get_wins. I used the same names as the arrays 
-// that build the dropdown menus, but they are actually different arrays.
-
+function get_wins(win_value, filter_value_born, filter_value_ethnicity) {
+	winsArray=[];
 	bornArray=[];
 	ethnicityArray=[];
+	
+	if (win_value ==="any"){ winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN");}
+	else if (win_value =="ball"){ winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="Ball");}
+
+
+
 	if (filter_value_born === "any") {bornArray = contestant_data.filter(queen =>queen.born !="blah"); }
 	else {bornArray = contestant_data.filter(queen =>queen.born ===filter_value_born);}
 
@@ -2613,45 +2612,7 @@ function get_wins(filter_value_born, filter_value_ethnicity) {
 
     return false;
 }
-function get_ball_wins(filter_value) {
-	let winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="Ball");
-	bornArray=[];
-	if (filter_value === "any") {bornArray = contestant_data.filter(queen =>queen.born !="blah"); }
 
-	 else {
-	bornArray = contestant_data.filter(queen =>queen.born ===filter_value); 
-	}
-
-
- 	var html = "<table border='1|1'><tr><td align=center><b>Season</b></td><td align=center><b>Episode</b></td><td align=center><b>Episode Type</b></td><td  align=center><b>Contestant</b></td><td  align=center><b>Location</b></td></tr>";
-	for (var i = 0; i < winsArray.length; i++) 
-	{
-	
-		for (var j = 0; j< bornArray.length; j++)
-		{
-		
-			if (winsArray[i].contestant == bornArray[j].contestant)
-				{
-					html+="<tr>";
-					html+="<td align=center>"+winsArray[i].season+"</td>";
-					html+="<td align=center>"+winsArray[i].episode+"</td>";
-					html+="<td align=center>"+winsArray[i].episode_type+"</td>";
-					html+="<td align=center>"+winsArray[i].contestant+"</td>";
-					html+="<td align=center>"+bornArray[j].born+"</td>";
-
-					html+="</tr>";
-				}
-		}
-		
-
-	}
-
-
-	html+="</table>";
-	document.getElementById("results_here").innerHTML = html;
-
-    return false;
-}
 
 
 
