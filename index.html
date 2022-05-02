@@ -22,7 +22,6 @@ The location pulldown is automatically populated with whatever data is in the ar
 	<select name="drag-search" id="drag-search" onchange = "dropdownMenu()">
 	   <option> ---Show me: --- </option>  
 	   <option value="any">Anyone with a WIN</option>
-	  <option value="ball">Anyone who won a Ball Challenge</option>
  	 </select> &nbsp;who was born in&nbsp;
   <select id="selectBorn">
 	   <option value="any"> Anywhere </option>  
@@ -31,12 +30,17 @@ The location pulldown is automatically populated with whatever data is in the ar
    <select id="selectEthnicity">
 	   <option value="any"> Any ethnicity </option>  
   </select>
- 
+ &nbsp;in this episode type&nbsp;
+   <select id="selectEpType">
+	   <option value="any"> Any </option>  
+  </select>
+
 	  <button onclick="submitForm(event)">Submit</button>
 
 </form>
 </ul>
  <p id="results_here"></p>
+ <p id="results"></p>
  
 
 <script>
@@ -50,8 +54,9 @@ function submitForm(ev) {
   selectInputs.forEach(input => {res.push(input.value)})
   //document.getElementById("results").innerHTML = res;
 
-  get_wins(res[0],res[1],res[2]);
+  get_wins(res[0],res[1],res[2],res[3]);
  
+// document.getElementById("results").innerHTML = res;
 
 
 
@@ -2564,14 +2569,25 @@ const episode_outcomes =
 	{"season_episode":"S13E 9","season":"13","episode":"9","episode_type":"Snatch Game","contestant_id":"158","contestant":"Kahmora Hall","outcome":""}
 ];
  
-function get_wins(win_value, filter_value_born, filter_value_ethnicity) {
+function get_wins(win_value, filter_value_born, filter_value_ethnicity, filter_ep_type) {
 	winsArray=[];
 	bornArray=[];
 	ethnicityArray=[];
+  //document.getElementById("results").innerHTML = filter_ep_type;
 	
-	if (win_value ==="any"){ winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN");}
-	else if (win_value =="ball"){ winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="Ball");}
+	if (win_value ==="any")
+	{ 
+	
+	if (filter_ep_type === "any") {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN"))); }
+	else {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN")&&(queen.episode_type ===filter_ep_type)));}
+	
+	
+	
+	 
+ 	 }
+	//else if (win_value =="ball"){ winsArray = episode_outcomes.filter(queen => queen.outcome ==="WIN" && queen.episode_type ==="filter_ep_type");}
 
+  //document.getElementById("results").innerHTML = filter_ep_type;
 
 
 	if (filter_value_born === "any") {bornArray = contestant_data.filter(queen =>queen.born !="blah"); }
@@ -2658,6 +2674,22 @@ for (var i = 0; i < unique_ethnicity.length; ++i) {
     dropdown[dropdown.length] = new Option(unique_ethnicity[i], unique_ethnicity[i]);
 }
  
+ //------------this section creates the dropdown of unique values for ep type ------------------
+ep_type_array=[];
+for (var i = 0; i < episode_outcomes.length; i++) {
+    // get a list of every ethnicity
+    ep_type_array.push(episode_outcomes[i].episode_type);
+    }
+var unique_ep_type = ep_type_array.filter(onlyUnique);
+unique_ep_type.sort();
+// Get dropdown element from data
+var dropdown = document.getElementById("selectEpType");
+
+// Loop through the array
+for (var i = 0; i < unique_ep_type.length; ++i) {
+    // Append the element to the end of Array list
+    dropdown[dropdown.length] = new Option(unique_ep_type[i], unique_ep_type[i]);
+}
  
  
 </script>
