@@ -20,6 +20,7 @@ The filtering pulldowns are automatically populated with whatever data is in the
 	<select name="drag-search" id="drag-search" onchange = "dropdownMenu()">
 	   <option> ---Show me: --- </option>  
 	   <option value="any">Anyone with a WIN</option>
+	   <option value="none">Anyone without a WIN</option>
  	 </select> &nbsp;who was born in&nbsp;
   <select id="selectBorn">
 	   <option value="any"> Anywhere </option>  
@@ -2567,6 +2568,8 @@ const episode_outcomes =
 	{"season_episode":"S13E 9","season":"13","episode":"9","episode_type":"Snatch Game","contestant_id":"158","contestant":"Kahmora Hall","outcome":""}
 ];
  
+//TO DO: REDO TO PASS FILTER VALUES TO THIS FUNCTION GENERICALLY SO IT IS EASY TO SWAP ORDER OF PULLDOWNS OR ADD/REMOVE PULLDOWNS
+
 function get_wins(win_value, filter_value_born, filter_value_ethnicity, filter_ep_type) {
 	winsArray=[];
 	bornArray=[];
@@ -2576,10 +2579,16 @@ function get_wins(win_value, filter_value_born, filter_value_ethnicity, filter_e
 	if (win_value ==="any")
 	{ 
 	
-	if (filter_ep_type === "any") {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN"))); }
-	else {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN")&&(queen.episode_type ===filter_ep_type)));}
+		if (filter_ep_type === "any") {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN"))); }
+		else {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN")&&(queen.episode_type ===filter_ep_type)));}
 	
+	 
+ 	 }
+ 	 else if(win_value ==="none")
+	{ 
 	
+		if (filter_ep_type === "any") {winsArray = episode_outcomes.filter(queen => ((queen.outcome !=="WIN"))); }
+		else {winsArray = episode_outcomes.filter(queen => ((queen.outcome ==="WIN")&&(queen.episode_type ===filter_ep_type)));}
 	
 	 
  	 }
@@ -2637,6 +2646,8 @@ function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
+// TO DO: WRITE A GENERIC FUNCTION TO CREATE A DROPDOWN FOR WHATEVER  RATHER THAN 
+// INDIVIDUAL SCRIPTS AS BELOW
 //------------this section creates the dropdown of unique values for birth location ------------------
 // it does this by creating an array of unique location born data, unique_born[]
 born_array=[];
